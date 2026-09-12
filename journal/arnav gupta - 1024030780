@@ -1,1 +1,14 @@
+Project Journal – Week of Sept 7–12, 2026
+Project: Smart R2R Guide & Reparability Portal (RepairFlow)
 
+Mon: Started on the system design diagrams – worked on the DFD context-level diagram (Level 0), mapping out how RepairFlow interacts with device owners, repair shop staff, platform admin, and the external LLM API.
+
+Tue: Continued with the DFD set – Level 1 (core processes) and Level 2 (repair request and tracking flow), breaking down the components in more detail.
+
+Wed: Group meeting to go over progress so far and align on the next set of diagrams and remaining work before the presentation.
+
+Thu: Worked on the ER diagram – mapped out the main entities (users, shops, devices, repair requests, documentation embeddings, sustainability logs) and their relationships. Also did the use case diagram covering the three actors and their interactions.
+
+Fri: Did the activity diagram for the core repair-request workflow, laid out as swimlanes across owner, system, and shop-staff, including the status/cost-update loop. Also touched briefly on some basic web frontend bits.
+
+Sat: Reviewed the overall project direction and noted a few open ideas to carry into the next round of work.
