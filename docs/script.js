@@ -1,13 +1,41 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  /* ---------- Mobile nav toggle ---------- */
-  const navToggle = document.getElementById("navToggle");
-  const navLinks = document.getElementById("navLinks");
-  if (navToggle && navLinks) {
-    navToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
-    navLinks.querySelectorAll(".nav-link").forEach((link) => {
-      link.addEventListener("click", () => navLinks.classList.remove("open"));
+  /* ---------- Mobile rail toggle ---------- */
+  const railToggle = document.getElementById("railToggle");
+  const rail = document.getElementById("rail");
+  if (railToggle && rail) {
+    railToggle.addEventListener("click", () => {
+      const open = rail.classList.toggle("open");
+      railToggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
+    rail.querySelectorAll(".rail-link").forEach((link) => {
+      link.addEventListener("click", () => {
+        rail.classList.remove("open");
+        railToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  /* ---------- Active section highlight in rail ---------- */
+  const railLinks = document.querySelectorAll(".rail-link[href^='#']");
+  const sections = Array.from(railLinks)
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+  if ("IntersectionObserver" in window && sections.length) {
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = `#${entry.target.id}`;
+            railLinks.forEach((link) => {
+              link.classList.toggle("active", link.getAttribute("href") === id);
+            });
+          }
+        });
+      },
+      { rootMargin: "-40% 0px -55% 0px" }
+    );
+    sections.forEach((el) => sectionObserver.observe(el));
   }
 
   /* ---------- Fade-in on scroll ---------- */
@@ -27,21 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeEls.forEach((el) => observer.observe(el));
   } else {
     fadeEls.forEach((el) => el.classList.add("visible"));
-  }
-
-  /* ---------- Hero device diagram parallax ---------- */
-  const diagram = document.getElementById("deviceDiagram");
-  const visual = document.getElementById("heroVisual");
-  if (diagram && visual && matchMedia("(prefers-reduced-motion: no-preference)").matches) {
-    visual.addEventListener("pointermove", (e) => {
-      const rect = visual.getBoundingClientRect();
-      const px = (e.clientX - rect.left) / rect.width - 0.5;
-      const py = (e.clientY - rect.top) / rect.height - 0.5;
-      diagram.style.transform = `rotateX(${4 - py * 10}deg) rotateY(${-6 + px * 16}deg)`;
-    });
-    visual.addEventListener("pointerleave", () => {
-      diagram.style.transform = "rotateX(4deg) rotateY(-6deg)";
-    });
   }
 
   /* ---------- Retrieval demo (real retrieval behavior, mocked here) ---------- */
@@ -86,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    let html = `<p class="demo-meta">Query: "${escapeHtml(inputText)}" &middot; retrieved in ${data.latency}ms</p>`;
+    let html = `<p class="demo-meta">query: "${escapeHtml(inputText)}" · retrieved in ${data.latency}ms</p>`;
     data.sources.forEach((s) => {
       html += `
         <div class="demo-source">
