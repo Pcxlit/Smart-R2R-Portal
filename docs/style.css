@@ -104,22 +104,28 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 .dot-amber { background: var(--amber); }
 .dot-white { background: #fff; }
 
-/* --- 3D capsule hero visual --- */
-.hero-visual { perspective: 1100px; display: flex; align-items: center; justify-content: center; min-height: 320px; }
-.capsule-stage {
-  position: relative; width: 260px; height: 260px;
-  transform-style: preserve-3d; transition: transform .15s ease-out;
-  transform: rotateX(8deg) rotateY(-14deg);
+/* --- Device diagnostic diagram (hero visual) --- */
+.hero-visual { display: flex; align-items: center; justify-content: center; min-height: 320px; perspective: 1000px; }
+.device-diagram { width: 100%; max-width: 360px; height: auto; transition: transform .15s ease-out; transform: rotateX(4deg) rotateY(-6deg); }
+
+.diagram-ring { fill: none; stroke: rgba(255,255,255,0.12); stroke-width: 1.5; stroke-dasharray: 3 7; }
+
+.laptop-screen { fill: var(--forest-soft); stroke: rgba(255,255,255,0.18); stroke-width: 1.5; }
+.laptop-screen-inner { fill: var(--moss-deep); }
+.laptop-base { fill: var(--moss); opacity: 0.9; }
+.laptop-keys { fill: rgba(255,255,255,0.14); }
+
+.scan-line { fill: var(--amber); opacity: 0.85; animation: scanMove 2.6s ease-in-out infinite; }
+@keyframes scanMove {
+  0%   { transform: translateY(0); opacity: 0.2; }
+  50%  { transform: translateY(64px); opacity: 0.9; }
+  100% { transform: translateY(0); opacity: 0.2; }
 }
-.ring { position: absolute; inset: 10%; border: 1.5px solid rgba(255,255,255,0.15); border-radius: 50%; transform: translateZ(-40px) rotateX(70deg); }
-.capsule { position: absolute; width: 136px; height: 50px; border-radius: 999px; display: flex; overflow: hidden; box-shadow: 0 22px 34px -16px rgba(0,0,0,0.5); transform-style: preserve-3d; }
-.capsule span { flex: 1; }
-.capsule-a { top: 24px; left: 16px; transform: translateZ(70px) rotate(-18deg); }
-.capsule-a span:first-child { background: var(--moss); } .capsule-a span:last-child { background: #D6E8DA; }
-.capsule-b { top: 100px; left: 90px; transform: translateZ(30px) rotate(24deg); }
-.capsule-b span:first-child { background: var(--amber); } .capsule-b span:last-child { background: #FBEBCB; }
-.capsule-c { top: 164px; left: 4px; transform: translateZ(-10px) rotate(-6deg); }
-.capsule-c span:first-child { background: var(--rust); } .capsule-c span:last-child { background: #EAC5AE; }
+
+.callout-line { stroke: rgba(227,167,62,0.55); stroke-width: 1.5; stroke-dasharray: 2 4; }
+.callout-dot { fill: var(--amber); }
+.callout-chip { fill: rgba(255,255,255,0.06); stroke: rgba(227,167,62,0.5); stroke-width: 1.2; }
+.callout-text { fill: #fff; font-family: var(--font-body); font-size: 12px; font-weight: 600; }
 
 /* ============== Sections ============== */
 .section { padding: 88px 0; }
@@ -129,7 +135,7 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 .section-title { font-size: 1.9rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .section-title-light { color: #fff; }
 .section-desc { font-size: 0.98rem; color: var(--ink-soft); max-width: 60ch; line-height: 1.65; margin-bottom: 44px; }
-.section-desc-light { color: #CBD9CE; }
+.section-desc-light { color: #C9D6D2; }
 
 /* ============== "Coming soon" pill ============== */
 .soon-pill {
@@ -182,7 +188,7 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
   margin: 0 auto 14px;
 }
 
-/* ============== Demo (coming soon) ============== */
+/* ============== Demo ============== */
 .demo-card {
   background: var(--forest-soft); border: 1px solid var(--line-dark); border-radius: var(--radius);
   padding: 28px; max-width: 760px;
@@ -225,7 +231,7 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 .demo-empty { color: #A9C2AC; font-size: 0.9rem; padding: 4px; }
 .demo-note { margin-top: 18px; font-size: 0.78rem; color: #8FA391; }
 
-/* ============== How it works pipeline ============== */
+/* ============== Pipeline ============== */
 .flow-pipeline { max-width: 640px; }
 .flow-step { display: flex; gap: 18px; align-items: flex-start; }
 .flow-step-number {
@@ -252,8 +258,8 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 /* ============== Responsive ============== */
 @media (max-width: 860px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-visual { order: -1; min-height: 220px; }
-  .capsule-stage { width: 190px; height: 190px; transform: rotateX(8deg) rotateY(-10deg) scale(0.85); }
+  .hero-visual { order: -1; min-height: 240px; }
+  .device-diagram { max-width: 280px; }
 
   .nav-toggle { display: flex; }
   .nav-links {
