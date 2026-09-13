@@ -5,26 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RepairFlow — prototype</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
-
   :root{
-    --paper: #ECE7DA;
-    --paper-dark: #DDD5C0;
-    --paper-line: #C9BFA6;
-    --ink: #1C1E1B;
-    --ink-soft: #4B4E46;
-    --pcb: #163832;
-    --pcb-light: #23514A;
-    --pcb-lighter: #2F675D;
-    --copper: #B5652D;
-    --copper-dark: #8C4C1F;
-    --copper-light: #E9C29B;
-    --rust: #9C3B26;
-    --solder: #7C8C7F;
-    --ok: #3E7A4F;
+    --paper: #F5F5F3;
+    --paper-dark: #E8E8E5;
+    --paper-line: #DADADA;
+    --ink: #222222;
+    --ink-soft: #666666;
+    --pcb: #2f6fb0;
+    --pcb-light: #f0f5fb;
+    --pcb-lighter: #2f6fb0;
+    --copper: #2f6fb0;
+    --copper-dark: #245a90;
+    --copper-light: #e9f0fa;
+    --rust: #b3401f;
+    --solder: #666666;
+    --ok: #2f7a45;
     --radius-tag: 3px;
-    --font-sans: 'IBM Plex Sans', -apple-system, sans-serif;
-    --font-mono: 'IBM Plex Mono', 'SFMono-Regular', monospace;
+    --font-sans: Arial, Helvetica, sans-serif;
+    --font-mono: Arial, Helvetica, sans-serif;
   }
 
   *{box-sizing:border-box;}
@@ -250,21 +248,9 @@
   /* the ticket: hero visual */
   .ticket{
     position:relative;
-    background:#F7F3E8;
-    border:1px solid #C9BFA6;
+    background:#fff;
+    border:1px solid #DADADA;
     padding:26px 24px 22px;
-    transform:rotate(0.6deg);
-    box-shadow:5px 6px 0 rgba(22,56,50,0.07);
-  }
-  .ticket::before{
-    content:"";
-    position:absolute;
-    top:-9px; left:26px;
-    width:18px; height:18px;
-    background:var(--paper);
-    border:1px solid #C9BFA6;
-    border-radius:50%;
-    box-shadow: inset 2px 2px 3px rgba(0,0,0,0.12);
   }
   .ticket__row{
     display:flex; justify-content:space-between; align-items:flex-start;
@@ -818,12 +804,7 @@
     });
     document.getElementById("shopMatches").innerHTML = html;
     document.getElementById("resultsBlock").classList.add("is-shown");
-
-    var t0 = performance.now();
-    requestAnimationFrame(function(){
-      var dt = ((performance.now()-t0)/1000 + 0.6 + Math.random()*0.9).toFixed(2);
-      ttaNote.textContent = "answered in " + dt + "s";
-    });
+    ttaNote.textContent = "found a match";
   }
 
   document.getElementById("shopMatches").addEventListener("click", function(e){
