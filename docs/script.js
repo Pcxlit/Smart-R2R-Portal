@@ -1,41 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  /* ---------- Mobile rail toggle ---------- */
-  const railToggle = document.getElementById("railToggle");
-  const rail = document.getElementById("rail");
-  if (railToggle && rail) {
-    railToggle.addEventListener("click", () => {
-      const open = rail.classList.toggle("open");
-      railToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  /* ---------- Mobile menu toggle ---------- */
+  const menuToggle = document.getElementById("menuToggle");
+  const topnav = document.getElementById("topnav");
+  if (menuToggle && topnav) {
+    menuToggle.addEventListener("click", () => {
+      const open = topnav.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
-    rail.querySelectorAll(".rail-link").forEach((link) => {
+    topnav.querySelectorAll(".topnav-link").forEach((link) => {
       link.addEventListener("click", () => {
-        rail.classList.remove("open");
-        railToggle.setAttribute("aria-expanded", "false");
+        topnav.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
       });
     });
-  }
-
-  /* ---------- Active section highlight in rail ---------- */
-  const railLinks = document.querySelectorAll(".rail-link[href^='#']");
-  const sections = Array.from(railLinks)
-    .map((link) => document.querySelector(link.getAttribute("href")))
-    .filter(Boolean);
-  if ("IntersectionObserver" in window && sections.length) {
-    const sectionObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const id = `#${entry.target.id}`;
-            railLinks.forEach((link) => {
-              link.classList.toggle("active", link.getAttribute("href") === id);
-            });
-          }
-        });
-      },
-      { rootMargin: "-40% 0px -55% 0px" }
-    );
-    sections.forEach((el) => sectionObserver.observe(el));
   }
 
   /* ---------- Fade-in on scroll ---------- */
