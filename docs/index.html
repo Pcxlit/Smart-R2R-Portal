@@ -58,13 +58,46 @@
           <span><i class="dot dot-white"></i>CI on every push</span>
         </p>
       </div>
+
       <div class="hero-visual" id="heroVisual" aria-hidden="true">
-        <div class="capsule-stage" id="capsuleStage">
-          <div class="capsule capsule-a"><span></span><span></span></div>
-          <div class="capsule capsule-b"><span></span><span></span></div>
-          <div class="capsule capsule-c"><span></span><span></span></div>
-          <div class="ring"></div>
-        </div>
+        <svg class="device-diagram" id="deviceDiagram" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <clipPath id="screenClip">
+              <rect x="132" y="82" width="116" height="71" rx="4"/>
+            </clipPath>
+          </defs>
+
+          <circle class="diagram-ring" cx="190" cy="165" r="145"/>
+
+          <g class="laptop-group">
+            <rect class="laptop-screen" x="120" y="70" width="140" height="95" rx="10"/>
+            <rect class="laptop-screen-inner" x="132" y="82" width="116" height="71" rx="4"/>
+            <rect class="scan-line" x="132" y="82" width="116" height="3" clip-path="url(#screenClip)"/>
+            <polygon class="laptop-base" points="95,166 285,166 300,196 80,196"/>
+            <rect class="laptop-keys" x="120" y="172" width="140" height="14" rx="3"/>
+          </g>
+
+          <g class="callout">
+            <line class="callout-line" x1="150" y1="70" x2="65" y2="40"/>
+            <circle class="callout-dot" cx="150" cy="70" r="4"/>
+            <rect class="callout-chip" x="20" y="25" width="90" height="30" rx="15"/>
+            <text class="callout-text" x="65" y="44" text-anchor="middle">Hinge</text>
+          </g>
+
+          <g class="callout">
+            <line class="callout-line" x1="230" y1="190" x2="300" y2="240"/>
+            <circle class="callout-dot" cx="230" cy="190" r="4"/>
+            <rect class="callout-chip" x="255" y="225" width="90" height="30" rx="15"/>
+            <text class="callout-text" x="300" y="244" text-anchor="middle">Battery</text>
+          </g>
+
+          <g class="callout">
+            <line class="callout-line" x1="190" y1="186" x2="190" y2="255"/>
+            <circle class="callout-dot" cx="190" cy="186" r="4"/>
+            <rect class="callout-chip" x="140" y="255" width="100" height="30" rx="15"/>
+            <text class="callout-text" x="190" y="274" text-anchor="middle">Keyboard</text>
+          </g>
+        </svg>
       </div>
     </div>
   </section>
