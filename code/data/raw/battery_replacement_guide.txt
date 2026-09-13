@@ -1,0 +1,33 @@
+Laptop Battery Replacement Guide (Sealed, non-removable battery models)
+
+Symptom: Battery swelling (trackpad or keyboard bulging upward), battery
+not holding charge, or the laptop only powers on when plugged in.
+
+Safety warning: A swollen lithium battery is a fire risk. Do not puncture,
+bend, or apply pressure to a swollen cell. Work in a well-ventilated area
+and keep a fire extinguisher rated for electrical/chemical fires nearby.
+
+Tools needed: Precision screwdriver set, plastic pry tools, isopropyl
+alcohol for adhesive residue, replacement battery matched to the exact
+model number.
+
+Step 1: Power off fully and remove the bottom panel screws.
+
+Step 2: Before touching the battery, discharge static by touching an
+unpainted metal surface.
+
+Step 3: Disconnect the battery connector from the motherboard first, before
+attempting to remove the battery cells themselves.
+
+Step 4: The battery is usually held down with adhesive strips, not screws.
+Gently pull the designated adhesive tabs at a low angle -- do not pry
+directly under a swollen cell.
+
+Step 5: If a swollen cell will not release with adhesive tabs, stop and
+consult a professional; do not force it with a pry tool.
+
+Step 6: Install the new battery, reconnect the connector, and verify the
+laptop boots and charges before closing the bottom panel.
+
+Common mistake: Using a non-matched replacement battery (wrong model
+number) can cause charging circuit errors even if it physically fits.

@@ -1,0 +1,30 @@
+Laptop Hinge Repair Guide (Generic 13-15 inch models)
+
+Symptom: The laptop hinge feels loose, makes a cracking sound when opening,
+or the screen does not stay upright on its own.
+
+Tools needed: Phillips #0 and #1 screwdrivers, plastic spudger, tweezers.
+
+Step 1: Power off the laptop and disconnect the battery if it is
+user-removable. Working on a powered device risks short-circuiting the
+motherboard.
+
+Step 2: Remove the bottom panel screws. Note that screws near the hinge
+are often a different length than the rest -- keep them separated.
+
+Step 3: Gently pry the bottom panel using the plastic spudger, starting
+from a corner away from the hinge to avoid stressing already-weak plastic.
+
+Step 4: Locate the hinge assembly, usually two metal brackets screwed into
+the chassis on either side of the display. Loose hinges are usually caused
+by stripped screws or a cracked plastic mounting point.
+
+Step 5: If screws are stripped, replace with a slightly wider gauge screw
+of the same thread pitch. If the plastic mount is cracked, a hinge
+replacement kit (chassis-specific) is required rather than a screw fix.
+
+Step 6: Reassemble in reverse order. Test the hinge through a full range
+of motion before reinstalling the bottom panel screws fully.
+
+Common mistake: Over-tightening replacement screws can re-crack a
+already-weak plastic mount. Hand-tighten only.
