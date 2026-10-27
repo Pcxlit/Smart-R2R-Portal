@@ -54,6 +54,42 @@ document.addEventListener("DOMContentLoaded", function () {
         { title: "Battery Replacement Guide", section: "Signs of battery swelling", snippet: "Stop using the device immediately if the battery is visibly swollen or the trackpad is pushed up." },
         { title: "Battery Replacement Guide", section: "Safe removal steps", snippet: "Disconnect the battery connector before removing any other internal components." }
       ]
+    },
+    {
+      keys: ["class", "diagram", "model", "object"],
+      query: "class diagram / object model",
+      latency: 142,
+      sources: [
+        { title: "Class Diagram", section: "Domain entities", snippet: "Defines the core classes including User, Shop, RepairRequest, Guide, and VectorStore." },
+        { title: "Class Diagram", section: "Relationships", snippet: "Models associations between registered repair shops, submitted requests, and RAG retrieval logs." }
+      ]
+    },
+    {
+      keys: ["deployment", "server", "host", "infrastructure"],
+      query: "deployment architecture",
+      latency: 165,
+      sources: [
+        { title: "Deployment Diagram", section: "System topology", snippet: "Illustrates the client browser interacting with the web server, application container, and vector database." },
+        { title: "Deployment Diagram", section: "CI/CD execution", snippet: "Shows GitHub Actions runner executing ruff linting and pytest validation on push." }
+      ]
+    },
+    {
+      keys: ["sequence", "flow", "interaction", "step"],
+      query: "sequence diagram interaction",
+      latency: 174,
+      sources: [
+        { title: "Sequence Diagram", section: "Query handling flow", snippet: "Details the step-by-step message passing between User, Web UI, RAG module, and ChromaDB." },
+        { title: "Sequence Diagram", section: "Retrieval latency", snippet: "Tracks synchronous timing constraints for embedding generation and vector similarity search." }
+      ]
+    },
+    {
+      keys: ["collaboration", "actor", "component"],
+      query: "collaboration diagram",
+      latency: 159,
+      sources: [
+        { title: "Collaboration Diagram", section: "Object interactions", snippet: "Highlights structural organization and object collaborations during repair request processing." },
+        { title: "Collaboration Diagram", section: "Shop verification", snippet: "Maps out interactions between admin, shop registry, and verification status updates." }
+      ]
     }
   ];
 
@@ -73,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = matchDemo(inputText);
 
     if (!data) {
-      out.innerHTML = `<p class="demo-empty">No indexed guide matches that yet — only "hinge" and "battery" topics are ingested so far. Try one of those.</p>`;
+      out.innerHTML = `<p class="demo-empty">No indexed guide matches that yet — try searching for "hinge", "battery", "class diagram", "deployment", "sequence", or "collaboration".</p>`;
       return;
     }
 
