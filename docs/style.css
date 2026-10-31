@@ -104,7 +104,7 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 .dot-amber { background: var(--amber); }
 .dot-white { background: #fff; }
 
-/* --- Laptop diagnostic diagram (hero visual) --- */
+/* --- Device diagnostic diagram (hero visual) --- */
 .hero-visual { display: flex; align-items: center; justify-content: center; min-height: 320px; perspective: 1000px; }
 .device-diagram { width: 100%; max-width: 360px; height: auto; transition: transform .15s ease-out; transform: rotateX(4deg) rotateY(-6deg); }
 
@@ -135,14 +135,15 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 .section-title { font-size: 1.9rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .section-title-light { color: #fff; }
 .section-desc { font-size: 0.98rem; color: var(--ink-soft); max-width: 60ch; line-height: 1.65; margin-bottom: 44px; }
-.section-desc-light { color: #CBD9CE; }
+.section-desc-light { color: #C9D6D2; }
 
-/* ============== Small pill ============== */
+/* ============== "Coming soon" pill ============== */
 .soon-pill {
   display: inline-block; font-family: var(--font-body); font-size: 0.62rem; font-weight: 700;
   letter-spacing: .4px; text-transform: uppercase; color: var(--forest); background: var(--amber);
   padding: 4px 10px; border-radius: 999px; vertical-align: middle;
 }
+.soon-pill-sm { font-size: 0.58rem; padding: 2px 8px; margin-left: 8px; }
 
 /* ============== Status tags ============== */
 .status-tag {
@@ -211,27 +212,8 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 }
 .demo-chip:hover { background: var(--moss); color: #fff; }
 
-.demo-output { margin-top: 20px; display: flex; flex-direction: column; gap: 14px; }
-.demo-meta { font-size: 0.8rem; color: #A9C2AC; }
-
-.demo-answer {
-  background: rgba(62,124,86,0.22); border: 1px solid rgba(134,214,165,0.35);
-  border-left: 4px solid #86D6A5; border-radius: 10px; padding: 16px 18px;
-}
-.demo-label {
-  display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: .6px; text-transform: uppercase;
-  color: #86D6A5; margin-bottom: 8px;
-}
-.demo-answer p { font-size: 0.95rem; color: #fff; line-height: 1.6; }
-
-.demo-sources-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
-.demo-sources-row .demo-label { margin: 0 6px 0 0; color: var(--amber); }
-.source-chip {
-  font-size: 0.78rem; font-weight: 600; color: #F1DCA6; background: rgba(227,167,62,0.12);
-  border: 1px solid rgba(227,167,62,0.4); padding: 4px 12px; border-radius: 999px;
-}
-
-.demo-chunks-title { margin-top: 4px; }
+.demo-output { margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+.demo-meta { font-size: 0.8rem; color: #A9C2AC; margin-bottom: 4px; }
 .demo-source {
   background: rgba(255,255,255,0.05); border: 1px solid var(--line-dark); border-radius: 10px;
   padding: 14px 18px;
@@ -240,8 +222,14 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
 .demo-source .section-label { font-size: 0.76rem; color: var(--amber); font-weight: 600; margin-bottom: 6px; display: block; }
 .demo-source p { font-size: 0.85rem; color: #C9DACB; line-height: 1.5; }
 
+.demo-generated {
+  margin-top: 6px; border: 1.5px dashed rgba(227,167,62,0.5); border-radius: 10px; padding: 16px 18px;
+  display: flex; align-items: center; gap: 12px; background: rgba(227,167,62,0.06);
+}
+.demo-generated p { font-size: 0.85rem; color: #E8D2A0; }
+
 .demo-empty { color: #A9C2AC; font-size: 0.9rem; padding: 4px; }
-.demo-note { margin-top: 18px; font-size: 0.78rem; color: #8FA391; line-height: 1.5; }
+.demo-note { margin-top: 18px; font-size: 0.78rem; color: #8FA391; }
 
 /* ============== Pipeline ============== */
 .flow-pipeline { max-width: 640px; }
@@ -251,7 +239,7 @@ code { background: var(--paper-dim); padding: 1px 6px; border-radius: 5px; font-
   display: flex; align-items: center; justify-content: center; font-family: var(--font-head); font-weight: 700; font-size: 0.9rem;
 }
 .flow-step-content { flex: 1; padding-bottom: 6px; }
-.flow-step-content h3 { font-size: 1rem; font-weight: 600; margin-bottom: 5px; }
+.flow-step-content h3 { font-size: 1rem; font-weight: 600; margin-bottom: 5px; display: flex; align-items: center; }
 .flow-step-content p { font-size: 0.88rem; color: var(--ink-soft); line-height: 1.55; }
 .flow-connector { width: 1.5px; height: 24px; margin-left: 17px; background: var(--moss); opacity: 0.3; }
 
