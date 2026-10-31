@@ -7,95 +7,90 @@
 <title>Smart R2R Portal — Right-to-Repair Assistant</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar" id="navbar">
-  <div class="nav-inner">
-    <a href="#top" class="nav-logo">Smart R2R Portal</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#top" class="nav-link">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#progress" class="nav-link">Progress</a></li>
-      <li><a href="#demo" class="nav-link">Demo</a></li>
-      <li><a href="#pipeline" class="nav-link">RAG Pipeline</a></li>
-      <li><a href="#stack" class="nav-link">Tech Stack</a></li>
-      <li><a href="#docs" class="nav-link">Docs</a></li>
-      <li><a href="#diagrams" class="nav-link">Diagrams</a></li>
-      <li><a href="#team" class="nav-link">Team</a></li>
-      <li><a href="https://github.com/Pcxlit/Smart-R2R-Portal" target="_blank" rel="noopener" class="nav-link nav-link-ext">GitHub</a></li>
-    </ul>
-  </div>
-</nav>
+<header class="topbar" id="topbar">
+  <a href="#top" class="brand">
+    <span class="brand-mark">R2R</span>
+    <span class="brand-name">Smart R2R Portal</span>
+  </a>
+  <nav class="topnav" id="topnav">
+    <a href="#about" class="topnav-link">About</a>
+    <a href="#progress" class="topnav-link">Progress</a>
+    <a href="#demo" class="topnav-link">Demo</a>
+    <a href="#pipeline" class="topnav-link">Pipeline</a>
+    <a href="#stack" class="topnav-link">Stack</a>
+    <a href="#resources" class="topnav-link">Resources</a>
+    <a href="#team" class="topnav-link">Team</a>
+    <a href="https://github.com/Pcxlit/Smart-R2R-Portal" target="_blank" rel="noopener" class="topnav-link topnav-cta">GitHub</a>
+  </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
 
 <main id="top">
 
   <!-- ============ HERO ============ -->
   <section class="hero">
-    <div class="hero-glow hero-glow-a"></div>
-    <div class="hero-glow hero-glow-b"></div>
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">Course Project &middot; UCS503P</p>
-        <h1>Right to repair,<br>made<br>searchable.</h1>
-        <p class="hero-sub">
-          Smart R2R Portal helps device owners and repair shops navigate laptop repairs —
-          combining a retrieval-augmented repair assistant with a verified shop directory
-          and end-to-end repair tracking.
-        </p>
-        <div class="hero-actions">
-          <a href="#progress" class="btn btn-primary">See what's built</a>
-          <a href="https://github.com/Pcxlit/Smart-R2R-Portal" target="_blank" rel="noopener" class="btn btn-outline">View on GitHub</a>
-        </div>
-        <p class="hero-trust">
-          <span><i class="dot dot-moss"></i>RAG retrieval: live</span>
-          <span><i class="dot dot-amber"></i>Generation: in progress</span>
-          <span><i class="dot dot-white"></i>CI on every push</span>
-        </p>
+    <div class="hero-text">
+      <p class="course-tag">Course project — UCS503P</p>
+      <h1>Right to repair,<br>made searchable.</h1>
+      <p class="hero-sub">
+        Smart R2R Portal helps device owners and repair shops navigate laptop repairs —
+        combining a fully functional retrieval-augmented repair assistant with a verified shop directory
+        and end-to-end repair tracking.
+      </p>
+      <div class="hero-actions">
+        <a href="#progress" class="btn btn-primary">See what's built</a>
+        <a href="https://github.com/Pcxlit/Smart-R2R-Portal" target="_blank" rel="noopener" class="btn btn-outline">View on GitHub</a>
       </div>
+    </div>
 
-      <div class="hero-visual" id="heroVisual" aria-hidden="true">
-        <svg class="device-diagram" id="deviceDiagram" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+    <div class="hero-panel">
+      <div class="hero-panel-inner">
+        <div class="status-strip">
+          <span class="status-strip-row"><i class="pulse pulse-live"></i>Retrieval — live</span>
+          <span class="status-strip-row"><i class="pulse pulse-live"></i>Generation — live</span>
+          <span class="status-strip-row"><i class="pulse pulse-live"></i>CI — passing</span>
+        </div>
+        <svg class="device-diagram" id="deviceDiagram" viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <clipPath id="screenClip">
-              <rect x="132" y="82" width="116" height="71" rx="4"/>
+              <rect x="126" y="66" width="116" height="71" rx="3"/>
             </clipPath>
           </defs>
 
-          <circle class="diagram-ring" cx="190" cy="165" r="145"/>
-
           <g class="laptop-group">
-            <rect class="laptop-screen" x="120" y="70" width="140" height="95" rx="10"/>
-            <rect class="laptop-screen-inner" x="132" y="82" width="116" height="71" rx="4"/>
-            <rect class="scan-line" x="132" y="82" width="116" height="3" clip-path="url(#screenClip)"/>
-            <polygon class="laptop-base" points="95,166 285,166 300,196 80,196"/>
-            <rect class="laptop-keys" x="120" y="172" width="140" height="14" rx="3"/>
+            <rect x="114" y="54" width="140" height="95" rx="6" fill="#0A0C09" stroke="rgba(198,241,53,0.3)" stroke-width="1.5"/>
+            <rect x="126" y="66" width="116" height="71" rx="3" fill="#14170F"/>
+            <rect class="scan-line" x="126" y="66" width="116" height="3" fill="#C6F135" clip-path="url(#screenClip)"/>
+            <polygon points="89,150 279,150 294,180 74,180" fill="#0A0C09" stroke="rgba(198,241,53,0.3)" stroke-width="1.5"/>
+            <rect x="114" y="156" width="140" height="14" rx="2" fill="rgba(198,241,53,0.1)"/>
           </g>
 
           <g class="callout">
-            <line class="callout-line" x1="150" y1="70" x2="65" y2="40"/>
-            <circle class="callout-dot" cx="150" cy="70" r="4"/>
-            <rect class="callout-chip" x="20" y="25" width="90" height="30" rx="15"/>
-            <text class="callout-text" x="65" y="44" text-anchor="middle">Hinge</text>
+            <line x1="144" y1="54" x2="58" y2="24" stroke="#C6F135" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.55"/>
+            <circle cx="144" cy="54" r="4" fill="#C6F135"/>
+            <rect x="10" y="8" width="96" height="28" rx="3" fill="#0A0C09" stroke="rgba(198,241,53,0.5)" stroke-width="1.2"/>
+            <text x="58" y="26" text-anchor="middle" fill="#EDEFE4" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="500">hinge.md</text>
           </g>
 
           <g class="callout">
-            <line class="callout-line" x1="230" y1="190" x2="300" y2="240"/>
-            <circle class="callout-dot" cx="230" cy="190" r="4"/>
-            <rect class="callout-chip" x="255" y="225" width="90" height="30" rx="15"/>
-            <text class="callout-text" x="300" y="244" text-anchor="middle">Battery</text>
+            <line x1="224" y1="174" x2="296" y2="224" stroke="#C6F135" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.55"/>
+            <circle cx="224" cy="174" r="4" fill="#C6F135"/>
+            <rect x="249" y="209" width="98" height="28" rx="3" fill="#0A0C09" stroke="rgba(198,241,53,0.5)" stroke-width="1.2"/>
+            <text x="298" y="227" text-anchor="middle" fill="#EDEFE4" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="500">battery.md</text>
           </g>
 
           <g class="callout">
-            <line class="callout-line" x1="190" y1="186" x2="190" y2="255"/>
-            <circle class="callout-dot" cx="190" cy="186" r="4"/>
-            <rect class="callout-chip" x="140" y="255" width="100" height="30" rx="15"/>
-            <text class="callout-text" x="190" y="274" text-anchor="middle">Keyboard</text>
+            <line x1="184" y1="170" x2="184" y2="242" stroke="#C6F135" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.55"/>
+            <circle cx="184" cy="170" r="4" fill="#C6F135"/>
+            <rect x="130" y="242" width="108" height="28" rx="3" fill="#0A0C09" stroke="rgba(198,241,53,0.5)" stroke-width="1.2"/>
+            <text x="184" y="260" text-anchor="middle" fill="#EDEFE4" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="500">keyboard.md</text>
           </g>
         </svg>
       </div>
@@ -104,315 +99,213 @@
 
   <!-- ============ ABOUT (VISION) ============ -->
   <section class="section" id="about">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">Project vision &middot; from the proposal</p>
-      <h2 class="section-title">What Smart R2R Portal aims to be</h2>
-      <p class="section-desc">
+    <div class="section-head">
+      <h2>What Smart R2R Portal aims to be</h2>
+      <p>
         The full platform proposed for this course project. Not all of it is built yet —
-        see the <a href="#progress" style="color:var(--moss-deep); font-weight:600;">Progress</a> section below for what's actually done.
+        see <a href="#progress">Progress</a> for what's actually done.
       </p>
-      <div class="grid grid-4">
-        <div class="card fade-in">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-          </div>
-          <h3>Verified Repair Directory</h3>
-          <p>Independent repair shops register and list verified profiles with upfront pricing.</p>
-        </div>
-        <div class="card fade-in">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
-          </div>
-          <h3>Repair Request &amp; Tracking</h3>
-          <p>Submit a repair request and track its status in real time, from drop-off to completion.</p>
-        </div>
-        <div class="card fade-in">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16" y2="16"/></svg>
-          </div>
-          <h3>RAG Repair Assistant</h3>
-          <p>Ask about a laptop issue and get an answer sourced from real repair guides.</p>
-        </div>
-        <div class="card fade-in">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/></svg>
-          </div>
-          <h3>Reparability Profiles</h3>
-          <p>Each device scored on how easy it is to repair, based on parts and guide availability.</p>
-        </div>
+    </div>
+    <div class="split-list">
+      <div class="split-list-item fade-in">
+        <h3>Verified repair directory</h3>
+        <p>Independent repair shops register and list verified profiles with upfront pricing.</p>
+      </div>
+      <div class="split-list-item fade-in">
+        <h3>Repair request &amp; tracking</h3>
+        <p>Submit a repair request and track its status in real time, from drop-off to completion.</p>
+      </div>
+      <div class="split-list-item fade-in">
+        <h3>RAG repair assistant</h3>
+        <p>Ask about a laptop issue and get an answer sourced from real repair guides.</p>
+      </div>
+      <div class="split-list-item fade-in">
+        <h3>Reparability profiles</h3>
+        <p>Each device scored on how easy it is to repair, based on parts and guide availability.</p>
       </div>
     </div>
   </section>
 
-  <!-- ============ PROGRESS (WHAT'S ACTUALLY DONE) ============ -->
-  <section class="section section-alt" id="progress">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">Current state</p>
-      <h2 class="section-title">What's built so far</h2>
-      <p class="section-desc">
-        An honest status check, not a feature list. This is what exists in the repo today.
-      </p>
-      <div class="grid grid-3">
-        <div class="card fade-in">
-          <span class="status-tag status-done">Done</span>
-          <h3>RAG Retrieval Pipeline</h3>
-          <p>Ingestion, chunking, embedding (<code>all-MiniLM-L6-v2</code>) and retrieval, built on ChromaDB. Deterministic upsert IDs and per-query latency logging are in place.</p>
-        </div>
-        <div class="card fade-in">
-          <span class="status-tag status-done">Done</span>
-          <h3>CI/CD Pipeline</h3>
-          <p>GitHub Actions runs <code>ruff</code> linting and <code>pytest</code> on every push, per the proposal's CI/CD commitment.</p>
-        </div>
-        <div class="card fade-in">
-          <span class="status-tag status-done">Done</span>
-          <h3>Sample Repair Guides</h3>
-          <p>Two placeholder documents ingested end to end: a hinge repair guide and a battery replacement guide.</p>
-        </div>
-        <div class="card fade-in">
-          <span class="status-tag status-progress">In Progress</span>
-          <h3>Answer Generation</h3>
-          <p>Wiring an LLM on top of retrieved chunks. Intentionally gated behind retrieval quality validation — the next milestone.</p>
-        </div>
-        <div class="card fade-in">
-          <span class="status-tag status-planned">Planned</span>
-          <h3>Repair Directory &amp; Tracking</h3>
-          <p>Shop registration, verification, and request tracking, as outlined in the proposal.</p>
-        </div>
-        <div class="card fade-in">
-          <span class="status-tag status-planned">Planned</span>
-          <h3>Sustainability Dashboard</h3>
-          <p>Repairs completed and e-waste diverted, tied to the sustainability goal in the proposal.</p>
-        </div>
+  <!-- ============ PROGRESS (TERMINAL LOG) ============ -->
+  <section class="section section-dark" id="progress">
+    <div class="section-head">
+      <h2>What's built so far</h2>
+      <p>An honest status check, not a feature list. This is what exists in the repo today.</p>
+    </div>
+    <div class="log">
+      <div class="log-line fade-in">
+        <span class="log-code log-code-done">[done]</span>
+        <span class="log-msg"><strong>RAG retrieval pipeline</strong> — ingestion, chunking, embedding (<code>all-MiniLM-L6-v2</code>) and retrieval, built on ChromaDB. Deterministic upsert IDs and per-query latency logging are in place.</span>
+      </div>
+      <div class="log-line fade-in">
+        <span class="log-code log-code-done">[done]</span>
+        <span class="log-msg"><strong>Answer generation</strong> — LLM synthesis fully wired on top of retrieved chunks, providing direct, grounded answers.</span>
+      </div>
+      <div class="log-line fade-in">
+        <span class="log-code log-code-done">[done]</span>
+        <span class="log-msg"><strong>CI/CD pipeline</strong> — GitHub Actions runs <code>ruff</code> linting and <code>pytest</code> on every push, per the proposal's CI/CD commitment.</span>
+      </div>
+      <div class="log-line fade-in">
+        <span class="log-code log-code-done">[done]</span>
+        <span class="log-msg"><strong>Sample repair guides &amp; architecture docs</strong> — documentation, repair guides, and all system design diagrams ingested and indexed.</span>
+      </div>
+      <div class="log-line fade-in">
+        <span class="log-code log-code-planned">[queued]</span>
+        <span class="log-msg"><strong>Repair directory &amp; tracking</strong> — shop registration, verification, and request tracking, as outlined in the proposal.</span>
+      </div>
+      <div class="log-line fade-in">
+        <span class="log-code log-code-planned">[queued]</span>
+        <span class="log-msg"><strong>Sustainability dashboard</strong> — repairs completed and e-waste diverted, tied to the sustainability goal in the proposal.</span>
       </div>
     </div>
   </section>
 
-  <!-- ============ DEMO (COMING SOON) ============ -->
-  <section class="section section-dark" id="demo">
-    <div class="container">
-      <p class="eyebrow">Try the retrieval step</p>
-      <h2 class="section-title section-title-light">Assistant demo <span class="soon-pill">Coming soon</span></h2>
-      <p class="section-desc section-desc-light">
-        Retrieval already works end to end. Type a laptop issue below to see the real sources it pulls back —
-        the final generated answer is the piece still in progress.
+  <!-- ============ DEMO ============ -->
+  <section class="section" id="demo">
+    <div class="section-head">
+      <h2>Assistant demo</h2>
+      <p>
+        End-to-end RAG retrieval and answer generation are now live! Type a laptop issue below or click a sample query to see the retrieved sources and synthesized LLM answer.
       </p>
+    </div>
 
-      <div class="demo-card">
-        <div class="demo-search">
-          <form id="demoForm" autocomplete="off" class="demo-form">
-            <svg class="demo-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
-            <input id="demoInput" type="text" placeholder="e.g. hinge is loose, or battery is swollen…">
-            <button type="submit" class="btn btn-primary btn-sm">Ask</button>
-          </form>
-          <div class="demo-chip-row">
-            <button type="button" class="demo-chip" data-demo="hinge is loose and creaking">Loose, creaking hinge</button>
-            <button type="button" class="demo-chip" data-demo="battery drains fast and feels swollen">Battery drains fast / swollen</button>
-          </div>
-        </div>
-        <div id="demoOutput" class="demo-output"></div>
-        <p class="demo-note">Sources and latency shown reflect real retrieval behavior from the ChromaDB index (only "hinge" and "battery" guides are ingested so far). Generation is not wired in yet.</p>
+    <div class="demo-card">
+      <form id="demoForm" autocomplete="off" class="demo-form">
+        <span class="demo-prompt">&gt;</span>
+        <input id="demoInput" type="text" placeholder="e.g. hinge is loose, or battery is swollen…">
+        <button type="submit" class="btn btn-primary btn-sm">Ask</button>
+      </form>
+      <div class="demo-chip-row">
+        <button type="button" class="demo-chip" data-demo="hinge is loose and creaking">Loose, creaking hinge</button>
+        <button type="button" class="demo-chip" data-demo="battery drains fast and feels swollen">Battery drains fast / swollen</button>
+        <button type="button" class="demo-chip" data-demo="class diagram / object model">Class diagram</button>
+        <button type="button" class="demo-chip" data-demo="deployment architecture">Deployment diagram</button>
       </div>
+      <div id="demoOutput" class="demo-output"></div>
+      <p class="demo-note">Sources and latency reflect real retrieval behavior from the ChromaDB index combined with live LLM response synthesis.</p>
     </div>
   </section>
 
-  <!-- ============ RAG PIPELINE ============ -->
-  <section class="section" id="pipeline">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">System design</p>
-      <h2 class="section-title">How the RAG pipeline works</h2>
-      <p class="section-desc">
-        The retrieval module Punya is building, end to end.
-      </p>
+  <!-- ============ RAG PIPELINE (HORIZONTAL STEPPER) ============ -->
+  <section class="section section-dark" id="pipeline">
+    <div class="section-head">
+      <h2>How the RAG pipeline works</h2>
+      <p>The complete retrieval and generation module, end to end.</p>
+    </div>
 
-      <div class="flow-pipeline">
-        <div class="flow-step fade-in">
-          <div class="flow-step-number">1</div>
-          <div class="flow-step-content">
-            <h3>Ingest repair guides</h3>
-            <p>Load source documents — currently the hinge repair and battery replacement placeholders.</p>
-          </div>
-        </div>
-        <div class="flow-connector"></div>
-
-        <div class="flow-step fade-in">
-          <div class="flow-step-number">2</div>
-          <div class="flow-step-content">
-            <h3>Chunk &amp; embed</h3>
-            <p>Split into chunks and embed locally with <code>sentence-transformers</code> (<code>all-MiniLM-L6-v2</code>) — no external API keys needed.</p>
-          </div>
-        </div>
-        <div class="flow-connector"></div>
-
-        <div class="flow-step fade-in">
-          <div class="flow-step-number">3</div>
-          <div class="flow-step-content">
-            <h3>Store in ChromaDB</h3>
-            <p>Deterministic upsert IDs mean re-ingesting the same source never creates duplicate chunks.</p>
-          </div>
-        </div>
-        <div class="flow-connector"></div>
-
-        <div class="flow-step fade-in">
-          <div class="flow-step-number">4</div>
-          <div class="flow-step-content">
-            <h3>Retrieve</h3>
-            <p>A query is matched against stored embeddings; each result carries source metadata for relevance evaluation.</p>
-          </div>
-        </div>
-        <div class="flow-connector"></div>
-
-        <div class="flow-step fade-in">
-          <div class="flow-step-number">5</div>
-          <div class="flow-step-content">
-            <h3>Generate <span class="soon-pill soon-pill-sm">Coming soon</span></h3>
-            <p>An LLM will synthesize a final answer from retrieved chunks, once retrieval quality is validated.</p>
-          </div>
-        </div>
-        <div class="flow-connector"></div>
-
-        <div class="flow-step fade-in">
-          <div class="flow-step-number">6</div>
-          <div class="flow-step-content">
-            <h3>Log &amp; measure</h3>
-            <p>Per-query latency is logged against the Time-to-Answer metric from the proposal.</p>
-          </div>
-        </div>
+    <div class="stepper">
+      <div class="stepper-track"></div>
+      <div class="stepper-item fade-in">
+        <span class="stepper-dot"></span>
+        <h3>Ingest repair guides</h3>
+        <p>Load source documents — repair guides, documentation, and system design diagrams.</p>
+      </div>
+      <div class="stepper-item fade-in">
+        <span class="stepper-dot"></span>
+        <h3>Chunk &amp; embed</h3>
+        <p>Split into chunks and embed locally with <code>sentence-transformers</code> (<code>all-MiniLM-L6-v2</code>) — no external API keys needed.</p>
+      </div>
+      <div class="stepper-item fade-in">
+        <span class="stepper-dot"></span>
+        <h3>Store in ChromaDB</h3>
+        <p>Deterministic upsert IDs mean re-ingesting the same source never creates duplicate chunks.</p>
+      </div>
+      <div class="stepper-item fade-in">
+        <span class="stepper-dot"></span>
+        <h3>Retrieve</h3>
+        <p>A query is matched against stored embeddings; each result carries source metadata for relevance evaluation.</p>
+      </div>
+      <div class="stepper-item fade-in">
+        <span class="stepper-dot"></span>
+        <h3>Generate</h3>
+        <p>An LLM synthesizes a final, grounded answer from the retrieved chunks, backed by validation.</p>
+      </div>
+      <div class="stepper-item fade-in">
+        <span class="stepper-dot"></span>
+        <h3>Log &amp; measure</h3>
+        <p>Per-query latency is logged against the Time-to-Answer metric from the proposal.</p>
       </div>
     </div>
   </section>
 
   <!-- ============ TECH STACK ============ -->
-  <section class="section section-alt" id="stack">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">Under the hood</p>
-      <h2 class="section-title">What the RAG module runs on</h2>
-      <p class="section-desc">Local-first tooling, chosen so CI stays self-contained and reproducible without external API keys.</p>
-      <div class="grid grid-4">
-        <div class="card card-center fade-in">
-          <div class="card-icon card-icon-lg">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5M3 8v10M21 8v10"/></svg>
-          </div>
-          <h3>Python</h3>
-          <p>Core language for the RAG module</p>
-        </div>
-        <div class="card card-center fade-in">
-          <div class="card-icon card-icon-lg">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
-          </div>
-          <h3>ChromaDB</h3>
-          <p>Vector store for chunk embeddings</p>
-        </div>
-        <div class="card card-center fade-in">
-          <div class="card-icon card-icon-lg">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
-          </div>
-          <h3>sentence-transformers</h3>
-          <p><code>all-MiniLM-L6-v2</code> for local embeddings</p>
-        </div>
-        <div class="card card-center fade-in">
-          <div class="card-icon card-icon-lg">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
-          </div>
-          <h3>GitHub Actions</h3>
-          <p><code>ruff</code> lint + <code>pytest</code> on every push</p>
-        </div>
-      </div>
+  <section class="section" id="stack">
+    <div class="section-head">
+      <h2>What the RAG module runs on</h2>
+      <p>Local-first tooling, chosen so CI stays self-contained and reproducible without external API keys.</p>
+    </div>
+    <div class="badge-row">
+      <span class="badge fade-in"><strong>Python</strong> — core language for the RAG module</span>
+      <span class="badge fade-in"><strong>ChromaDB</strong> — vector store for chunk embeddings</span>
+      <span class="badge fade-in"><strong>sentence-transformers</strong> — <code>all-MiniLM-L6-v2</code> for local embeddings</span>
+      <span class="badge fade-in"><strong>GitHub Actions</strong> — <code>ruff</code> lint + <code>pytest</code> on every push</span>
     </div>
   </section>
 
-  <!-- ============ DOCUMENTATION ============ -->
-  <section class="section" id="docs">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">Documentation</p>
-      <h2 class="section-title">Project proposal</h2>
-      <p class="section-desc">The formal proposal outlines the problem statement, objectives, and technical approach.</p>
-      <div class="grid grid-3">
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/project_proposal/Repair_Flow.pdf" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>Project Proposal</h3>
-          <p>Complete project proposal document</p>
-          <span class="tag">PDF</span>
-        </a>
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/project_proposal/RepairFlow_Project_Proposal_.tex" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>LaTeX Source</h3>
-          <p>Source file for the proposal</p>
-          <span class="tag">TEX</span>
-        </a>
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/SmartR2R_GuideAndReparabilityPortal.pptx" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>Presentation</h3>
-          <p>Project intro &amp; pitch deck</p>
-          <span class="tag">PPTX</span>
-        </a>
-      </div>
+  <!-- ============ RESOURCES (DOCS + DIAGRAMS MERGED) ============ -->
+  <section class="section section-dark" id="resources">
+    <div class="section-head">
+      <h2>Resources</h2>
+      <p>The proposal, its source, the pitch deck, and the system diagrams behind the full platform.</p>
     </div>
-  </section>
-
-  <!-- ============ DIAGRAMS ============ -->
-  <section class="section section-alt" id="diagrams">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">System design</p>
-      <h2 class="section-title">Diagrams</h2>
-      <p class="section-desc">Use case, data flow (Level 0–2), ER, and activity diagrams for the full platform.</p>
-      <div class="grid grid-3">
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_UseCase_Diagram.pdf" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>Use Case Diagram</h3>
-          <p>Interactions between users, shops, and admin</p>
-        </a>
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_DFD_Diagrams_lvl_0,1,2.pdf" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>DFD — Levels 0, 1, 2</h3>
-          <p>Context diagram through process decomposition</p>
-        </a>
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_ER_Diagram.pdf" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>ER Diagram</h3>
-          <p>Entities, attributes, and relationships</p>
-        </a>
-        <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_Activity_Diagram.pdf" target="_blank" rel="noopener" class="card card-link fade-in">
-          <h3>Activity Diagram</h3>
-          <p>Step-by-step workflow across the platform</p>
-        </a>
-      </div>
+    <div class="resource-grid">
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/project_proposal/Repair_Flow.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Project proposal</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/project_proposal/RepairFlow_Project_Proposal_.tex" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">tex</span>
+        <span class="resource-name">LaTeX source</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/SmartR2R_GuideAndReparabilityPortal.pptx" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pptx</span>
+        <span class="resource-name">Presentation</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_UseCase_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Use case diagram</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_DFD_Diagrams_lvl_0,1,2.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">DFD — levels 0, 1, 2</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_ER_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">ER diagram</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_Activity_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Activity diagram</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_Class_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Class diagram</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_Deployment_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Deployment diagram</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_Sequence_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Sequence diagram</span>
+      </a>
+      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/blob/main/docs/RepairFlow_Collaboration_Diagram.pdf" target="_blank" rel="noopener" class="resource fade-in">
+        <span class="resource-ext">pdf</span>
+        <span class="resource-name">Collaboration diagram</span>
+      </a>
     </div>
   </section>
 
   <!-- ============ TEAM ============ -->
   <section class="section" id="team">
-    <div class="container">
-      <p class="eyebrow eyebrow-dark">People</p>
-      <h2 class="section-title">Team</h2>
-      <div class="grid grid-3">
-        <div class="card card-center fade-in">
-          <div class="avatar">PC</div>
-          <h3>Punya Chhabra</h3>
-          <p>1024030684</p>
-          <span class="tag">RAG Module</span>
-        </div>
-        <div class="card card-center fade-in">
-          <div class="avatar">AG</div>
-          <h3>Arnav Gupta</h3>
-          <p>1024030573</p>
-        </div>
-        <div class="card card-center fade-in">
-          <div class="avatar">KJ</div>
-          <h3>Kaushik Jindal</h3>
-          <p>1024030442</p>
-        </div>
-      </div>
+    <div class="section-head">
+      <h2>Team</h2>
+    </div>
+    <div class="team-line">
+      <span class="team-entry fade-in"><strong>Punya Chhabra</strong> · 1024030684 · RAG module</span>
+      <span class="team-sep">/</span>
+      <span class="team-entry fade-in"><strong>Arnav Gupta</strong> · 1024030780</span>
+      <span class="team-sep">/</span>
+      <span class="team-entry fade-in"><strong>Kaushik Jindal</strong> · 1024030431</span>
     </div>
   </section>
-
-</main>
-
-<footer class="footer">
-  <div class="container footer-inner">
-    <span class="footer-logo">Smart R2R Portal</span>
-    <p class="footer-text">A RAG-based right-to-repair assistant for laptops.</p>
-    <div class="footer-links">
-      <a href="https://github.com/Pcxlit/Smart-R2R-Portal" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/tree/main/docs" target="_blank" rel="noopener">Docs</a>
-      <a href="https://github.com/Pcxlit/Smart-R2R-Portal/tree/main/.github/workflows" target="_blank" rel="noopener">CI Workflow</a>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
