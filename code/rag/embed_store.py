@@ -1,9 +1,16 @@
 
 import chromadb
 from chromadb.utils import embedding_functions
+import os
 
 from rag.config import VECTOR_STORE_DIR, COLLECTION_NAME, EMBEDDING_MODEL_NAME
 from rag.ingest import load_and_chunk_documents
+
+def ensure_store() -> None:
+    """Build the vector store only if it doesn't already exist."""
+    if os.path.isdir(VECTOR_STORE_DIR) and os.listdir(VECTOR_STORE_DIR):
+        return
+    build_store()
 
 
 def get_embedding_function():
