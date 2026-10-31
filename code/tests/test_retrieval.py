@@ -1,7 +1,7 @@
 
 import pytest
 
-from rag.ingest import load_and_chunk_documents, _split_into_chunks
+from rag.ingestion import load_and_chunk_documents, _split_into_chunks
 from rag.embed_store import build_store
 from rag.retrieve import retrieve
 
