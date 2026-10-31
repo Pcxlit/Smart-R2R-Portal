@@ -9,7 +9,7 @@ import chromadb
 from chromadb.utils import embedding_functions
 
 from rag.config import COLLECTION_NAME, EMBEDDING_MODEL_NAME, VECTOR_STORE_DIR
-from rag.ingest import load_and_chunk_documents
+from rag.ingestion import load_and_chunk_documents
 
 
 def get_embedding_function():
