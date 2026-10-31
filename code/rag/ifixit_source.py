@@ -54,8 +54,8 @@ def guide_to_text(g: dict) -> str:
     lines.append("")
     for i, step in enumerate(g.get("steps", []), start=1):
         text = " ".join(
-            clean(l.get("text_raw") or l.get("text_rendered") or "")
-            for l in step.get("lines", [])
+            clean(line.get("text_raw") or line.get("text_rendered") or "")
+            for line in step.get("lines", [])
         ).strip()
         if text:
             lines.append(f"Step {i}: {text}")
