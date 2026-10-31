@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 
