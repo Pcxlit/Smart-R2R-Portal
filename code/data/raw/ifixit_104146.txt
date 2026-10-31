@@ -1,0 +1,19 @@
+ASUS N550JK-DS71T Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/ASUS+N550JK-DS71T+Laptop+Battery+Replacement/104146
+
+Device category: ASUS N550JK-DS71T Laptop
+
+Difficulty: Easy
+
+Tools needed: T5 Torx Screwdriver, JIS #0 Screwdriver, Spudger
+
+
+
+Step 1: Turn the laptop off and unplug all cables. Flip over so the bottom is facing you. Remove the ten 3mm Torx T5 screws from the bottom cover.
+
+Step 2: Use a spudger to wedge between the laptop and bottom cover—lift upwards to pry open. Run the spudger along the perimeter of the bottom cover to remove.
+
+Step 3: Remove the three 4mm JIS #0 screws from the battery.
+
+Step 4: Using both hands, lift the battery vertically out of the device.

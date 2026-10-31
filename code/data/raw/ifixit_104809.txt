@@ -1,0 +1,37 @@
+ASUS N550JK-DS71T Laptop Screen Replacement
+
+Source URL: https://www.ifixit.com/Guide/ASUS+N550JK-DS71T+Laptop+Screen+Replacement/104809
+
+Device category: ASUS N550JK-DS71T Laptop
+
+Difficulty: Moderate
+
+Tools needed: T5 Torx Screwdriver, Spudger, JIS #0 Screwdriver, Phillips #1 Screwdriver, Phillips #0 Screwdriver, Metal Spudger
+
+
+
+Step 1: Turn the laptop off and unplug all cables. Flip over so the bottom is facing you. Remove the ten 3mm Torx T5 screws from the bottom cover.
+
+Step 2: Use a spudger to wedge between the laptop and bottom cover—lift upwards to pry open. Run the spudger along the perimeter of the bottom cover to remove.
+
+Step 3: Remove the three 4mm JIS #0 screws from the battery.
+
+Step 4: Using both hands, lift the battery vertically out of the device.
+
+Step 5: Remove the eight black 4mm Phillips #1 screws holding display to laptop base.
+
+Step 6: Lift the tab on the thick black wire to disconnect the display connector.
+
+Step 7: Remove the thin black and white wire connectors from the Wi-Fi card. The white wire should be above the black wire.
+
+Step 8: Open then close the laptop to separate the metal hinges between display and base. Open the laptop again then gently remove the base of the laptop from the display.
+
+Step 9: After removing the display from the board, slide the grey hinge cap to remove.
+
+Step 10: Remove the two 4mm black Phillips #0 screws from the bottom of the display. Slide the screen to the bottom of the display to disengage the mounting clips.
+
+Step 11: Lift the screen from the display to remove.
+
+Step 12: Using a spudger or soft pry tool, work your way around the edge of the screen to separate the screen from the bezel adhesive strips. Take your time, and be careful not to break the bezel.
+
+Step 13: Before installing new screen, ensure that the adhesive strips are laying flat around the edges, and clean the surface of the screen of debris from prying the old screen off. These will show up on the new screen if you sandwich them in between the glass and the screen.

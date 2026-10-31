@@ -1,0 +1,15 @@
+Asus F556UQ Laptop Hard Drive / SSD Replacement
+
+Source URL: https://www.ifixit.com/Guide/Asus+F556UQ+Laptop+Hard+Drive+-+SSD+Replacement/96117
+
+Device category: Asus F556UQ Laptop
+
+Difficulty: Moderate
+
+Tools needed: Essential Electronics Toolkit, Plastic Cards
+
+
+
+Step 1: Turn your laptop around and remove the 10 screws you see straight away. Make sure you remember which screw goes where, as they have very slightly different lengths and you'll take a lot of time (like I did) trying to find out which goes where if you don't remember where they originally were. DON'T TRY TO LIFT OFF THE COVER JUST YET. There are two cheeky screws you'll need to remove before you'll be able to do so. To get to the second to last screw, you'll first have to remove the RAM slot cover. Do so by peeling off the cover on the screw with a knife and then removing it. Now gently force the cover open. Under the cover you'll find a screw fixing the cover to the mainboard. Remove it! For the last screw, you'll have to peel off one of the four rubber stands on your laptop. It is the one roughly above the DVD drive. Peel it off with a knife and it will reveal the last screw you need to remove. Now carefully take off the cover using a credit card or similar. Pry the hatches open starting next to the DVD drive. I found [https://www.youtube.com/watch?v=x1tupHjUKSg|this video] helpful for an idea of how it works, though differently to there, the F556UQ (our) model has just a simple cover to remove - no need to disconnect keyboard and touchpad. TAKE CARE not to bend the status lamps for your laptop when prying the cover open.
+
+Step 2: This works almost (check below) exactly like it does for the model in [https://www.youtube.com/watch?v=x1tupHjUKSg|this video]. Thanks Anthony Parker for putting this together! I wasn't able to easily remove the mainboard component with the USB port attached the way the video above shows because the audio jack port wouldn't come loose. I worked around it by disconnecting the hard drive and then gently pulling the hard drive frame out from underneath the mainboard component with the USB, etc. Worked for me!

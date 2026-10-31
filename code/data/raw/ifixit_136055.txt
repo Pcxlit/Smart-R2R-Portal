@@ -1,0 +1,19 @@
+Wi-Fi Network Card Replacement for HP Pavilion dv4-1120us Laptop
+
+Source URL: https://www.ifixit.com/Guide/Wi-Fi+Network+Card+Replacement+for+HP+Pavilion+dv4-1120us+Laptop/136055
+
+Device category: HP Pavilion dv4-1120us
+
+Difficulty: Moderate
+
+Tools needed: Phillips #0 Screwdriver
+
+
+
+Step 1: Verify the laptop model. Remove the power cable. The battery only requires to move a latch to the left. With this, it comes out by itself.
+
+Step 2: Remove the 2 screws. These are holding the plastic lid
+
+Step 3: Remove the three 5mm screws that hold the hard drive in place Move the hard drive to the left to disconnect it from the SATA port Lift the hard drive to remove it from the laptop Remove the screws to put in the replacement
+
+Step 4: Remove the antenna cables. Remove the screws. Remove the Wi-Fi card.

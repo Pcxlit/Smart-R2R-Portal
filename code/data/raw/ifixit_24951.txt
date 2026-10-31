@@ -1,0 +1,45 @@
+Gateway MA6 Laptop Display Assembly Replacement
+
+Source URL: https://www.ifixit.com/Guide/Gateway+MA6+Laptop+Display+Assembly+Replacement/24951
+
+Device category: Gateway MA6 Laptop
+
+Difficulty: Difficult
+
+Tools needed: Phillips #0 Screwdriver, iFixit Opening Tool
+
+
+
+Step 1: To prevent injury, make sure the laptop is unplugged before removing the battery. Make sure the switch in the upper right corner of the laptop is switched to the "unlock" position (toward the unlocked padlock icon).
+
+Step 2: Pull the switch on the upper lefthand corner of the laptop towards the unlocked padlock icon. Firmly pull the battery outwards and away from the laptop.
+
+Step 3: Loosen the 3mm Phillips #0 screw from the back of the WiFi card backplate. The screw will remain in the backplate. Lift upwards on the back plate to remove it.
+
+Step 4: Use the plastic opening tool to gently pry upwards on the two connecting cables to remove them.
+
+Step 5: Remove the 2 mm Phillips #0 screw. The card will lift itself up 30° after the screw has been removed.
+
+Step 6: Hold the WiFi card on both sides and pull outwards to remove it.
+
+Step 7: Loosen the seven 6 mm Phillips #0 screws on the back of the case. Leave all the screws in the back plate and so you don't lose them.
+
+Step 8: Pull upwards on the top of the back cover to remove it.
+
+Step 9: Loosen the four 9 mm Phillips #0 screws from the cooling assembly. Leave all the screws in the cooling assembly so you don't lose them.
+
+Step 10: Carefully lift up on the cooling assembly to avoid ripping the wire attaching it to the computer, and lay it upside down. Carefully grab the wire attached to the computer and pull away from the port. The cooling fan is now safe for removal.
+
+Step 11: With the computer oriented upright with the back facing towards you, remove the two 3 mm Phillips #0 screws. Use the plastic opening tool to pry upwards on the bottom of the plastic piece covering the screw hole on the right side. Do the same for the left side. The plastic piece will pop upwards, and a small gap, as shown, will appear. Ensure that it remains in this condition for the next step.
+
+Step 12: Lay the computer down carefully on its keyboard, with the screen open. There are 5 plastic pins that hold in the upper case cover. With the plastic opening tool, pry downwards on each of the plastic pins to pop them out one at a time. The upper case will now be loose. Flip the computer back over carefully, and remove the loosened upper case.
+
+Step 13: Flip the computer over so the bottom is facing upwards. Remove the two 5 mm Phillips #0 screws.
+
+Step 14: Flip the computer back over and open the screen. The keyboard will now be loose. There is a ribbon cable connecting the keyboard to the computer, so do not pull it completely off to avoid tearing it. Gently pull towards the screen on both sides of the keyboard and slide it upwards. Set it upside down onto the mousepad area. Using the plastic opening tool, carefully pry between the black and white portion of the connection. It will pop out with moderate force. Remove the keyboard.
+
+Step 15: Using your fingers, carefully pry upwards on the two gold prongs holding in the connection cable, to free it. These are located at the top left side of the case near the display hinge. Using the plastic opening tool, pry upwards on the port connection for the display cable. It will release with minimal force.
+
+Step 16: Use the plastic opening tool to pry out the WiFi cable coming out of the right side of the display from the prongs that hold it in place.
+
+Step 17: Remove the two 5 mm Phillips #0 screws from the left side of the display hinge. Repeat for the two 5 mm Phillips #0 screws on the right side. Pull upwards on the sides of the display to fully separate it from the computer.

@@ -1,0 +1,59 @@
+How to Replace the Wi-Fi Card for a Samsung NP300V5A-A08US Laptop
+
+Source URL: https://www.ifixit.com/Guide/How+to+Replace+the+Wi-Fi+Card+for+a+Samsung+NP300V5A-A08US+Laptop/50446
+
+Device category: Samsung Laptop
+
+Difficulty: Moderate
+
+Tools needed: Tweezers, Phillips #00 Screwdriver, Flathead 3/32" or 2.5 mm Screwdriver
+
+
+
+Step 1: Make sure the laptop is powered down and completely off before continuing. Unplug all power cords and USB devices that are connected to the computer. Using a Phillips #00 screwdriver, remove the 4.5mm screw on the panel located at the bottom right of the computer. Make sure to place the parts you have removed in an organized manner so that you know what goes where when you are reassembling your computer.
+
+Step 2: Pry apart the plastic clips near the screw hole using a plastic opening tool. Use your finger and the opening tool to pry up the plastic cover. It is normal to hear noises similar to that of plastic snapping when prying up the plastic cover.
+
+Step 3: Pry off the rubber pads on the remaining three corners of the computer using the tip of the opening tool. Adhesive glue is used to hold the rubber pads on. It may take more effort to take these off.
+
+Step 4: Using a Phillips #00 screwdriver, remove the three 6.5mm screws.
+
+Step 5: Remove the battery by sliding the small tabs in the directions of the arrows printed on the computer. Push the battery in a forward motion to slide it out. Make sure to keep the tabs held in the direction of the arrows.
+
+Step 6: Put your hands on the back panel and use pressure to slide the panel down a few millimeters (as shown in the photo). Slide the back panel down and then lift it off.
+
+Step 7: Shown in the red square is the hard drive. It must be removed in order to access the rest of the computer. Using a Philips #00 screwdriver, remove the four screws holding the hard drive in place.
+
+Step 8: While holding onto the black plastic tab, pull up and to the right to remove the hard drive. Be careful not to damage the cable attached to the hard drive.
+
+Step 9: Take note of how the wire harness is routed around the motherboard and the plastic casing. Gently pull on the wire harness to get it out of the crevasse. Carefully wiggle the white plastic connector on the computer back and forth until you are able to disconnect the wire harness. Be careful to not pull on the wires themselves, as they may become disconnected from the white plastic connector.
+
+Step 10: Using a Philips #00 screwdriver, remove the 6.5mm screw located next to the "ODD" print as indicated in the photo.
+
+Step 11: Stick your fingernails between where the optical disk drive slides out and the plastic frame of the computer. Using your hand (you might need to use both), pull outwards to slowly remove the optical disk drive from the computer.
+
+Step 12: Using a Phillips #00, remove the thirteen 6.5mm screws. Each screw location is designated by an arrow icon as shown in the second picture. Use your [product|IF145-020|tweezers] to remove loosened screws.
+
+Step 13: The next several steps will show you how to remove the outer shell of the computer. Locate the discrete line between the two pieces of plastic on the side of the keyboard. Starting near the headphone jack, use a plastic opening tool to pry apart the two pieces of plastic. A popping or snapping sound in the next couple steps is normal.
+
+Step 14: Slowly start making your way around the edge of the keyboard, prying the two pieces apart.
+
+Step 15: Continue prying apart the two pieces of plastic around the back corners of the computer.
+
+Step 16: You also have to get the skinny area where the battery port is. This is easiest to get to by closing the computer shut. When you start to get most of the two plastic pieces disconnected, you can just use your hands to pop-it apart.
+
+Step 17: Open the computer back up and work your way around to the other side of the computer where the Optical Disk Drive was.
+
+Step 18: Continue prying apart the two pieces of plastic at the front of the computer.
+
+Step 19: Gently pry around the edges with your fingers or a plastic separator to separate the middle layer from the base.
+
+Step 20: Locate the Wi-Fi card. Double check that the WiFi card you bought is the same as the one in your computer by comparing the model numbers on the old and new WiFi cards.
+
+Step 21: Remove the snap-on cables from the Wi-Fi card using the tips of your fingernails and the assistance of your tweezers. Take note which snap-on cable goes where on the Wi-Fi card.
+
+Step 22: Using a Phillips #00 screwdriver, remove the single 4.5mm screw that secures the Wi-Fi card. The Wi-Fi card will spring up when the the screw is removed.
+
+Step 23: Free the Wi-Fi card from its mount by gently pulling the Wi-Fi card upward and outward.
+
+Step 24: Insert your new Wi-Fi card into the mount. Secure the new Wi-Fi card by replacing the 4.5mm screw using a Phillips #00 screwdriver. Reconnect the two snap-on cables to the Wi-Fi card. Make sure to reconnect the cables exactly as they were originally positioned.

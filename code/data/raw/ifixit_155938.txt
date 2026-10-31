@@ -1,0 +1,37 @@
+Toshiba Satellite P755-EZ1511D Laptop Speakers Replacement
+
+Source URL: https://www.ifixit.com/Guide/Toshiba+Satellite+P755-EZ1511D+Laptop+Speakers+Replacement/155938
+
+Device category: Toshiba Satellite P755-EZ1511D Laptop
+
+Difficulty: Moderate
+
+
+
+Step 1: First flip the device over so that the back side is facing upwards
+
+Step 2: Push the two sliders toward the edge of the laptop. Remove the battery.
+
+Step 3: First, remove the screw holding the hard drive cover in place.
+
+Step 4: Lift the cover and set it aside.
+
+Step 5: Remove the hard drive.
+
+Step 6: Remove all of the screws labeled F8 from the backside of the device.
+
+Step 7: Flip the device over and open it up. Using your pry tool begin to pop the keyboard upwards starting from the side closest to the screen. You will hear an audible "pop" sound.
+
+Step 8: After popping the keyboard off you need to disconnect the keyboard from the motherboard.
+
+Step 9: Remove the two screws labeled F8 in the shown places.
+
+Step 10: Remove the optical drive from the device. Just pull it out.
+
+Step 11: The next step is to unplug the speakers from the motherboard. The wire shown is the speaker wire.
+
+Step 12: Next, take your pry tool again and start to lift around the edge of the device. Once you get it lifted enough, use your hands to pop the top panel of the base of the device.
+
+Step 13: Next, remove the wires from the the small clips holding them in place.
+
+Step 14: Lastly, remove the two screws holding the speaker in place. After doing that you will be able to just lift up on the speaker to remove it. Repeat Steps 8 and 9 for the other speaker.

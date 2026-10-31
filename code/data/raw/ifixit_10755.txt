@@ -1,0 +1,19 @@
+Disassembling & Replacing Keyboard on Toshiba Laptop C655 Series
+
+Source URL: https://www.ifixit.com/Guide/Disassembling+&+Replacing+Keyboard+on+Toshiba+Laptop+C655+Series/10755
+
+Device category: Toshiba Satellite C655D-S5509
+
+Difficulty: Very easy
+
+Tools needed: Phillips #00 Screwdriver, iFixit Opening Tool, Spudger
+
+
+
+Step 1: Make sure the laptop is powered off before starting. Remove the battery. Use a plastic opening tool to pry out the narrow plastic lid. You may use a flat-head screwdriver for this task, but will most likely scratch the keyboard and the plastic lid itself. Exercise caution when re-assembling: carefully and gently snap the lid back on. The plastic lid may easily break since it is made of a thin and soft plastic material. Before replacing the lid, you may want to power on the laptop and test that the keyboard is working properly.
+
+Step 2: Remove the following screws securing the top of the keyboard: Four 3mm Phillips screws.
+
+Step 3: In this next step, the keyboard is still attached to the logic board via a flat cable. Be careful not to tear the cable or damage the connector by removing the keyboard too quickly or too abruptly or pulling it too far away from the laptop. Lift the keyboard away from the laptop, starting from the top end which is nearest to the screen.
+
+Step 4: Use the tip or the flat end of a nylon spudger to unlock the connector securing the flat cable of the keyboard to the logic board. Pull the flat cable out not up. When re-assembling, insert and hold the flat cable in place with one hand; use the other hand to lock the connecter using the tip or flat end of a nylon spudger. If you release the flat cable before locking the connector, it will most probably slip out.

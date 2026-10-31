@@ -1,0 +1,21 @@
+Dell Inspiron 17 Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Dell+Inspiron+17+Laptop+Battery+Replacement/165199
+
+Device category: Dell Laptop
+
+Difficulty: Moderate
+
+Tools needed: Phillips #0 Screwdriver
+
+
+
+Step 1: Before starting, make sure the laptop is powered off and disconnected from any power sources.
+
+Step 2: Remove the Screws of the Laptop with help screwdriver. There are 6 screws to remove. Make Sure to open the back of the laptop delicately.
+
+Step 3: Carefully disconnect the old battery from the motherboard. Gently remove the old battery from its housing by removing plug of battery.
+
+Step 4: Insert the new battery into the housing. Connect the new battery to the motherboard. Securely reattach the battery back cover.
+
+Step 5: Plug in the laptop and charge it to Full Capacity. Power on the laptop and make sure it works with the new battery.

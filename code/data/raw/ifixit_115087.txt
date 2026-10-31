@@ -1,0 +1,19 @@
+Toshiba Satellite L505 Laptop Keyboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Toshiba+Satellite+L505+Laptop+Keyboard+Replacement/115087
+
+Device category: Toshiba Satellite L505 Laptop
+
+Difficulty: Easy
+
+Tools needed: ESD-safe pry tool, Phillips #1 Screwdriver
+
+
+
+Step 1: Open the laptop and locate the plastic strip just above the keyboard. With care, slide the prying tool into an end and lift it up until you hear an audible click, meaning it has separated. Slowly slide a finger or the prying tool under and follow the  strip to the opposite end, completely detaching the strip.
+
+Step 2: Remove the four screws using the Phillips #1 screwdriver.
+
+Step 3: Gently push the clip back as you lift the top of the keyboard towards you. There is a cable connecting the keyboard to the motherboard so do not lift the keyboard all the way out yet.
+
+Step 4: Gently disconnect the connector strip by pushing the white clips forward. Carefully pull the strip out of its port. Remove the keyboard from the device.

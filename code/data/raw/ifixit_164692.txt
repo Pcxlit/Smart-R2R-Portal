@@ -1,0 +1,19 @@
+Altyk L15P and F Laptop Thermal Paste Replacement
+
+Source URL: https://www.ifixit.com/Guide/Altyk+L15P+and+F+Laptop+Thermal+Paste+Replacement/164692
+
+Device category: Altyk Le PC Portable L15P et F
+
+Difficulty: Moderate
+
+Tools needed: Phillips PH000 Screwdriver
+
+
+
+Step 1: Remove the 9 screws hidden under the red dots, they are the shortest The screws under the blue dots at the bottom left and right are longer
+
+Step 2: Locate the battery connector; this is the first thing to unplug before starting any work.
+
+Step 3: Locate and disconnect the cooling fan connector, it is located just below the wifi card. Remove the 3 screws securing the cooling fan as well as the 4 screws securing the heat sink.
+
+Step 4: Thoroughly clean the old thermal paste from both the heatsink and the processor. You can use a cloth, paper towel, or a cotton swab soaked in isopropyl alcohol. Once the processor and heatsink are clean, you can apply your new thermal paste. I highly recommend Arctic MX-4. Once the new thermal paste has been applied to the processor, you can reattach the heatsink and reassemble the PC; you are finished.

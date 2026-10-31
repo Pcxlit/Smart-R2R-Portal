@@ -1,0 +1,15 @@
+Repairing Any laptop battery - Li-Ion cell replacement
+
+Source URL: https://www.ifixit.com/Guide/Repairing+Any+laptop+battery+-+Li-Ion+cell+replacement/54291
+
+Device category: PC Laptop
+
+Difficulty: Moderate
+
+Tools needed: Multimeter
+
+
+
+Step 1: '''Caution: '''Lithium-ion batteries can catch fire or explode if they are damaged or short-circuited—especially when they are charged. Be extremely careful not to bend them or short-circuit them with your probes. Battery pack works by putting individual cells in parallel / series. Each cell has a nominal voltage / capacity and they are put together to give the whole battery pack it's global voltage / capacity. Here we have a 3s2p battery pack. This means that you have 3 serial attached blocks of 2 parallel cells. The lefmost block seems dead, the cells reads a steady 0 volts on my multimeter. The 2 other block show ~3.6 V which means they are still alive, great ! I haven't tested individual cells from the 2 working blocks for a good reason. This battery pack has been stored for several monthes, if only one cell in the block was dead, the other (good) one would have discharged in it until it also dies ( which is what must have happen in dead block )
+
+Step 2: Here I have 2 scrap 18650 cells form another dead battery pack. They are still charged but I have no fear has the battery electronics will balance the charge levels later. After this step, reassemble the pack and everything should be fine. Remember that this a dirty fix and you should consider the repaired battery pack as '''NOT SAFE'''

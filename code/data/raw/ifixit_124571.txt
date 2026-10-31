@@ -1,0 +1,33 @@
+Disassembly of the Asus N551J Laptop
+
+Source URL: https://www.ifixit.com/Guide/Disassembly+of+the+Asus+N551J+Laptop/124571
+
+Device category: Asus N551J
+
+Difficulty: Moderate
+
+Tools needed: Phillips #0 Screwdriver, Phillips #1 Screwdriver, iFixit Opening Picks (Set of 6), Spudger, Anti-Static Wrist Strap, Magnetic Project Mat
+
+
+
+Step 1: Turn off the laptop. Remove all USB connections and SD cards. Turn the laptop upside down on a flat surface. Then, remove the battery by pushing the highlighted plastic slide to the right and lifting the battery out.
+
+Step 2: Remove all marked screws: Five #1 Phillips screws Two #0 Phillips screws Note that the middle and bottom red screws are slightly narrower than the other red screws. So make sure you keep these screws apart to prevent any damage to your device. The orange screws are slightly longer in size. ***Ensure you keep them separate*** from the red screws.
+
+Step 3: Slide the disk drive out of the laptop case. Remove the screws marked in the photo: Two #0 Phillips screws
+
+Step 4: Remove the rear housing by sliding it downwards, as indicated in the photo.
+
+Step 5: Use the flat end of a spudger to disconnect the connector marked in the photo.
+
+Step 6: Remove the hard drive (HDD) by unscrewing the marked screws and sliding the drive in the direction of the arrow. Four #0 Phillips Screws Remove the memory disk by gently pushing down the metal arms on the side of the disk. Remove the WLAN module by disconnecting the antennas and unscrewing the screw marked in the photo. #0 Phillips Screw Use the tip of a spudger to disconnect the antennas.
+
+Step 7: Remove the screws marked in the photo: Four #0 Phillips screws
+
+Step 8: Start by inserting an opening pick in the corner where the headphone jack is located. Insert your pick between the two panels. Continue by sliding the opening pick to the right. Repeat these steps on the other two sides. Stick your pick in the corners on these sides as well. However, ***do not open the side of the case where the battery is located yet***. If you hear a clicking sound, this is not a problem; you may continue working. Usage of a spudger may be  needed. If so, use the flat end of the spudger.
+
+Step 9: Insert your opening picks between the different parts of the case (example shown in photo) and make sure all the plastic clips are loose. Turn the laptop 180 degrees. ***Do not*** try to remove the black plastic body at this time.
+
+Step 10: Open the keyboard side of the laptop while holding the aluminium body. Carefully move the aluminum body towards you. Disconnect the marked connector by pulling the plastic pull tab straight up. It is essential that you keep the laptop in this position when opening it. ***Stop immediately*** if you hear cracking sounds and try to reposition the housing.
+
+Step 11: You now have gained access to the internal hardware of the laptop, and can perform any required maintenance. Reassemble by following this guide in reverse order. During reassembly, keep track of the unplugged connector in ++step 6++. During reassembly, be careful when closing the aluminum portion of the housing. The plastic clips on the side of the battery are very fragile.

@@ -1,0 +1,17 @@
+IBM Thinkpad x41t Laptop Wifi Card Replacement
+
+Source URL: https://www.ifixit.com/Guide/IBM+Thinkpad+x41t+Laptop+Wifi+Card+Replacement/25012
+
+Device category: IBM Thinkpad x41t Laptop
+
+Difficulty: Moderate
+
+Tools needed: Phillips #00 Screwdriver
+
+
+
+Step 1: Flip the laptop over and remove the battery Remove all highlighted screws with a Phillips head screwdriver
+
+Step 2: Gently unconnect the grey and black wires
+
+Step 3: Lift the wireless card and pull it out of the motherboard Replace the wifi card and retrace your steps to reassemble the laptop

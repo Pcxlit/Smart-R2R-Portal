@@ -1,0 +1,27 @@
+Replacement of CMOS Battery in a Dell G3 15-3579 Gaming Laptop
+
+Source URL: https://www.ifixit.com/Guide/Replacement+of+CMOS+Battery+in+a+Dell+G3+15-3579+Gaming+Laptop/165166
+
+Device category: Fast Fix
+
+Difficulty: Easy
+
+Tools needed: Phillips #0 Screwdriver, iFixit Opening Tool
+
+
+
+Step 1: Make sure the laptop is off and has been unplugged from  any power source. Flip the laptop over to gain access to ten M2.5 x 6mm flat head screws.
+
+Step 2: Use a Phillips #0 screwdriver to unscrew all the screws. If you have another screwdriver that fits you can use that as well.
+
+Step 3: Gently pry open the bottom cover of the laptop. If this is the first time you are opening the laptop it might be harder to separate. If it seems to be stuck at any point DO NOT pull harder you may have forgotten one screw.
+
+Step 4: You need to unplug the battery to make sure that you don't get any potential static shock when you unplug any other component. Lightly shake the connector to disconnect.
+
+Step 5: Use a spudger or plastic opening tool to pry under the battery, and push forward to pop it free. Be gentle when pushing to avoid potential damage to the battery holder, as your tool may slip.
+
+Step 6: Place the new battery in by placing it over the holder and lightly pressing down.
+
+Step 7: Reconnect the battery connector by gently pushing it in until you barely see the white.
+
+Step 8: Re-screw back on the cover. The cover will snap back on as you screw on more screws.

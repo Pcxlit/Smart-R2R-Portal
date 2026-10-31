@@ -1,0 +1,57 @@
+Microsoft Surface Laptop 4 (15-inch) Screen Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+4+(15-inch)+Screen+Replacement/156825
+
+Device category: Microsoft Surface Laptop 4 (15-inch)
+
+Difficulty: Moderate
+
+Tools needed: Tweezers, Tesa 61395 Double-Sided Tape, Spudger, T5 Torx Screwdriver, T6 Torx Screwdriver
+
+
+
+Step 1: Allow your laptop's battery to drain below 25% before starting this repair. A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close the screen and lay your laptop down with the rear case facing up to access the four rubber feet.
+
+Step 3: Each foot has a recess to help pry it from the laptop: The back feet recesses are closest to the back edge of the laptop. The front feet recesses are closest to the front edge of the laptop.
+
+Step 4: Insert one arm of your [product|IF145-020|tweezers] into the recess of one of the feet. Twist your tweezers and pry up to separate the adhesive and unclip the foot from the laptop. The feet eject very quickly—be careful not to lose them. Remove the foot. Repeat this process on the remaining feet.
+
+Step 5: This laptop has two different types of feet. During reassembly, make sure the feet go in their correct recesses. The [link|https://guide-images.cdn.ifixit.com/igi/nRXquFykTJSTSOKs.full|new_window=true|rear feet] have a single center clip. The [link|https://guide-images.cdn.ifixit.com/igi/LLKrVTNdRdy2pLKd.full|new_window=true|front feet] have three clips and can only be reinserted one way. Press the feet into their recesses to secure them to the frame. If the existing feet no longer adhere to the frame, remove the old adhesive and apply a small amount of [link|https://www.ifixit.com/products/tesa-61395-tape|new_window=true|Tesa Tape] where the old adhesive was.
+
+Step 6: If the feet are damaged or worn out, use [link|https://www.amazon.com/Silicone-Dampening-Adhesive-Furniture-Hemispherical/dp/B08JH3RZPN/ref=sr_1_4?crid=20JARCXB10662&keywords=8mm%2Brubber%2Bfeet&qid=1673902628&s=hi&sprefix=8mm%2Brubber%2Bfeet%2B%2Ctools%2C121&sr=1-4&th=1|new_window=true|8 mm rubber furniture pads]: Peel a pad away from its backing. Align the pad over a foot cavity and press down to secure it.
+
+Step 7: These screws strip easily. Apply constant, downward force to prevent stripping. Use a T5 Torx driver to remove the four 3 mm screws securing the upper case. Throughout this repair, [https://www.ifixit.com/products/fixmat|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from.
+
+Step 8: Flip your laptop over and fully open the screen.
+
+Step 9: The upper case is secured by magnets. Grip the top edge of the upper case above the keyboard and lift straight up to release it. Don't try to completely remove the upper case, as it's still connected to the laptop by a cable. Lift the bottom edge of the upper case up and away from the laptop, taking care to not strain the ribbon cable underneath. During reassembly, lower the upper case onto the lower case until the magnets snap into place and it lays flat. Check that the upper case sits flush around the entire perimeter. Any gaps between the upper and lower case near the screen could damage the screen as it closes.
+
+Step 10: The keyboard and touchpad cable connects the upper case to the laptop. Insert the pointed end of a spudger under one edge of the magnet connector and pry up to disconnect it. To reconnect the cable, align the magnet connector over its socket with the cable facing the bottom of the laptop. Press down on the connector to secure it.
+
+Step 11: Remove the upper case and set it keyboard-side down on a clean surface.
+
+Step 12: Use a T5 Torx driver to remove the 2.7 mm screw securing the SSD. With the screw removed, the SSD pops up at a shallow angle.
+
+Step 13: Removing the SSD also [guide|127277|functions as a battery disconnect|stepid=247760|new_window=true]. Pull the SSD out of its socket and remove it. Don't pull up at a sharp angle, as this could damage the SSD and its socket. During reassembly, insert the SSD at a slight angle.
+
+Step 14: Insert one arm of your [product|IF145-020|tweezers] under the corner of the [link|https://guide-images.cdn.ifixit.com/igi/QYdYpJDDCtUZEXPy.full|right display cable shield|new_window=true]. Gently pry up to release the clips securing the shield. Try not to deform the shield too much. You'll need to reinstall it during reassembly. Repeat this process around the left, right, and bottom edges of the shield until you can remove it.
+
+Step 15: Pull the right display cable shield towards the bottom of the laptop to free it from its recess. Remove the shield.
+
+Step 16: Repeat the previous two steps to remove the [link|https://guide-images.cdn.ifixit.com/igi/Qdsk54R4WXvJXLud.full|new_window=true|left display cable shield].
+
+Step 17: During reassembly, use the flat end of a spudger to gently push the display cables back into their cavity in the lower case after reconnecting the press connectors.
+
+Step 18: Use the flat end of a spudger to pry up and disconnect all four display cable press connectors. To re-attach [https://www.ifixit.com/Guide/Recognizing+&+Disconnecting+Cable+Connectors/25629#s70308|press connectors|new_window=true] like this one, carefully align and press down on one side until it clicks into place, then repeat on the other side. Do not press down on the middle. If the connector is misaligned, the pins can bend and cause permanent damage.
+
+Step 19: Fully open the screen.
+
+Step 20: When removing the hinge screws, make sure to hold the screen steady as it will become loose as the screws are removed. While holding the screen steady, use a T6 Torx driver to remove the four outermost 5.9 mm screws securing the screen (two on each side). Both hinges should have one remaining screw (two total). Leave these screws in place.
+
+Step 21: Close the screen until it's almost vertical. During reassembly, with the first two hinge screws tightened in place, the screen is free to tilt open for installation of the remaining four hinge screws.
+
+Step 22: While holding the screen steady, use a T6 Torx driver to remove the two remaining 5.9 mm screws securing the screen (one on each side). If the screen is exactly perpendicular to the lower case, the screwdriver handle may hit the screen during removal. If you're having trouble, tilt the screen back enough to clear the driver.
+
+Step 23: Lift the screen straight up and remove it. During reassembly, ensure the replacement screen hinges are at a 90 degree angle with the screen.

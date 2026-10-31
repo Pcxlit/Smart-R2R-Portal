@@ -1,0 +1,27 @@
+Lenovo IdeaPad Y40-70 Laptop Fan Replacement
+
+Source URL: https://www.ifixit.com/Guide/Lenovo+IdeaPad+Y40-70+Laptop+Fan+Replacement/40179
+
+Device category: Lenovo Y40
+
+Difficulty: Moderate
+
+Tools needed: Compressed Air, Small Flat (Slotted) Head Screwdriver, Small M2 Phillips Screwdriver, Small M2.5 Phillips Screwdriver
+
+
+
+Step 1: Turn off the computer and close the lid. Remove the three M2.0 x 11mm screws circled in red. Put the screws in a container so they don't get lost. Remove the eight M2.0 x 5mm screws circled in orange. Put the screws in a separate container.
+
+Step 2: Carefully remove the back cover by pulling up on the edges from all sides. Do not pull too hard on one side of the cover as it may damage the computer. Place the cover to the side.
+
+Step 3: Use a small M2.5 Phillips screwdriver to remove the two M2.5 x 4.45 mm screws surrounding the fan. Place these screws to the side, separate from the screws from step one. This screw has a warranty seal covering it. You may void the warranty by disassembling the system further. If you are concerned about the warranty, use compressed air to clean the fan at this step. Afterward, make sure to reassemble the laptop by going through the guide in reverse.
+
+Step 4: Remove the wires from the side of the fan. Carefully unhook each grouping from the small black tabs on the fan.
+
+Step 5: Carefully pull out the small white plug connecting the fan to the motherboard.
+
+Step 6: Use a small flathead screwdriver to pull upwards on the tab connecting the white ribbon wire to the board. Unhook the white wire from the black latch.
+
+Step 7: Carefully lift the fan out of the computer and place it on a clean surface. As you lift up the left side, you will have to apply some force to overcome the adhesive on the bottom.
+
+Step 8: Use compressed air or a vacuum with a tube to clean out the dust from the fan. If you wish to replace the fan, set the old fan to the side, and complete the reassembly using your replacement.

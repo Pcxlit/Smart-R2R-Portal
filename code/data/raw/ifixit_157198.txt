@@ -1,0 +1,95 @@
+Microsoft Surface Laptop 4 (13.5-inch) Motherboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+4+(13.5-inch)+Motherboard+Replacement/157198
+
+Device category: Microsoft Surface Laptop 4 (13.5-inch)
+
+Difficulty: Moderate
+
+Tools needed: Tweezers, Tesa 61395 Double-Sided Tape, T5 Torx Screwdriver, Spudger, T3 Torx Screwdriver, Isopropyl Alcohol (90% or Greater), Coffee Filters or a lint-free cloth, Thermal Paste
+
+
+
+Step 1: Allow your laptop's battery to drain below 25% before starting this repair. A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close the screen and lay your laptop down with the rear case facing up to access the four rubber feet.
+
+Step 3: Each foot has a recess to help pry it from the laptop: The back feet recesses are closest to the back edge of the laptop. The front feet recesses are closest to the front edge of the laptop.
+
+Step 4: Insert one arm of your [product|IF145-020|tweezers] into the recess of one of the feet. Twist your tweezers and pry up to separate the adhesive and unclip the foot from the laptop. The feet eject very quickly—be careful not to lose them. Remove the foot. Repeat this process on the remaining feet.
+
+Step 5: This laptop has two different types of feet. During reassembly, make sure the feet go in their correct recesses. The [link|https://guide-images.cdn.ifixit.com/igi/nRXquFykTJSTSOKs.full|new_window=true|rear feet] have a single center clip. The [link|https://guide-images.cdn.ifixit.com/igi/LLKrVTNdRdy2pLKd.full|new_window=true|front feet] have three clips and can only be reinserted one way. Press the feet into their recesses to secure them to the frame. If the existing feet no longer adhere to the frame, remove the old adhesive and apply a small amount of [link|https://www.ifixit.com/products/tesa-61395-tape|new_window=true|Tesa Tape] where the old adhesive was.
+
+Step 6: If the feet are damaged or worn out, use [link|https://www.amazon.com/Silicone-Dampening-Adhesive-Furniture-Hemispherical/dp/B08JH3RZPN/ref=sr_1_4?crid=20JARCXB10662&keywords=8mm%2Brubber%2Bfeet&qid=1673902628&s=hi&sprefix=8mm%2Brubber%2Bfeet%2B%2Ctools%2C121&sr=1-4&th=1|new_window=true|8 mm rubber furniture pads]: Peel a pad away from its backing. Align the pad over a foot cavity and press down to secure it.
+
+Step 7: These screws strip easily. Apply constant, downward force to prevent stripping. Use a T5 Torx driver to remove the four 3 mm screws securing the upper case. Throughout this repair, [https://www.ifixit.com/products/fixmat|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from.
+
+Step 8: Flip your laptop over and fully open the screen.
+
+Step 9: The upper case is secured by magnets. Grip the top edge of the upper case above the keyboard and lift straight up to release it. Don't try to completely remove the upper case, as it's still connected to the laptop by a cable. Lift the bottom edge of the upper case up and away from the laptop, taking care to not strain the ribbon cable underneath. During reassembly, lower the upper case onto the lower case until the magnets snap into place and it lays flat. Check that the upper case sits flush around the entire perimeter. Any gaps between the upper and lower case near the screen could damage the screen as it closes.
+
+Step 10: The keyboard and touchpad cable connects the upper case to the laptop. Insert the pointed end of a spudger under one edge of the magnet connector and pry up to disconnect it. To reconnect the cable, align the magnet connector over its socket with the cable facing the bottom of the laptop. Press down on the connector to secure it.
+
+Step 11: Remove the upper case and set it keyboard-side down on a clean surface.
+
+Step 12: Use a T5 Torx driver to remove the 2.7 mm screw securing the SSD. With the screw removed, the SSD pops up at a shallow angle.
+
+Step 13: Removing the SSD also [guide|127277|functions as a battery disconnect|stepid=247760|new_window=true]. Pull the SSD out of its socket and remove it. Don't pull up at a sharp angle, as this could damage the SSD and its socket. During reassembly, insert the SSD at a slight angle.
+
+Step 14: Try not to deform the shield too much. You'll need to reinstall it during reassembly. Insert the pointed end of a spudger in one of the gaps on the top edge of the [link|https://guide-images.cdn.ifixit.com/igi/GUgG2q4vHaAvHTsf.full|heatsink shield|new_window=true]. Gently pry up to release the clips securing the shield. Repeat this process along the right edge. Insert one arm of your [product|IF145-020|tweezers] under the bottom right edge of the heatsink shield. Gently pry up to release the remaining clips.
+
+Step 15: Remove the heatsink shield. To reinstall a shield, press down around its perimeter to engage the shield clips.
+
+Step 16: Use the pointed end of a spudger to flip up the locking flap on the fan cable [link|https://www.ifixit.com/Guide/Recognizing+&+Disconnecting+Cable+Connectors/25629#s64969|new_window=true|ZIF connector]. Grip the fan cable pull-tab with tweezers and pull the cable straight out of the connector.
+
+Step 17: Use a T3 Torx driver to remove the nine screws securing the heatsink: Two 2.5 mm screws Two 2 mm screws One 3 mm screw Two 4.1 mm screws Two 3.4 mm screws
+
+Step 18: During reassembly: Align the heatsink with the centering peg on the motherboard. Tighten the four CPU tension screws in an "***X***" pattern: top left, bottom right, top right, bottom left.
+
+Step 19: Thermal paste bonds the heatsink to the CPU. Insert your spudger under the left heat pipe. Pry up to release the left section of the heatsink. This may take some force. Be careful not to bend the heat pipes. Repeat this procedure for the right heat pipe and the CPU screw mounts until the heatsink is completely separated from the motherboard.
+
+Step 20: Lift the heatsink and fan over the [link|https://guide-images.cdn.ifixit.com/igi/JnXAgSEI6C1ZlLdg.full?pk_vid=2cae306b1ed1f0ae1679334006a14944|new_window=true|alignment peg] in the upper right corner. Slide the heatsink and fan toward the front edge of the laptop and remove it.
+
+Step 21: Before reinstalling the heatsink, follow [link|https://www.ifixit.com/Guide/How+to+Apply+Thermal+Paste/744|this guide|new_window=true] to clean the heatsink and CPU and reapply thermal paste.
+
+Step 22: Insert one arm of your [product|IF145-020|tweezers] under the corner of the [link|https://guide-images.cdn.ifixit.com/igi/Qdsk54R4WXvJXLud.full|left display cable shield|new_window=true]. Gently pry up to release the clips securing the shield. Try not to deform the shield too much. You'll need to reinstall it during reassembly. Repeat this process around the perimeter of the shield until you can remove it.
+
+Step 23: Pull the left display cable shield way from the screen to free it from its recess. Remove the shield.
+
+Step 24: Repeat the previous two steps to remove the [link|https://guide-images.cdn.ifixit.com/igi/QYdYpJDDCtUZEXPy.full|new_window=true|right display cable shield].
+
+Step 25: Some motherboard screws are located under [link|https://guide-images.cdn.ifixit.com/igi/uDrrJGGUSllrMeAq.full|new_window=true|two of the metal shields], both of which need to be removed. Insert one arm of your tweezers under the corner of the left touchpad shield. Gently pry up to release the clips securing the shield. Try not to deform the shield too much. You'll need to reinstall it during reassembly. Repeat this process around the perimeter of the shield until you can remove it.
+
+Step 26: Remove the left motherboard shield.
+
+Step 27: There may be thermal paste between the motherboard and its left shield. Before reinstalling the left motherboard shield, follow [link|https://www.ifixit.com/Guide/How+to+Apply+Thermal+Paste/744|this guide|new_window=true] to clean and reapply thermal paste.
+
+Step 28: Insert one arm of your tweezers under the corner of the right motherboard shield and pry around its perimeter up to release the clips. Remove the right motherboard shield.
+
+Step 29: During reassembly, use the flat end of a spudger to gently push the display cables back into their cavity in the lower case after reconnecting the press connectors.
+
+Step 30: Use the flat end of a spudger to pry up and disconnect all four display cable press connectors. To re-attach [https://www.ifixit.com/Guide/Recognizing+&+Disconnecting+Cable+Connectors/25629#s70308|press connectors|new_window=true], carefully align and press down on one side until it clicks into place, then repeat on the other side. Don't press down in the middle. If the connector is misaligned, the pins can bend and cause permanent damage.
+
+Step 31: Use the pointed end of a spudger to lift and disconnect the right speaker wire from its connector on the motherboard.
+
+Step 32: Use the flat end of a spudger to flip open the locking arm on the Surface Connect port connector. Grip the Surface Connect port cable and pull it straight out of its socket.
+
+Step 33: Use the pointed end of a spudger to lift and disconnect the left speaker wire from its connector near the left ports.
+
+Step 34: Slide one arm of your tweezers under the ***black*** [guide|25629|antenna connector|stepid=64972|new_window=true], as close to the head as possible. Lift straight up to disconnect the cable. To reattach antenna connectors, align the head of the connector over its socket and press down with the flat end of a spudger. The connector will snap into place.
+
+Step 35: Use a T3 Torx driver to remove the two 3 mm screws securing the motherboard bracket.
+
+Step 36: Remove the motherboard bracket.
+
+Step 37: Use a T3 Torx driver to remove the three 2.1 mm screws securing the left port cover.
+
+Step 38: Remove the left port cover.
+
+Step 39: Use a T3 Torx driver to remove the six 2 mm screws securing the motherboard. If any of your screws have rubber covers, peel and remove them.
+
+Step 40: The left edge of the motherboard is held tight by the port cutouts, the speaker, and the frame. Lift the right edge of the motherboard slightly over the battery. Hold the motherboard in place while you follow the step to free the left edge.
+
+Step 41: A [link|https://guide-images.cdn.ifixit.com/igi/h6rHVYReNRYb3mZM.huge|new_window=true|tab on the upper left of the motherboard] presses against protrusions in the frame, preventing the left edge from coming free. Insert the tip of a spudger against the tab in the upper left corner of the motherboard. Wedge the spudger between the frame and the screen hinge. Pry up on the tab with your spudger while you lift the right edge of the motherboard toward the front of the laptop. If the motherboard can't lift over the left speaker, the tab may still be stuck. Change the angle of your spudger and try again.
+
+Step 42: Remove the motherboard. Ensure the two screwpost braces underneath the motherboard don't get lost during removal. During reassembly: Make sure none of the eight cables get trapped underneath. Position the left ports in their recess before sliding the motherboard into place.

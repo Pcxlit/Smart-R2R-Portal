@@ -1,0 +1,29 @@
+VIT P2402 Laptop Disassembly
+
+Source URL: https://www.ifixit.com/Guide/VIT+P2402+Laptop+Disassembly/123637
+
+Device category: PC laptop VIT P2402
+
+Difficulty: Moderate
+
+Tools needed: Phillips #00 Screwdriver
+
+
+
+Step 1: Place the laptop upside down, with the battery up. Slide the security latch to the left. Slide the security latch to the right with force The second security latch ejects the battery from its place. Remove it.
+
+Step 2: Remove the six Phillips 00 screws that hold the service panel. Remove the panel and clean it with a brush.  Take special care in the slits and fan area. Use a blower to remove dust from the fan. You must avoid turning this with pliers. The flow should be opposite to normal the normal circulation when the laptop is turned on. Use a small brush to loosen the dust.
+
+Step 3: Pull both retention hooks until the memory tilts. Remove the memory Pull the hard drive case so that you can move it to the left Here we can see the SATA data and power connector.
+
+Step 4: Remove the 8 Phillips 00 screws from the  inside chasis
+
+Step 5: Flip the laptop right-side up and use the tabs to remove the upper part of the the  keyboard Pull it slightly above the keyboard, enough to free the pegs from the inner part. Tilt the keyboard from the inner part first. Free the ribbon cable from its two retainers.
+
+Step 6: Remove the ribbon cable that connects the motherboard to the touchpad Lift the plastic retainer gently Remove the ribbon cable from the upper part the same way. This connects to the power button.
+
+Step 7: Remove the two Phillips 00 screws Remove the internal DVD unit Remove the upper part of the chasis. Remove the powder from the other side.
+
+Step 8: Proceed to clean the dust. You can remove the watch battery if necessary: model CR2032. Use a brush to clean the fan blades if possible.
+
+Step 9: Here we see the epoxy used to fix the charging pin, it can be used to prevent any contact. Use an exacto knife to remove the excess epoxy.

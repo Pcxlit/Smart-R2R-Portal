@@ -1,0 +1,23 @@
+Asus ROG Laptop Zephyrus G15 Secondary NVME SSD Replacement
+
+Source URL: https://www.ifixit.com/Guide/Asus+ROG+Laptop+Zephyrus+G15+Secondary+NVME+SSD+Replacement/143646
+
+Device category: Zephyrus G15 (2021) GA503
+
+Difficulty: Easy
+
+Tools needed: iFixit Essential Electronics Toolkit
+
+
+
+Step 1: Have everything you will need on-hand at your workspace. This includes: Your laptop, powered off and with its backplate facing up. Your tools: A Philips #0 screwdriver Opening pick Your choice between the spudger and the iFixit opening tool The new SSD you wish to upgrade to. A safe place to keep your screws organized.
+
+Step 2: If present, use the spudger to remove the rubber screw caps over the 3 screws in the center of the backplate. Start by removing the center 3 screws, which are shorter than the top 6 of the outer 10 screws. Then, remove the outer screws, with exception of the bottom corner screws. Note: The bottom 4 screws are the same length as the center 3 Finally, remove the two bottom corner screws. The one on the bottom right should lift the cover, making it easier to insert the opening pick in the next step. However, you cannot remove the bottom right screw. Yes, the bottom right screw is meant to catch the bottom panel to help lift the panel out. Do NOT drill the hole just to remove that screw.
+
+Step 3: As mentioned in the previous step, the captive bottom right screw lifts up the cover. Use this as a starting point for your opening pick. Move your pick clockwise in the seam between the cover and the laptop, gently lifting the plastic clips that are holding them together. Once you reach the hinge, go back to the starting point and use the pick to release the clips holding the cover on the right side. Be careful to work around the ethernet port and the audio jack. Once those clips have been release, gently lift the cover with your hands, releasing the clips along the hinge. In the event that the right corner screw has been removed from the lid, despite the warning on Step 2, the iFixIt suction handle can be used to gently remove the lid.
+
+Step 4: You'll want to disconnect the battery to avoid any possible issues. Gently push the metal clip holding the battery connector in place back using your spudger or your fingers. Gently lift the white battery connector up from its housing.
+
+Step 5: You should see an empty M.2 slot with a screw for your new drive. Carefully remove the screw. Note: This screw in particular is easy to strip as the manufacturer put it in tight, and it's hard to get leverage on it without the motherboard flexing.
+
+Step 6: Insert your new M.2 drive at a 35-45 degree angle. Press down on the end of the drive to bring it against the motherboard and secure with the screw from the previous step.

@@ -1,0 +1,59 @@
+Microsoft Surface Laptop 4 (15-inch) Heatsink and Fan Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+4+(15-inch)+Heatsink+and+Fan+Replacement/156820
+
+Device category: Microsoft Surface Laptop 4 (15-inch)
+
+Difficulty: Moderate
+
+Tools needed: Tesa 61395 Double-Sided Tape, Tweezers, Spudger, T5 Torx Screwdriver, T3 Torx Screwdriver, Coffee Filters or a lint-free cloth, Thermal Paste, Isopropyl Alcohol (90% or Greater)
+
+
+
+Step 1: Allow your laptop's battery to drain below 25% before starting this repair. A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close the screen and lay your laptop down with the rear case facing up to access the four rubber feet.
+
+Step 3: Each foot has a recess to help pry it from the laptop: The back feet recesses are closest to the back edge of the laptop. The front feet recesses are closest to the front edge of the laptop.
+
+Step 4: Insert one arm of your [product|IF145-020|tweezers] into the recess of one of the feet. Twist your tweezers and pry up to separate the adhesive and unclip the foot from the laptop. The feet eject very quickly—be careful not to lose them. Remove the foot. Repeat this process on the remaining feet.
+
+Step 5: This laptop has two different types of feet. During reassembly, make sure the feet go in their correct recesses. The [link|https://guide-images.cdn.ifixit.com/igi/nRXquFykTJSTSOKs.full|new_window=true|rear feet] have a single center clip. The [link|https://guide-images.cdn.ifixit.com/igi/LLKrVTNdRdy2pLKd.full|new_window=true|front feet] have three clips and can only be reinserted one way. Press the feet into their recesses to secure them to the frame. If the existing feet no longer adhere to the frame, remove the old adhesive and apply a small amount of [link|https://www.ifixit.com/products/tesa-61395-tape|new_window=true|Tesa Tape] where the old adhesive was.
+
+Step 6: If the feet are damaged or worn out, use [link|https://www.amazon.com/Silicone-Dampening-Adhesive-Furniture-Hemispherical/dp/B08JH3RZPN/ref=sr_1_4?crid=20JARCXB10662&keywords=8mm%2Brubber%2Bfeet&qid=1673902628&s=hi&sprefix=8mm%2Brubber%2Bfeet%2B%2Ctools%2C121&sr=1-4&th=1|new_window=true|8 mm rubber furniture pads]: Peel a pad away from its backing. Align the pad over a foot cavity and press down to secure it.
+
+Step 7: These screws strip easily. Apply constant, downward force to prevent stripping. Use a T5 Torx driver to remove the four 3 mm screws securing the upper case. Throughout this repair, [https://www.ifixit.com/products/fixmat|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from.
+
+Step 8: Flip your laptop over and fully open the screen.
+
+Step 9: The upper case is secured by magnets. Grip the top edge of the upper case above the keyboard and lift straight up to release it. Don't try to completely remove the upper case, as it's still connected to the laptop by a cable. Lift the bottom edge of the upper case up and away from the laptop, taking care to not strain the ribbon cable underneath. During reassembly, lower the upper case onto the lower case until the magnets snap into place and it lays flat. Check that the upper case sits flush around the entire perimeter. Any gaps between the upper and lower case near the screen could damage the screen as it closes.
+
+Step 10: The keyboard and touchpad cable connects the upper case to the laptop. Insert the pointed end of a spudger under one edge of the magnet connector and pry up to disconnect it. To reconnect the cable, align the magnet connector over its socket with the cable facing the bottom of the laptop. Press down on the connector to secure it.
+
+Step 11: Remove the upper case and set it keyboard-side down on a clean surface.
+
+Step 12: Use a T5 Torx driver to remove the 2.7 mm screw securing the SSD. With the screw removed, the SSD pops up at a shallow angle.
+
+Step 13: Removing the SSD also [guide|127277|functions as a battery disconnect|stepid=247760|new_window=true]. Pull the SSD out of its socket and remove it. Don't pull up at a sharp angle, as this could damage the SSD and its socket. During reassembly, insert the SSD at a slight angle.
+
+Step 14: Remove the two pieces of black tape covering the bottom left and bottom right corners of the motherboard. Set the tape aside. You'll use it during reassembly.
+
+Step 15: Try not to deform the shield too much. You'll need to reinstall it during reassembly. Insert the pointed end of a spudger in one of the gaps on the top edge of the [link|https://guide-images.cdn.ifixit.com/igi/GUgG2q4vHaAvHTsf.full|heatsink shield|new_window=true]. Gently pry up to release the clips securing the shield. Repeat this process along the right edge. Insert one arm of your [product|IF145-020|tweezers] under the bottom right edge of the heatsink shield. Gently pry up to release the remaining clips.
+
+Step 16: Remove the heatsink shield. To reinstall a shield, press down around its perimeter to engage the shield clips.
+
+Step 17: Use the pointed end of a spudger to flip up the locking flap on the [link|https://guide-images.cdn.ifixit.com/igi/Wah2Bw6GW3svSUAl.full|new_window=true|fan cable ZIF connector]. Grip the fan cable pull-tab with tweezers and pull the cable straight out of the connector.
+
+Step 18: Adhesive secures the fan cable to the frame. Use tweezers or your fingers to peel the fan cable from the frame and separate its adhesive.
+
+Step 19: Use a T3 Torx driver to remove the ten screws securing the heatsink: Two 2.5 mm screws Three 2.0 mm screws One 3.0 mm screw Two 4.1 mm screws Two 3.4 mm screws
+
+Step 20: During reassembly: Align the heatsink with the centering peg on the motherboard. Tighten the four CPU tension screws in an “***X***” pattern. For example: top left, bottom right, top right, bottom left.
+
+Step 21: Thermal paste bonds the heatsink to the CPU. Insert your spudger under the left heat pipe. Pry up to release the left section of the heatsink. This may take some force. Be careful not to bend the heat pipes. Repeat this procedure for the right heat pipe and the CPU screw mounts until the heatsink is completely separated from the motherboard.
+
+Step 22: Use your finger to lift the right edge of the heatsink up and over the [link|https://guide-images.cdn.ifixit.com/igi/JnXAgSEI6C1ZlLdg.full|new_window=true|alignment peg] near the right side of the fan. Lightly pull the right edge of the heatsink away from the screen to release it from its recess in the frame.
+
+Step 23: Remove the heatsink. Don't pull on the heatsink too hard, as the heat pipes bend easily. If you're having trouble, gently wiggle the heatsink.
+
+Step 24: Before reinstalling the heatsink, follow [link|https://www.ifixit.com/Guide/How+to+Apply+Thermal+Paste/744|this guide|new_window=true] to clean the heatsink and CPU and reapply thermal paste.

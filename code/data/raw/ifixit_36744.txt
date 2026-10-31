@@ -1,0 +1,43 @@
+Disassembling Laptop Toshiba Satellite P855 P850 plus Hinge FIX,
+
+Source URL: https://www.ifixit.com/Guide/Disassembling+Laptop+Toshiba+Satellite+P855+P850+plus+Hinge+FIX/36744
+
+Device category: Toshiba Satellite P850 Series
+
+Difficulty: Easy
+
+Tools needed: Phillips #0 Screwdriver, Cutter
+
+
+
+Step 1: To open the laptop, first you have to unscrew the back-screws. 1. remove the plastic/rubber caps 2. unscrew the 12 screws. ATTN: Do not forget! unplug the laptop from power source & remove the batery unscrew the 3 tiny screws behind the battery keep the lid closed till later on
+
+Step 2: Here you have some details regarding the back of the laptop. After you got read of the back cover you can access the following: 1. WIFI card - Easy to change / replace  There are two cables attached to it. Remove them, then unscrew the screw that holds the card in place and lift gently up - DONE. 2. HDD / SSD. All you have to do is grab and pull the ribbon (as in photo). There are a few extra steps to change it.
+
+Step 3: Now to remove or change the keyboard 1. Insert gently the cutte (or other sharp tool) and press towards the screen & flip up slowly. To remove it completely unplug the two connectors. After removing the keyboard you find: 1.ECO Button 2. Sound 3. Power button 4. Mouse pad
+
+Step 4: remove all the screws as shown in the images.
+
+Step 5: Opening the case is easy, follow the steps as shown. To change / remove the speakers remove the screws. To change  / remove the Eco/3D button or power button, yo have to remove first the speakers.
+
+Step 6: Still more steps to come :), probably till 12... so min 6 more. I will show you how to repair a broken hinge (plastic broken) - easy.
+
+Step 7: Remove the fan cable If you want to change the CPU fan, there are 2 screws that you have to remove (picture)
+
+Step 8: Broken hinge, detailed photo
+
+Step 9: Repairing the broken hinge [detailed photo]
+
+Step 10: do not forget about the grey cable attached on the bottom side. When reattaching the cable, put some thermal paste on the contact (gray cable)
+
+Step 11: insert the plastic dowel pin from bottom-up and level it inside at the same height with other screw holes
+
+Step 12: follow the pics
+
+Step 13: add some thermalpaste to the gray cable
+
+Step 14: Cut the excess plastic from the dowel pin Put some super-glue to fix it in place
+
+Step 15: I have glued some foam near the speakers in order to protect the aerea
+
+Step 16: Glue inside the  plastic dowel pin Use thermal paste to fix the gray cable (i have used silver paste)

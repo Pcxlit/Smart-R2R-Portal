@@ -1,0 +1,23 @@
+VTech Baby's Learning Laptop Speaker Replacement
+
+Source URL: https://www.ifixit.com/Guide/VTech+Baby's+Learning+Laptop+Speaker+Replacement/50891
+
+Device category: VTech Baby's Learning Laptop
+
+Difficulty: Moderate
+
+Tools needed: Phillips #0 Screwdriver, Phillips #2 Screwdriver
+
+
+
+Step 1: To remove the battery door, loosen the screw shown using a Phillips #2 screwdriver. A coin can also be used to loosen the screw.
+
+Step 2: Remove the battery door. Take out the batteries.
+
+Step 3: Remove the rear panel screws using a Phillips #2 screwdriver. Two 21.6mm (Long) One 9.8mm (Short) Five 13.8mm (Medium)
+
+Step 4: Gently pull up on the rear panel. Be careful not to pull on the wire connections. Rest the laptop open on the table.
+
+Step 5: Use a Phillips #0 screwdriver to unscrew the two 6.0 mm screws on the speaker.
+
+Step 6: Remove the two 6 mm screws from the device. Remove the speaker. Be careful not to damage the wiring.

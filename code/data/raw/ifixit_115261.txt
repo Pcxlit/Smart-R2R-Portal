@@ -1,0 +1,37 @@
+ASUS X42J Laptop Fan Replacement
+
+Source URL: https://www.ifixit.com/Guide/ASUS+X42J+Laptop+Fan+Replacement/115261
+
+Device category: ASUS X42J
+
+Difficulty: Moderate
+
+Tools needed: Phillips #0 Screwdriver, Metal Spudger, Nylon Tipped Tweezers
+
+
+
+Step 1: Make sure your device is unplugged and turned off before proceeding. Using a [https://www.ifixit.com/Store/Tools/Metal-Spudger/IF145-012-5|Spudger], gently pry up the keyboard.
+
+Step 2: Rotate the keyboard to face downward. Pull out the blue wiring connection. Use [https://www.ifixit.com/Store/Tools/Nylon-Tipped-Tweezers/IF145-272-1|tweezers] to make it easier to remove.
+
+Step 3: Use the Phillips #0 screwdriver to remove the two screws on the back of the laptop.
+
+Step 4: Slide the disk drive out of the device.
+
+Step 5: Remove all screws located on the bottom plate of the laptop, beginning with the three located underneath the disc drive.
+
+Step 6: Rotate the laptop until it is sitting face up and extract all screws exposed by removing the keyboard.
+
+Step 7: Pull up on the front panel using the [https://www.ifixit.com/Store/Tools/Metal-Spudger/IF145-012-5?gclid=EAIaIQobChMI3bLuuovh3gIVybfACh0FiAiUEAQYAiABEgK3PfD_BwE|spudger] until the front panel separates from the bottom panel.
+
+Step 8: Unscrew and remove the marked screws.
+
+Step 9: Separate the connectors.
+
+Step 10: Remove the motherboard from the device.
+
+Step 11: Unscrew the six screws using the Phillips #0 Screwdriver.
+
+Step 12: Unplug the fan's wires from the motherboard.
+
+Step 13: Remove the fan from the motherboard.

@@ -1,0 +1,25 @@
+Surface Laptop Studio Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Surface+Laptop+Studio+Battery+Replacement/159084
+
+Device category: Surface Laptop Studio
+
+Difficulty: Moderate
+
+Tools needed: Tweezers, T3 Torx Screwdriver, iFixit Opening Tool, Hair Dryer
+
+
+
+Step 1: Remove the rubber cosmetic strip along the outside edge of the back plate with [product|IF145-020|tweezers].
+
+Step 2: Use a hair dryer to lightly heat the rubber feet to soften the adhesive securing them to the case. Remove the two rubber feet on the lower case with an opening tool. If you intend to reuse the rubber feet, take care not to warp, stretch, or tear them during removal.
+
+Step 3: Remove the two screws with a T3 Torx screwdriver.
+
+Step 4: Remove the seven screws securing the lower case with a T3 Torx screwdriver.
+
+Step 5: Lift the lower case gently and set it above the device. Take care not to strain the battery cable as you move the lower case.
+
+Step 6: Disconnect the battery cable by lifting the pull tab until it "clicks."
+
+Step 7: Pull the pull tabs to release the adhesive securing the battery. Remove the battery. You will need to reattach the new battery with adhesive.

@@ -1,0 +1,35 @@
+Asus U56E Laptop Screen Replacement
+
+Source URL: https://www.ifixit.com/Guide/Asus+U56E+Laptop+Screen+Replacement/50386
+
+Device category: Asus U56E
+
+Difficulty: Moderate
+
+Tools needed: Phillips #00 Screwdriver, iFixit Opening Tool, Phillips #000 Screwdriver
+
+
+
+Step 1: Position the laptop on a flat, stable surface, with the underside facing upward.
+
+Step 2: Make sure the laptop is unplugged before removing the battery to avoid risk of electric shock. Slide the two battery lock switches toward each other. Lift the battery to remove it from the laptop.
+
+Step 3: Remove the 3 Phillips #00 screws holding on the back cover of the laptop. Lift the cover, exposing the laptop hard drive and RAM.
+
+Step 4: Remove the eight small screws holding the hard drive in. The hard drive cover can now be removed by lifting the tab on the left.
+
+Step 5: Gently slide the hard drive left toward the edge of the laptop, then lift up to remove it.
+
+Step 6: Remove the 4 Phillips #00 screws around the RAM.
+
+Step 7: Remove the 10 Phillips #00 screws from the bottom of the laptop. Remove 10 Phillips #000 screws from under the battery.
+
+Step 8: Slide the optical drive out of the laptop. Gently lift the rear plastic hinge cover to separate it from the laptop.
+
+Step 9: Remove the 3 Phillips #000 screws from each side of the hinge (six screws in total). Gently lift the thin plastic cover from each side, exposing the laptop hinge. Be aware of the thin cables still connected to the screen.
+
+Step 10: Gently lift around the perimeter of keyboard to separate it from the laptop body. It may help to use a [https://www.ifixit.com/Tools/Plastic-Opening-Tools/IF145-000-1|Plastic Opening Tool.] Be careful not to pull too hard on the keyboard - It's connected to the motherboard with a thin ribbon cable!
+
+Step 11: Pull the display connector straight up to remove it from the motherboard. Carefully detach the white and black WiFi antennas from the wireless adapter.
+
+Step 12: The screen can now be safely removed from the laptop.

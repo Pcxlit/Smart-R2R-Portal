@@ -1,0 +1,37 @@
+Cooler Master Laptop Fan Replacement
+
+Source URL: https://www.ifixit.com/Guide/Cooler+Master+Laptop+Fan+Replacement/116510
+
+Device category: Cooler Master Laptop Fan
+
+Difficulty: Easy
+
+Tools needed: Phillips #00 Screwdriver, Needle Nose Pliers, thermal compound
+
+
+
+Step 1: Set your laptop cooler on the table and make sure it is not plugged into a laptop or powered on. Never try to open the cooler while plugged in.
+
+Step 2: Flip the Device over and find ten folded metal slots holding the metal cover onto the base.
+
+Step 3: Bend each metal flap straight up with the pliers to allow the metal cover to slide off.
+
+Step 4: Remove the cover and expose the inside of the Cooler.
+
+Step 5: Unplug the power cable to the fan. Make sure not to apply too much force and disconnect the wires to the device.
+
+Step 6: On the bottom of the base locate the screw holes under the sticker on the base. Unscrew the three fan screws.
+
+Step 7: Once all the pieces are taken apart, set aside the old fan and prep the new one for installation.
+
+Step 8: Apply a small amount of thermal compound to the base where the fan sets. Make sure to apply thermal compound to keep the fan from overheating and damaging the base.
+
+Step 9: Connect power cable for the fan and place the cables back in their slots.
+
+Step 10: Screw fan back onto base.
+
+Step 11: Place cover back on base.
+
+Step 12: Fold all metal flaps back to hold cover on base.
+
+Step 13: Flip it over and it's finished.

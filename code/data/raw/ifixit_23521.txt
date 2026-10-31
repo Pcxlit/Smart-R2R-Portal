@@ -1,0 +1,95 @@
+Disassembling of HP 625 Laptop Teardown Guide
+
+Source URL: https://www.ifixit.com/Guide/Disassembling+of+HP+625+Laptop+Teardown+Guide/23521
+
+Device category: HP 625
+
+Difficulty: Moderate
+
+Tools needed: Anti-Static Wrist Strap
+
+
+
+Step 1: '''Overview of Hp 625.'''
+
+Step 2: '''Front View of Hp 625.'''
+
+Step 3: '''Removal of Hp 625 Battery.'''
+
+Step 4: '''Removing of Hp 625 Battery.'''
+
+Step 5: '''Hp 625 Battery Removed.'''
+
+Step 6: '''Unscrewing Hp 625 Service Door (4 Screws).'''
+
+Step 7: '''Removing Hp 625 Service Door.'''
+
+Step 8: '''Hp 625 Service Door Removed.'''
+
+Step 9: '''Unscrewing Hp 625 HDD, (3 Screws).'''
+
+Step 10: '''Removing of Hp 625 HDD, (Gently Slide).'''
+
+Step 11: '''Hp 625 HDD Removed.'''
+
+Step 12: '''Unscrewing of Hp 625 DVD Drive, (1 Screw)'''
+
+Step 13: '''Removing of Hp 625 DVD Drive, (Carefully Slid).'''
+
+Step 14: '''Hp 625 DVD Drive Removed.'''
+
+Step 15: '''Removing of Hp 625 DDR3 RAM, (Together With Two Hands Expand The Clips a little).'''
+
+Step 16: '''Hp 625 DDR3 RAM Removed, ( Be sure not to Touch The Gold Plated Pinouts).'''
+
+Step 17: '''Unscrewing of Hp 625 Keyboard, (6 Screws Noted By Keyboard icon).'''
+
+Step 18: '''Removing of Hp 625 Keyboard Flex Cable, (Gently Release The Locking Mechanism).'''
+
+Step 19: '''Hp 625 Keyboard Removed.'''
+
+Step 20: '''Disconnecting of Hp 625 Power Flex Cable From Connector, ( Fairly Unlock The Locking Mechanism).'''
+
+Step 21: '''Hp 625 Power Flex Cable Disconnected.'''
+
+Step 22: '''Unlocking of Hp 625 Palm Rest, Through The HDD Bay.'''
+
+Step 23: '''Disconnecting Touch Pad Flex Cable and Removing of Hp 625 Palm Rest.'''
+
+Step 24: '''Hp 625 Palm Rest Removed.'''
+
+Step 25: '''Unscrewing of Hp 625 System Casein, (16 or More Additional Screws Verify Very Well For Additional Screws Needed To Be Unscrewed Before Removing The Casein).'''
+
+Step 26: '''Removing of Hp 625 Front Casein, (Firmly Pry the Casein, Starting from Any Edge).'''
+
+Step 27: '''Hp 625 Front Casein Removed.'''
+
+Step 28: '''Unscrewing of Hp 625 Thermal Fan, (1 Screw).'''
+
+Step 29: '''Hp 625 Thermal Fan Removed.'''
+
+Step 30: '''Unscrewing of Hp 625 Thermal Conductive Heatsink, (6 Screws).'''
+
+Step 31: '''Hp 625 Thermal Conductive Heatsink Removed.'''
+
+Step 32: '''Unlocking of Hp 625 AMD Processor From Socket, (Anti-Clockwise).'''
+
+Step 33: '''Hp 625 AMD Processor Removed.'''
+
+Step 34: '''Disconnecting of Hp 625 Wi-Fi Cables From Wireless Card.'''
+
+Step 35: '''Hp 625 Wi-Fi Cables Disconnected.'''
+
+Step 36: '''Disconnecting of Hp 625 HDD Card From Motherboard.'''
+
+Step 37: '''Disconnecting All Cables of Hp 625 Connected To Motherboard.'''
+
+Step 38: '''Unscrewing Hp 625 Motherboard.'''
+
+Step 39: '''Removing of Hp 625 Motherboard.'''
+
+Step 40: '''Hp 625 Motherboard Removed.'''
+
+Step 41: '''Complete Disassembled Parts and Components of Hp 625.'''
+
+Step 42: ''''Reparatur ist edel'''

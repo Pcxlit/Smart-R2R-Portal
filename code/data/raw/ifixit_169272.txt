@@ -1,0 +1,23 @@
+Framework Laptop CMOS Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+CMOS+Battery+Replacement/169272
+
+Device category: Framework Laptop
+
+Difficulty: Easy
+
+Tools needed: SIM Card Eject Tool, T5 Torx Screwdriver, Spudger
+
+
+
+Step 1: Shut down the laptop and unplug the power cable if it is plugged in. The light around the fingerprint reader will turn off when the laptop has powered down.
+
+Step 2: Close the laptop lid and place it upside down. Locate the five T5 bits underneath the laptop. Using a screwdriver with a T5 bit, unscrew the five screws on the bottom cover. The laptop comes with a screwdriver with a T5 bit. This screwdriver will work for this guide. These screws will remain attached to the bottom cover even when fully unscrewed. Do not attempt to remove them. The screw on the bottom left will not unscrew as far. This screw lifts the input cover slightly. This screw will make a clicking noise when it has been unscrewed far enough.
+
+Step 3: Flip the laptop over and open the lid. ***Be careful while removing the input cover! It is still attached to the mainboard by the touchpad cable.*** This cable can be left attached for now. The bottom right corner of the input cover should have lifted up to reveal a small gap which can be used to remove the input cover. Carefully lift the input cover up from the bottom right corner using your finger or a pry tool. The input cover should be only held in place with magnets. Avoid using excessive force which may damage the touchpad cable. If the LED lights on the left and right sides of the case flash red after removing the cover, the system is still powered on. Ensure the laptop is powered off and is unplugged. Check that the LEDs have turned off before continuing.
+
+Step 4: Locate the large black cable on the right side connecting the touchpad to the mainboard. On the mainboard side of the cable, there is a large loop with a orange spot. Insert your finger through the loop and pull up. It is not recommended to remove the touchpad cable from the touchpad side unless the touchpad or touchpad cable is being replaced, as this side is more fragile. There should be little resistance when removing the cable. Avoid excessive force which may damage the cable. You can now safely remove the input cover from the laptop. During reassembly: Remember to connect the new touchpad cable to the mainboard before placing the new input cover on the laptop.
+
+Step 5: After removing the input cover, locate the CMOS/RTC battery, which is located near the middle of the mainboard, above the main battery and to the right of the SSD slot. The CMOS/RTC battery is a small silver disc with "ML1220" written on it. Do not confuse the CMOS/RTC battery with the main battery directly below it.
+
+Step 6: Locate the small hole just beneath the battery. Using the sim eject tool or a paperclip, insert it into the small hole and apply light pressure downwards, prying the battery up and out of the socket. Avoid excessive force. The battery holder can be damaged if you are not careful while trying to remove the CMOS battery. The CMOS battery should have popped out of the holder. During Reassembly: You do not need to use the SIM eject tool to insert the new CMOS battery. Simply place the new CMOS battery in the holder. Make sure the new CMOS battery is installed with the text facing upwards, as shown in the picture. It should never be installed upside down. Remember to dispose of the CMOS battery appropriately at a facility that accepts rechargeable batteries. Do not throw away the CMOS battery.

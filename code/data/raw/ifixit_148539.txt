@@ -1,0 +1,19 @@
+Lenovo ThinkPad P1 Gen2 Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Lenovo+ThinkPad+P1+Gen2+Laptop+Battery+Replacement/148539
+
+Device category: Lenovo ThinkPad P1 Gen2 Laptop
+
+Difficulty: Moderate
+
+Tools needed: Phillips #0 Screwdriver, Flathead 3/32" or 2.5 mm Screwdriver
+
+
+
+Step 1: Remove the 7 screws holding the base cover in place. Remove the base cover.
+
+Step 2: Peel up the insulated sheet from the battery connector. Unplug the battery connector in the direction showed by the arrow.
+
+Step 3: Remove the two M2 × L4 mm, flat-head screws. Remove the two M2 × L5 mm, flat-head, screws.
+
+Step 4: Remove the battery.

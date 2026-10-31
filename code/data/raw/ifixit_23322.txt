@@ -1,0 +1,45 @@
+Disassembling the Samsung Laptop Ultrabook NP530U3B
+
+Source URL: https://www.ifixit.com/Guide/Disassembling+the+Samsung+Laptop+Ultrabook+NP530U3B/23322
+
+Device category: Samsung Laptop
+
+Difficulty: Moderate
+
+Tools needed: Phillips #000 Screwdriver
+
+
+
+Step 1: Remove the 8 small screws.
+
+Step 2: Remove the other 6 screws. Remove the hard disk and the RAM slots.
+
+Step 3: This is the hard disk - Hitachi 500 GB
+
+Step 4: Ensure that the hard disk has been removed. Carefully detach the bottom cover.
+
+Step 5: Once the bottom cover is removed, your device should look like this.
+
+Step 6: Remove the 4 screws to detach the battery. Remove all of the sticky tape. Carefully disconnect the small power connector by using a tool to push the connector out through the small gap in the middle of the connector. The connector won't come out all the way, because the battery pack is in its way.
+
+Step 7: This is the Samsung 7.4V 45Wh battery. Ensure that the battery is removed before continuing.
+
+Step 8: When the battery is removed, this is how it will look.
+
+Step 9: Remove the processor fan. There are 2 screws holding it in place. Loosen and remove them.
+
+Step 10: This is the processor fan.
+
+Step 11: Remove the processor heat sink. 3 screws hold this part in place. Loosen and remove them.
+
+Step 12: Disconnect the antenna cables from the WiFi card. Remove the screw. Be sure to match the colors when reattaching the cables.
+
+Step 13: Remove the screw. Lift the latch upwards to loosen the cable.
+
+Step 14: Remove the screw.
+
+Step 15: Remove the screw.
+
+Step 16: To remove the Motherboard, carefully disconnect the cables.
+
+Step 17: This is the Motherboard - there is a front and rear view.

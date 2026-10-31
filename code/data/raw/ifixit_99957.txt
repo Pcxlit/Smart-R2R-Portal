@@ -1,0 +1,23 @@
+Acer Aspire V5-591G-75KE Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Acer+Aspire+V5-591G-75KE+Laptop+Battery+Replacement/99957
+
+Device category: Acer Aspire V5-591G-75KE
+
+Difficulty: Easy
+
+Tools needed: Phillips #1 Screwdriver, Spudger, ESD Safe Blunt Nose Tweezers
+
+
+
+Step 1: Close down the display  and  flip the device upside down. Use a '''Phillips #1 screwdriver''' to remove 18 black '''10mm Phillips Head screws ''' in order to loosen up the protective bottom casing.
+
+Step 2: With the screws removed, flip the device right-side up  and open up the display. Run a '''plastic spudger''' tool along the seam of the face-plate in order to loosen up the protective bottom casing. ''Popping sounds are normal, but forceful prying can damage delicate components. Be especially careful near the USB and HDMI ports.''
+
+Step 3: Close the display down once more, and flip the laptop upside down, with the hinge facing away from you. ''Do not yank the bottom casing off. There is a small speaker wire that connects it to the motherboard.'' Taking note of the small speaker wire, gently '''lift only the left side''' of the bottom casing.
+
+Step 4: Using a pair of ***[product|IF145-020-4|blunt tweezers]***, push on the tabs of the small white connector to separate it from the motherboard. ''The entire bottom casing should lift with no resistance. If there is too much resistance, verify you removed all the screws, and run the plastic spudger tool around the face-plate again.''
+
+Step 5: The laptop battery is the black rectangular item at the top. The battery connects to the motherboard via a multi-colored 8-pin connector. Using a pair of ***[product|IF145-020-4|blunt tweezers]***, push the white tabs on the sides 8-pin connector to disconnect the battery from the motherboard.
+
+Step 6: Lift the battery directly up to remove it from the laptop. It is not screwed on.

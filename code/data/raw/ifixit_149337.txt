@@ -1,0 +1,17 @@
+Maingear Vector Laptop  Screen Replacement
+
+Source URL: https://www.ifixit.com/Guide/Maingear+Vector+Laptop++Screen+Replacement/149337
+
+Device category: maingear vector laptop
+
+Difficulty: Moderate
+
+Tools needed: Tweezers
+
+
+
+Step 1: pull off the black bezel around the deges it is held on by double-sided tape. be careful not to break the bezel it is a somewhat thin plastic sheet.
+
+Step 2: carefully pry up the bottom of the screen. there is double-sided tape holding it to the back. pry on one side at a time slowly and once you can fit a pair of [product|IF145-020|tweezers] befind the screen grab the tape. when yo pull the tape it will come off like 3m command hooks be careful not to rip the tape the tape is in two vertical strips about an inch from the edge
+
+Step 3: the replacement screen is a lp156wfg(sp)(B2) on the maingear vector mg vctr001 1660ti from 2020

@@ -1,0 +1,25 @@
+Lenovo Laptop T400 Motherboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Lenovo+Laptop+T400+Motherboard+Replacement/20370
+
+Device category: Lenovo Laptop T400
+
+Difficulty: Difficult
+
+Tools needed: Phillips #0 Screwdriver, Spudger
+
+
+
+Step 1: recommend to print out picture of the backside of the laptop and then use it as a template to place the screws on. They are many and different sizes. Remove all bottom screws and place on template printout.
+
+Step 2: Remove DVD drive. Toggle the "play triangle" switch so that the tab extends. Pull the tab to remove the DVD drive. Remove hard drive
+
+Step 3: unsnap touchpad left and right. lift up touchpad carefully, and disconnect touchpad.
+
+Step 4: Pull keyboard gently toward yourself. and then lift up untill flex is visible. use spudger to disconnect connector for keyboard.
+
+Step 5: The rest of the guide is mosly helpfull pictures... Remove WLAN module by unplug carefully with spudger the two RF connectors to WLAN module. remove the two screws holding wlan module. lift up module 45 degress and pull outwards.
+
+Step 6: usefull images showing most of main assembly. Removing RAM modules is usefull if the whole logic board needs to be taken out. From here on , unscrew everything - carefully note where screws belong. I used Ifixit magnetic mat and some note making.
+
+Step 7: one more image to help you

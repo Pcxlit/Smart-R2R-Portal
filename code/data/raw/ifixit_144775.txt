@@ -1,0 +1,45 @@
+Microsoft Surface Laptop 3 15" Right Speaker Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+3+15-Inch+Right+Speaker+Replacement/144775
+
+Device category: Microsoft Surface Laptop 3
+
+Difficulty: Moderate
+
+Tools needed: Spudger, T5 Torx Screwdriver, T3 Torx Screwdriver
+
+
+
+Step 1: Flip the laptop over and place it on your work surface, feet facing up.
+
+Step 2: The feet on the bottom of the laptop are meant to be removed with the pointed end of a spudger. Each foot has a hidden indent that will simplify removal. To make sure the spudger is in the indent, insert it at the nearest '''long edge''', pushing parallel to the short edges of the laptop, as shown. Note that the two feet near the rear (screen) edge are different than the two front feet.
+
+Step 3: Insert the pointed end of a spudger underneath one of the two rear feet, at its rear edge. Push the spudger underneath the foot and pry up to release it. The two rear feet are secured with some light adhesive. Repeat to remove the second rear foot.
+
+Step 4: Insert the pointed end of a spudger underneath one of the two front feet, at its front edge. Push the spudger underneath the foot and pry up to release it. The two front feet are secured with plastic clips as well as light adhesive. Repeat to remove the second front foot.
+
+Step 5: During reassembly: Note that the front and rear feet are different. Note that the front feet are directional and only clip in one way.
+
+Step 6: In place of reusing old, worn out feet on your device, 8 mm rubber furniture pads can be a good substitute. Peel a pad away from its backing, align it over a foot cavity, and press to secure.
+
+Step 7: Use a T5 Torx driver to remove the four 3 mm screws in the foot cavities securing the upper case to the device. Throughout this repair, [https://www.ifixit.com/Store/Tools/Magnetic-Project-Mat/IF145-167-4|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from to avoid damaging your laptop. During reassembly, don't over-tighten these screws—they strip easily.
+
+Step 8: Flip the device over. Open the display as far as it will go.
+
+Step 9: The upper case is secured in place by magnets. Grip the top edge of upper case above the keyboard and lift straight up to release it. Don't try to completely remove the upper case just yet, as it's still connected to the rest of the laptop. Lift the front edge of the upper case up and away from the laptop, taking care to not strain the keyboard and touchpad ribbon cable underneath. During reassembly, lower the upper case onto the lower case until the magnets snap into place and it lays flat. Check that the upper case sits flush around the entire perimeter. Any gaps between the upper and lower case near the display could cause damage to the display as it closes.
+
+Step 10: The keyboard and touchpad ribbon cable is secured in place by a magnet connector. On some models, this connector is surrounded by black tape. Insert the flat end of a spudger underneath one edge of the ribbon cable connector, and pry up to release it. Remove the ribbon cable from the motherboard.
+
+Step 11: Remove the upper case. Set the upper case onto a clean surface, keyboard-side down. Ensure the ribbon cable lays flat, and isn't twisted or stressed.
+
+Step 12: Use a T5 Torx driver to remove the 2.7 mm screw securing the SSD. Removing the SSD also [guide|127277|functions as a battery disconnect|stepid=247760|new_window=true] and should be performed before all major repairs.
+
+Step 13: With the SSD screw removed, the SSD will pop up at a shallow angle. Grip the end of the SSD and pull it away from its board connector to remove it. During reassembly, insert the SSD at a shallow angle into its board connector, and secure it back into its horizontal position with the SSD screw.
+
+Step 14: Use your fingers to peel back the black tape covering the right speaker and Surface Connect port connectors.
+
+Step 15: Use the pointed end of a spudger to lift and disconnect the right speaker wire from its connector on the motherboard.
+
+Step 16: Use a T3 Torx driver to remove the three 2.6 mm screws securing the right speaker. During reassembly, don't over tighten these screws as they can easily strip or break in half.
+
+Step 17: Lift and remove the right speaker from its three posts.

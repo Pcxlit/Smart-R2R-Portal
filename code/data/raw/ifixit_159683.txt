@@ -1,0 +1,55 @@
+MSI Modern 14 A10M Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/MSI+Modern+14+A10M+Laptop+Battery+Replacement/159683
+
+Device category: MSI Laptop
+
+Difficulty: Moderate
+
+Tools needed: Japanese Industrial Standard #1, Phillips #00 Screwdriver, 1 x Opening Picks, Tweezers
+
+
+
+Step 1: Shut down the laptop by pressing and holding Alt F4 on the desktop.
+
+Step 2: Press Enter and wait for the lights on the laptop to turn off.
+
+Step 3: Unplug the charging cable and close the laptop. There should be no external power through the system because of the risk of electric shock.
+
+Step 4: Flip the laptop over onto a clear workspace so the back cover is visible.
+
+Step 5: Select the J1 bit from the iFixit repair kit and assemble the screwdriver. The bit types should be labeled on the foam insert holding them.
+
+Step 6: Unscrew the 12 screws from the back of the laptop cover. Set the screws aside to make reassembly easier.
+
+Step 7: Insert the Plastic Opening Pick from the iFixit repair kit until the corner of the cover pops off. The top corner is the easiest place to insert the pick.
+
+Step 8: Slide the Opening Pick along the side to release the clasps from behind the back laptop cover until the entire back has been released from the laptop.
+
+Step 9: When the Opening Pick has unhinged the entire cover, lift the cover off the laptop and set it to the side to be used later.
+
+Step 10: Switch the J1 bit to the 0 bit in the iFixit kit and assembly the screwdriver.
+
+Step 11: Find the cover of the battery and unscrew the four screws from the cover of the battery. Remove the cover and set it aside. The battery should be exposed now.
+
+Step 12: Use the [product|IF145-020|tweezers] from the iFixit repair kit to unplug the battery connection from the computer so that the power source is no longer connected.
+
+Step 13: Remove the battery from the laptop and dispose of it properly. Dispose of the battery at a hazardous waste collection point.
+
+Step 14: Place the new battery into the laptop where the old battery was. Be sure to line up the battery to the screw holes.
+
+Step 15: Use tweezers to insert the new battery connection to the computer.
+
+Step 16: Grab the battery cover, place it onto the new battery, and screw the 4 screws into the back to secure the battery in place.
+
+Step 17: Line up the laptop's back cover and press down on the sides of the cover in place until the entire cover is flush with the laptop again.
+
+Step 18: Switch back to the J1 bit from the iFixit repair kit and assemble the screwdriver.
+
+Step 19: Reinsert the 12 screws using the J1 bit to secure the back cover in place.
+
+Step 20: Flip the laptop right side up and open the top.
+
+Step 21: Plug the power source in to help the laptop when it is powered on.
+
+Step 22: Press the power button of the laptop to verify that it is working by holding the power button in the top middle of the laptop keyboard until the screen comes on.

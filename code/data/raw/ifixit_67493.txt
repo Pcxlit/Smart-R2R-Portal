@@ -1,0 +1,35 @@
+Asus ROG Laptop G752VL-DH71 RAM under keyboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Asus+ROG+Laptop+G752VL-DH71+RAM+under+keyboard+Replacement/67493
+
+Device category: Asus ROG Laptop G752VL-DH71
+
+Difficulty: Moderate
+
+Tools needed: Small phillips head screw driver 2 plastic tools, 1 small flat head screw driver
+
+
+
+Step 1: Lift up rubber tab and unscrew screw, it will stay attached to cover. Pull on tab to pull of cover.
+
+Step 2: Remove 11 rubber plugs with small straight head screw driver. I place all screws and plugs on a piece of tape sticky side up and label where they go.
+
+Step 3: Remove 7, 1cm screws. Remove 5, M2.5x6 screws.
+
+Step 4: Remove 1, 1/6cm screw. Pull out optical drive.
+
+Step 5: Remove 4, 1/4cm screws from bottom row. Remove 3, 1/3cm screws from under where you pulled out optical drive.
+
+Step 6: Start by using plastic tool by prying open the front center. Stand it up if needed. Work your way to the ends.
+
+Step 7: Start by prying the opposite side of the optical drive. There are 2 small tabs that are locked where you pulled the optical drive out, you must unlock them. Unlocking the 2 tabs using two plastic tools. Then continue prying open side.
+
+Step 8: Pry open the hinge cover with plastic tool. Careful there is a speaker wire attached so open carefully. Disconnect speaker wire.
+
+Step 9: Once hinge cover is removed and back panel has been pried then turn laptop over and open monitor to extend past 90*. Lift up a little and pull keyboard out about an inch but no more because there are ribbon cables attached underneath .
+
+Step 10: Slowly lift up keyboard to see the 4 ribbon cables and carefully pry up tabs where cables are connected.
+
+Step 11: Grab wires in middle and pull and wiggle gently to pull out wires from connection.
+
+Step 12: Notice to tabs on each side of RAM, pry them to the side. When both tabs are pried to the side the RAM should pop up. By grabbing the RAM on the sides, remove RAM.

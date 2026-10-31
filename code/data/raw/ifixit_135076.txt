@@ -1,0 +1,11 @@
+Replacing the battery of HP Pavilion dv4-1120us laptop
+
+Source URL: https://www.ifixit.com/Guide/Replacing+the+battery+of+HP+Pavilion+dv4-1120us+laptop/135076
+
+Device category: HP Pavilion dv4-1120us
+
+Difficulty: Very easy
+
+
+
+Step 1: Verify the laptop model. Remove the power cable. The battery only requires to move a latch to the left. With this, it comes out by itself.

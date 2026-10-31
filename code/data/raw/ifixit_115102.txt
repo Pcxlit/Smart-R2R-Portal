@@ -1,0 +1,37 @@
+Toshiba Satellite L505 Laptop Speakers Replacement
+
+Source URL: https://www.ifixit.com/Guide/Toshiba+Satellite+L505+Laptop+Speakers+Replacement/115102
+
+Device category: Toshiba Satellite L505 Laptop
+
+Difficulty: Moderate
+
+Tools needed: Phillips #1 Screwdriver, ESD-safe pry tool, iFixit Opening Tool
+
+
+
+Step 1: Open the laptop and locate the plastic strip just above the keyboard. With care, slide the prying tool into an end and lift it up until you hear an audible click, meaning it has separated. Slowly slide a finger or the prying tool under and follow the  strip to the opposite end, completely detaching the strip.
+
+Step 2: Remove the four screws using the Phillips #1 screwdriver.
+
+Step 3: Gently push the clip back as you lift the top of the keyboard towards you. There is a cable connecting the keyboard to the motherboard so do not lift the keyboard all the way out yet.
+
+Step 4: Gently disconnect the connector strip by pushing the white clips forward. Carefully pull the strip out of its port. Remove the keyboard from the device.
+
+Step 5: Turn the laptop upside down. Remove the screw labeled F4 using the Phillips #1 screwdriver. There are 2 screws labeled F4, the correct screw is the one closer to the hard drive.
+
+Step 6: Gently slide the optical drive out of the device.
+
+Step 7: Turn your laptop upside down, at the bottom of the laptop, slide the right sliding lock to the unlocked position. Slide the left sliding lock to the left and hold it. Using your fingers lift the battery out.
+
+Step 8: Unscrew all of the screws marked on the underside of the laptop. Remove the screw marked in the second photo by lifting up the lid and unscrewing using a Phillips #1 screwdriver. Remove the three flat screws in the port where the Optical drive is housed in.
+
+Step 9: Remove the keyboard and once that has been done, remove the screw marked "16." Disconnect all of the cables with a blue circle.
+
+Step 10: Using the opening tool, carefully go around the edge and loosen the palm-rest assembly, until you can comfortably and easily lift it off.
+
+Step 11: Remove the Palm rest assembly and flip it over. Locate the 2 speakers.
+
+Step 12: Remove the three screws.
+
+Step 13: Follow the red and white wires until they join into a plug and disconnect for easy removal of the speakers.

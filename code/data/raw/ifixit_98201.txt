@@ -1,0 +1,47 @@
+Lenovo X1 Carbon Laptop Keyboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Lenovo+X1+Carbon+Laptop+Keyboard+Replacement/98201
+
+Device category: Lenovo ThinkPad X1 Carbon (2nd Gen)
+
+Difficulty: Difficult
+
+Tools needed: Spudger, Arctic Silver Thermal Paste, Phillips #000 Screwdriver, Phillips #0 Screwdriver
+
+
+
+Step 1: These screws can't be fully removed; they will stay attached to the back cover. Loosen the seven screws from the back cover.
+
+Step 2: Unplug the bundled cable connector attached to the battery by pulling evenly from each side of the plug. Remove the four 4mm screws from the corners of the battery. Remove the 2.5mm screw from the center of the battery. Remove the battery by lifting from the bottom edge and pulling towards the front edge.
+
+Step 3: Remove the 3mm screw from the solid state drive. Pull the solid state drive straight out from its connector to remove it.
+
+Step 4: Unplug the Local Area Network Card by prying the coaxial connectors straight up from the board. Unscrew the 3mm screw from the LAN card. Pull the LAN card straight out from its connector to remove it.
+
+Step 5: Unplug the CPU heatsink fan by flipping up the small locking flap on the ZIF connector and gently removing the cable.
+
+Step 6: Loosen the upper-left heat pipe screw. Loosen the lower-right heat pipe screw. Loosen the lower-left heat pipe screw. Loosen the upper-right heat pipe screw. Lift the CPU cooler straight up to remove it. Thermal paste will need to be applied during reassembly. Apply a small amount of thermal paste across the processor case.
+
+Step 7: Unscrew the 4mm screw from the audio card. Pull the audio card straight back from the side of the laptop and flip it over, exposing the flat topped connector. Disconnect the flat topped connector by pulling straight up from its socket. Remove the audio card.
+
+Step 8: Unplug the laptop speakers by pulling evenly on each side of the bundled cable connector. Remove the four 4mm screws from the speakers. Remove the speaker wires from under the tape loops along the front of the laptop. Lift the speakers and speaker wires straight up to remove them.
+
+Step 9: Disconnect the RJ45 ribbon cable by pulling straight up. Remove the 4mm screw from the RJ45 card. Move the RJ45 card slightly to the right and pull up to remove it.
+
+Step 10: Remove the two 2.5mm screws from the guard. Pull the guard straight up to remove it. Slide the bottom plastic part of the ribbon cable socket forward. Disconnect the ribbon cable. Lift the fingerprint reader assembly straight up to remove it.
+
+Step 11: Do not subject the system board to excessive shock or electrostatic discharge of any sort. Remove the 4mm screw from the guard in the upper-right corner of the laptop.
+
+Step 12: Do not subject the system board to excessive shock or electrostatic discharge of any sort. Lift the ribbon cable locking mechanism. Disconnect the ribbon cables by pulling straight out from the socket. Disconnect the ribbon cables by pulling straight up.
+
+Step 13: Do not subject the system board to excessive shock or electrostatic discharge of any sort. Remove the five 3mm screws from the system board. Move the system board slightly to the left and pull up to remove it.
+
+Step 14: Remove the 4mm screw from the guard. Pull the guard straight up to remove it. Remove the three 4mm screws from the LCD hinges. Pull the antenna wires away from the hinges.
+
+Step 15: Lift the laptop and open the screen 90 degrees. Lift the LCD unit straight up to remove it.
+
+Step 16: Remove the two 1.7mm screws from the bracket. Pull the guard straight up to remove it. Remove the two 1.7mm screws from the adaptive keys panel. Remove the three 2.5mm screws from the adaptive keys panel. Lift the adaptive keys panel from the rear of the laptop and pull to remove it.
+
+Step 17: Lift the ribbon cable locking mechanism. Disconnect the ribbon cable. Remove the remaining ribbon cables from the back of the keyboard.
+
+Step 18: Remove the 45 Xmm screws from the back of the keyboard that are visible. Remove the tape covering one of the Xmm screws and remove that screw. Peel back the large ribbon cable and remove the four Xmm screws underneath it. Lift the keyboard straight up to remove it.

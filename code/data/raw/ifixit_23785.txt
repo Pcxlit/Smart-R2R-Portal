@@ -1,0 +1,19 @@
+Samsung Series 9 Laptop (NP900X4C) Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Samsung+Series+9+Laptop+(NP900X4C)+Battery+Replacement/23785
+
+Device category: Samsung Laptop
+
+Difficulty: Easy
+
+Tools needed: Phillips #00 Screwdriver
+
+
+
+Step 1: Step 1 : Flip over the case, grab your Ifixit.com toolkit and get to work removing the visible screws. You should find 10 of them.
+
+Step 2: Step 2: Once it is open, you'll be happy to see that there is nothing obstructing your access to the battery. You should clearly be able to see the screws to remove the battery, and the cable attached to the motherboard. Once you've removed the screws, simply jiggle the cord until it pops out.
+
+Step 3: Step 3: With the old battery out, you simply need to reverse your steps to put the new one in. I found that lifting up the speakers gave me a little more room to work with.
+
+Step 4: Step 4: And before ou know it, your new battery is staring back at you. Take the time to clean out the dust from your processor fan and the back cover. You'll be glad you did. Then click the back on, screw it in and job is done.

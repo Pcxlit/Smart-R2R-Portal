@@ -1,0 +1,33 @@
+Disassembling HP Compaq NC6120 Laptop
+
+Source URL: https://www.ifixit.com/Guide/Disassembling+HP+Compaq+NC6120+Laptop/41249
+
+Device category: HP Compaq NC6120
+
+Difficulty: Moderate
+
+Tools needed: TR9 Torx Security Screwdriver, iFixit Opening Tool, Phillips #1 Screwdriver
+
+
+
+Step 1: Flip laptop so the backside is facing upwards. Pull the two plastic switches at the top of the backside of the computer outwards, and remove the battery.
+
+Step 2: Remove all 13 screws from the back panel of the computer (includes the two torx screws under the battery and the two under the ram memory panel). Remove the four screws at the hinge of the computer (also attaching the back panel to the rest of the computer). All screws are 9.8mm 3.0 flatheads except for the two under the battery which are T9 torx.
+
+Step 3: Open up the laptop so that the screen is facing towards you. Push the monitor back until it is flat, parallel to the keyboard.
+
+Step 4: Using the iFixit opening tool, remove the plastic panel located between the keyboard and monitor. It should pop off easily with the spudger and can then be pulled away.
+
+Step 5: Remove the white cable attached to the just-removed plastic panel from the motherboard.
+
+Step 6: Flip the keyboard away from the monitor, rotating it so that the keys are face down on the mousepad. Remove the black cord at the bottom of the keyboard that connects it to the motherboard. The keyboard is now free and can be removed.
+
+Step 7: Remove the two 9.8mm 3.0 flathead screws. There is one at each of the hinges.
+
+Step 8: Unplug the black cable with rectangular white plastic head from the motherboard. It is located at the top left of the motherboard, directly below the left hinge.
+
+Step 9: Pull the monitor directly upwards from where it lay. The two metal hinges should easily slide out of their holes and the monitor will be disconnected from the motherboard.
+
+Step 10: Using the iFixit opening tool, pry the black plastic panel (with mousepad) off of the motherboard.
+
+Step 11: Unplug the white cord connecting the mousepad to the motherboard from the motherboard, and pull off the entire plastic panel.

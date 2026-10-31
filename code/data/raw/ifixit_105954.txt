@@ -1,0 +1,27 @@
+Samsung Series 9 NP900X3A Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Samsung+Series+9+NP900X3A+Laptop+Battery+Replacement/105954
+
+Device category: Samsung Series 9 NP900X3A
+
+Difficulty: Easy
+
+Tools needed: Phillips #0 Screwdriver, iFixit Opening Tool, Phillips #00 Screwdriver, Spudger
+
+
+
+Step 1: Locate the rubber feet at every corner of the laptop back panel. Use the ifixit prying tool, and break the adhesive between the rubber feet, and the case. Screws securing the back panel underneath the adhesive will be exposed. Removing the rubber feet will weaken the adhesive making reassembly difficult. Apply new adhesive if you choose to place the rubber feet back on to the device.
+
+Step 2: Use a Phillips #0 screwdriver to remove the ten 0.2mm screws from the bottom cover. Keep track of the screws and their placement on the laptop. This will help make reassembly easier and more organized.
+
+Step 3: Find an opening on the back of the laptop.  Use the plastic prying tool to help pry open the back panel of the laptop. Use both hands when removing the back case cover. Too much force will bend the cover making it difficult to reassemble.
+
+Step 4: Remove the last three remaining 0.1mm screws attached to the battery. Keep track of the screws and remember their placement. This will make it easier to replace the battery.
+
+Step 5: Remove the battery from the laptop by prying it out from its compartment. The battery should be loose and can move for the next step. You will need to use force to pry open the battery.
+
+Step 6: Find the battery's output plug, and use a spudger or pointed precision tool to press on the indention in the middle of the plug to unlock. Do not press too hard unlocking the plug or you will puncture plug's pins ruining the connector.
+
+Step 7: Remove the connection from the motherboard and the battery, by carefully placing both hands on the wires and tug on the wires. You will need to use some force, be cautious when removing this component. Pull the plug out slowly while applying pressure with the tool in necessary.
+
+Step 8: Remove the battery and place it from the laptop. At this point you can replace the battery with a new one.
