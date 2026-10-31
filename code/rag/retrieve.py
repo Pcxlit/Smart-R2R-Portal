@@ -12,6 +12,7 @@ class RetrievalResult:
     chunks: list[str]
     sources: list[dict]
     latency_seconds: float
+    distances: list[float] = field(default_factory=list)
     timestamp: float = field(default_factory=time.time)
 
 
@@ -19,17 +20,19 @@ def retrieve(query: str, top_k: int = TOP_K) -> RetrievalResult:
     collection = get_collection()
 
     start = time.perf_counter()
-    results = collection.query(query_texts=[query], n_results=top_k)
+    results = collection.query(
+        query_texts=[query],
+        n_results=top_k,
+        include=["documents", "metadatas", "distances"],
+    )
     latency = time.perf_counter() - start
-
-    documents = results.get("documents", [[]])[0]
-    metadatas = results.get("metadatas", [[]])[0]
 
     return RetrievalResult(
         query=query,
-        chunks=documents,
-        sources=metadatas,
+        chunks=results.get("documents", [[]])[0],
+        sources=results.get("metadatas", [[]])[0],
         latency_seconds=latency,
+        distances=results.get("distances", [[]])[0],
     )
 
 
