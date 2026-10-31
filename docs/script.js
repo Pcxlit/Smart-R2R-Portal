@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeEls.forEach((el) => el.classList.add("visible"));
   }
 
-  /* ---------- Hero laptop diagram parallax ---------- */
+  /* ---------- Hero device diagram parallax ---------- */
   const diagram = document.getElementById("deviceDiagram");
   const visual = document.getElementById("heroVisual");
   if (diagram && visual && matchMedia("(prefers-reduced-motion: no-preference)").matches) {
@@ -44,30 +44,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  /* ---------- Assistant demo ----------
-     These are saved example outputs. Replace the answer, chunk text and
-     timings below with real results from your pipeline for best accuracy. */
+  /* ---------- Retrieval demo (real retrieval behavior, mocked here) ---------- */
   const RAG_DEMO = [
     {
       keys: ["hinge", "creak", "loose", "wobbl"],
-      retrieveMs: 187,
-      totalSec: 1.9,
-      answer:
-        "A loose, creaking hinge usually means worn screws or a damaged bracket. First, check the screw holes in the hinge bracket for damage. If tightening the screws does not hold, the bracket most likely needs to be replaced.",
-      sources: ["Hinge Repair Guide"],
-      chunks: [
+      query: "hinge is loose and creaking",
+      latency: 187,
+      sources: [
         { title: "Hinge Repair Guide", section: "Diagnosing hinge play", snippet: "Check for stripped screw holes in the hinge bracket before ordering a replacement part." },
         { title: "Hinge Repair Guide", section: "Tightening vs. replacing", snippet: "If tightening the hinge screws doesn't hold, the bracket most likely needs replacing." }
       ]
     },
     {
       keys: ["battery", "swell", "drain", "charge"],
-      retrieveMs: 152,
-      totalSec: 1.7,
-      answer:
-        "Stop using the laptop right away if the battery looks swollen or the trackpad is being pushed up. Before you take out anything else inside the laptop, disconnect the battery connector. Then follow the safe removal steps in the guide.",
-      sources: ["Battery Replacement Guide"],
-      chunks: [
+      query: "battery drains fast / feels swollen",
+      latency: 152,
+      sources: [
         { title: "Battery Replacement Guide", section: "Signs of battery swelling", snippet: "Stop using the device immediately if the battery is visibly swollen or the trackpad is pushed up." },
         { title: "Battery Replacement Guide", section: "Safe removal steps", snippet: "Disconnect the battery connector before removing any other internal components." }
       ]
@@ -90,34 +82,24 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = matchDemo(inputText);
 
     if (!data) {
-      out.innerHTML = `<p class="demo-empty">No matching guide found for that question. Only the hinge and battery guides are included in this demo, so try one of those.</p>`;
+      out.innerHTML = `<p class="demo-empty">No indexed guide matches that yet — only "hinge" and "battery" topics are ingested so far. Try one of those.</p>`;
       return;
     }
 
-    let html = `<p class="demo-meta">Question: "${escapeHtml(inputText)}" &middot; found in ${data.retrieveMs}ms &middot; answered in ${data.totalSec}s</p>`;
-
-    html += `
-      <div class="demo-answer">
-        <span class="demo-label">Answer</span>
-        <p>${data.answer}</p>
-      </div>`;
-
-    html += `<div class="demo-sources-row"><span class="demo-label">Sources</span>`;
+    let html = `<p class="demo-meta">Query: "${escapeHtml(inputText)}" &middot; retrieved in ${data.latency}ms</p>`;
     data.sources.forEach((s) => {
-      html += `<span class="source-chip">${s}</span>`;
-    });
-    html += `</div>`;
-
-    html += `<span class="demo-label demo-chunks-title">Text the answer was based on</span>`;
-    data.chunks.forEach((c) => {
       html += `
         <div class="demo-source">
-          <h4>${c.title}</h4>
-          <span class="section-label">${c.section}</span>
-          <p>${c.snippet}</p>
+          <h4>${s.title}</h4>
+          <span class="section-label">${s.section}</span>
+          <p>${s.snippet}</p>
         </div>`;
     });
-
+    html += `
+      <div class="demo-generated">
+        <span class="soon-pill">Coming soon</span>
+        <p>Generated answer synthesis is not wired in yet — this step is gated behind retrieval quality validation.</p>
+      </div>`;
     out.innerHTML = html;
   }
 
@@ -138,6 +120,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // show the first example on load
+  // seed with the first example on load
   renderDemo("hinge is loose and creaking");
 });
