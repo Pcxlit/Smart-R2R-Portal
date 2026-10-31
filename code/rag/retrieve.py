@@ -1,9 +1,13 @@
+"""
+Quick test:  python -m rag.retrieve "cracked laptop hinge"
+"""
+
 import sys
 import time
 from dataclasses import dataclass, field
 
 from rag.config import TOP_K
-from rag.embed_store import get_collection
+from rag.embed_store import get_collection_cached
 
 
 @dataclass
@@ -17,7 +21,7 @@ class RetrievalResult:
 
 
 def retrieve(query: str, top_k: int = TOP_K) -> RetrievalResult:
-    collection = get_collection()
+    collection = get_collection_cached()
 
     start = time.perf_counter()
     results = collection.query(
@@ -40,7 +44,8 @@ def log_retrieval(result: RetrievalResult) -> None:
     print(f"[retrieve] query={result.query!r} "
           f"latency={result.latency_seconds:.3f}s "
           f"n_results={len(result.chunks)} "
-          f"sources={[s.get('source') for s in result.sources]}")
+          f"sources={[s.get('source') for s in result.sources]} "
+          f"distances={[round(d, 3) for d in result.distances]}")
 
 
 if __name__ == "__main__":
