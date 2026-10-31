@@ -1,18 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  /* ---------- Mobile menu toggle ---------- */
-  const menuToggle = document.getElementById("menuToggle");
-  const topnav = document.getElementById("topnav");
-  if (menuToggle && topnav) {
-    menuToggle.addEventListener("click", () => {
-      const open = topnav.classList.toggle("open");
-      menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
-    });
-    topnav.querySelectorAll(".topnav-link").forEach((link) => {
-      link.addEventListener("click", () => {
-        topnav.classList.remove("open");
-        menuToggle.setAttribute("aria-expanded", "false");
-      });
+  /* ---------- Mobile nav toggle ---------- */
+  const navToggle = document.getElementById("navToggle");
+  const navLinks = document.getElementById("navLinks");
+  if (navToggle && navLinks) {
+    navToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+    navLinks.querySelectorAll(".nav-link").forEach((link) => {
+      link.addEventListener("click", () => navLinks.classList.remove("open"));
     });
   }
 
@@ -35,60 +29,47 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeEls.forEach((el) => el.classList.add("visible"));
   }
 
-  /* ---------- Retrieval demo (real retrieval behavior, mocked here) ---------- */
+  /* ---------- Hero laptop diagram parallax ---------- */
+  const diagram = document.getElementById("deviceDiagram");
+  const visual = document.getElementById("heroVisual");
+  if (diagram && visual && matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+    visual.addEventListener("pointermove", (e) => {
+      const rect = visual.getBoundingClientRect();
+      const px = (e.clientX - rect.left) / rect.width - 0.5;
+      const py = (e.clientY - rect.top) / rect.height - 0.5;
+      diagram.style.transform = `rotateX(${4 - py * 10}deg) rotateY(${-6 + px * 16}deg)`;
+    });
+    visual.addEventListener("pointerleave", () => {
+      diagram.style.transform = "rotateX(4deg) rotateY(-6deg)";
+    });
+  }
+
+  /* ---------- Assistant demo ----------
+     These are saved example outputs. Replace the answer, chunk text and
+     timings below with real results from your pipeline for best accuracy. */
   const RAG_DEMO = [
     {
       keys: ["hinge", "creak", "loose", "wobbl"],
-      query: "hinge is loose and creaking",
-      latency: 187,
-      sources: [
+      retrieveMs: 187,
+      totalSec: 1.9,
+      answer:
+        "A loose, creaking hinge usually means worn screws or a damaged bracket. First, check the screw holes in the hinge bracket for damage. If tightening the screws does not hold, the bracket most likely needs to be replaced.",
+      sources: ["Hinge Repair Guide"],
+      chunks: [
         { title: "Hinge Repair Guide", section: "Diagnosing hinge play", snippet: "Check for stripped screw holes in the hinge bracket before ordering a replacement part." },
         { title: "Hinge Repair Guide", section: "Tightening vs. replacing", snippet: "If tightening the hinge screws doesn't hold, the bracket most likely needs replacing." }
       ]
     },
     {
       keys: ["battery", "swell", "drain", "charge"],
-      query: "battery drains fast / feels swollen",
-      latency: 152,
-      sources: [
+      retrieveMs: 152,
+      totalSec: 1.7,
+      answer:
+        "Stop using the laptop right away if the battery looks swollen or the trackpad is being pushed up. Before you take out anything else inside the laptop, disconnect the battery connector. Then follow the safe removal steps in the guide.",
+      sources: ["Battery Replacement Guide"],
+      chunks: [
         { title: "Battery Replacement Guide", section: "Signs of battery swelling", snippet: "Stop using the device immediately if the battery is visibly swollen or the trackpad is pushed up." },
         { title: "Battery Replacement Guide", section: "Safe removal steps", snippet: "Disconnect the battery connector before removing any other internal components." }
-      ]
-    },
-    {
-      keys: ["class", "diagram", "model", "object"],
-      query: "class diagram / object model",
-      latency: 142,
-      sources: [
-        { title: "Class Diagram", section: "Domain entities", snippet: "Defines the core classes including User, Shop, RepairRequest, Guide, and VectorStore." },
-        { title: "Class Diagram", section: "Relationships", snippet: "Models associations between registered repair shops, submitted requests, and RAG retrieval logs." }
-      ]
-    },
-    {
-      keys: ["deployment", "server", "host", "infrastructure"],
-      query: "deployment architecture",
-      latency: 165,
-      sources: [
-        { title: "Deployment Diagram", section: "System topology", snippet: "Illustrates the client browser interacting with the web server, application container, and vector database." },
-        { title: "Deployment Diagram", section: "CI/CD execution", snippet: "Shows GitHub Actions runner executing ruff linting and pytest validation on push." }
-      ]
-    },
-    {
-      keys: ["sequence", "flow", "interaction", "step"],
-      query: "sequence diagram interaction",
-      latency: 174,
-      sources: [
-        { title: "Sequence Diagram", section: "Query handling flow", snippet: "Details the step-by-step message passing between User, Web UI, RAG module, and ChromaDB." },
-        { title: "Sequence Diagram", section: "Retrieval latency", snippet: "Tracks synchronous timing constraints for embedding generation and vector similarity search." }
-      ]
-    },
-    {
-      keys: ["collaboration", "actor", "component"],
-      query: "collaboration diagram",
-      latency: 159,
-      sources: [
-        { title: "Collaboration Diagram", section: "Object interactions", snippet: "Highlights structural organization and object collaborations during repair request processing." },
-        { title: "Collaboration Diagram", section: "Shop verification", snippet: "Maps out interactions between admin, shop registry, and verification status updates." }
       ]
     }
   ];
@@ -109,24 +90,34 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = matchDemo(inputText);
 
     if (!data) {
-      out.innerHTML = `<p class="demo-empty">No indexed guide matches that yet — try searching for "hinge", "battery", "class diagram", "deployment", "sequence", or "collaboration".</p>`;
+      out.innerHTML = `<p class="demo-empty">No matching guide found for that question. Only the hinge and battery guides are included in this demo, so try one of those.</p>`;
       return;
     }
 
-    let html = `<p class="demo-meta">query: "${escapeHtml(inputText)}" · retrieved in ${data.latency}ms</p>`;
+    let html = `<p class="demo-meta">Question: "${escapeHtml(inputText)}" &middot; found in ${data.retrieveMs}ms &middot; answered in ${data.totalSec}s</p>`;
+
+    html += `
+      <div class="demo-answer">
+        <span class="demo-label">Answer</span>
+        <p>${data.answer}</p>
+      </div>`;
+
+    html += `<div class="demo-sources-row"><span class="demo-label">Sources</span>`;
     data.sources.forEach((s) => {
+      html += `<span class="source-chip">${s}</span>`;
+    });
+    html += `</div>`;
+
+    html += `<span class="demo-label demo-chunks-title">Text the answer was based on</span>`;
+    data.chunks.forEach((c) => {
       html += `
         <div class="demo-source">
-          <h4>${s.title}</h4>
-          <span class="section-label">${s.section}</span>
-          <p>${s.snippet}</p>
+          <h4>${c.title}</h4>
+          <span class="section-label">${c.section}</span>
+          <p>${c.snippet}</p>
         </div>`;
     });
-    html += `
-      <div class="demo-generated">
-        <span class="soon-pill">Coming soon</span>
-        <p>Generated answer synthesis is not wired in yet — this step is gated behind retrieval quality validation.</p>
-      </div>`;
+
     out.innerHTML = html;
   }
 
@@ -147,6 +138,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // seed with the first example on load
+  // show the first example on load
   renderDemo("hinge is loose and creaking");
 });
