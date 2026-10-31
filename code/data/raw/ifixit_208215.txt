@@ -1,0 +1,51 @@
+Framework Laptop 13 Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+13+Battery+Replacement/208215
+
+Device category: Framework Laptop
+
+Difficulty: Easy
+
+Tools needed: Framework Screwdriver
+
+
+
+Step 1: Unplug all cables and fully shut down your laptop from the OS.
+
+Step 2: Use your Framework Screwdriver to loosen the five captive T5 Torx screws securing the Input Cover. The screw will make an audible "clicking" sound once it's fully loosened.
+
+Step 3: Flip over your laptop and open it. Use your fingers to lift the Input Cover up and release it from its magnets. Don't fully remove the Input Cover yet, as it's still attached by the Touchpad Cable.
+
+Step 4: Flip the top of the Input Cover so the Keyboard is facing down. Rest the Input Cover over the Battery, making sure the Touchpad Cable isn't being strained. If the LEDs on the left and right sides of the Mainboard are flashing, then your laptop is still powered on. Make sure your laptop is completely powered off before continuing.
+
+Step 5: Insert your finger into the Touchpad Cable press connector loop. Lift up to disconnect the Touchpad Cable from the Mainboard.
+
+Step 6: Remove the Input Cover.
+
+Step 7: When disconnecting the Battery, make sure you slide its connector ***straight out of its socket*** or else you risk bending the socket's pins. Use your fingers to grip the edges of the Battery connector and slide it straight out of its socket to disconnect the Battery.
+
+Step 8: Use your Framework Screwdriver to loosen the three captive T5 Torx screws securing the Battery.
+
+Step 9: Only handle the Battery by its plastic frame, making sure you don't bend or puncture it. Lift the Battery towards the top edge of the laptop to slide its [link|https://guide-images.cdn.ifixit.com/igi/cn5Og1tyACvFx2HQ.full|plastic tabs|new_window=true] out of the Bottom Cover. Remove the Battery.
+
+Step 10: Congratulations on completing disassembly! ***The remaining steps will show how to reassemble your Framework Laptop.***
+
+Step 11: Insert the Battery into its cutout, making sure its plastic tabs are slotted into the Bottom Cover.
+
+Step 12: Use your Framework Screwdriver to tighten the three captive T5 Torx screws securing the Battery.
+
+Step 13: Before continuing, check the pins on the battery socket and make sure they aren't bent. If any of the pins are bent, reach out to [link|https://frame.work/support|Framework Support|new_window=true].
+
+Step 14: Use your fingers to align the battery connector with its socket and slide it straight in to reconnect the battery.
+
+Step 15: Before continuing, check the Touchpad Cable's ZIF connector located on the back of the Touchpad: Make sure the white line on the cable is parallel to and adjacent with the socket. If the cable isn't inserted far enough, use the flat end of the Framework Screwdriver to flip up the black latch, reposition the cable, and lock the latch.
+
+Step 16: Position the Input Cover, Keyboard down, on top of the laptop so it just covers the battery. This allows the Touchpad Cable to be folded over and reconnected without straining it.
+
+Step 17: Insert your finger into the Touchpad Cable press connector loop. Align the press connector over its socket and press down with your finger. You should hear it "click" into place. Don't try to force the connector into place. If you're having trouble, reposition it and try again.
+
+Step 18: Flip the Input Cover over the laptop and align the bottom edges.
+
+Step 19: Lay the Input Cover over the laptop and let the magnets snap it into place. The bottom right corner of the Input Cover won't sit flush with the laptop until you tighten its screws.
+
+Step 20: Use your Framework Screwdriver to tighten the five captive T5 Torx screws securing the Input Cover. Don't overtighten the screws—just make sure they're snug.

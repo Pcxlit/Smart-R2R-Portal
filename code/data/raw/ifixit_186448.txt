@@ -1,0 +1,47 @@
+Framework Laptop 12 Wi-Fi Card Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+12+Wi-Fi+Card+Replacement/186448
+
+Device category: Framework Laptop 12
+
+Difficulty: Moderate
+
+Tools needed: Framework Screwdriver, Angled Tweezers
+
+
+
+Step 1: Before you begin repairs, unplug your laptop and ***shut it down from the operating system***. This ensures that the laptop isn't in standby/suspend mode. The indicator LEDs along the edges should be unlit. The laptop should be silent. If you accidentally turn on the laptop during repair, hold the power button down for 10 seconds to shut it down. Make sure your Framework Screwdriver has the T5 Torx bit (labeled as T-5) facing outwards. If it's not, pull the bit out and flip it.
+
+Step 2: Set your Framework Laptop face-down on a clean work surface.
+
+Step 3: Use your Framework Screwdriver to fully loosen the eight captive T5 Torx screws on the bottom of your laptop. Most screws in your Framework Laptop (including these) are captive—they're designed to stay in place after you loosen them.
+
+Step 4: Flip your laptop over so it's face-up on your work surface.
+
+Step 5: Open the laptop lid so that both the screen and the base lie flat on your work surface.
+
+Step 6: Use your fingers to grip the Input Cover in the hinge cutouts. Lift upwards to swing the Input Cover up from the base of the laptop. Magnets hold the Input Cover down, so you'll feel some resistance. If it feels stuck, check that you've fully loosened all the screws on the bottom of your laptop. Remove the Input Cover.
+
+Step 7: Use your Framework Screwdriver to loosen the captive T5 Torx screw securing the Wi-Fi card bracket. The Wi-Fi card will pop up slightly when you unfasten the bracket.
+
+Step 8: Grab the Wi-Fi card bracket with your fingers and slide it off the top of the Wi-Fi card. Remove the bracket and store it in a safe location for reassembly.
+
+Step 9: The Wi-Fi card has two delicate [guide|25629|coaxial cable connectors|stepid=64972|new_window=true]. Follow this step carefully to avoid damaging them. Press and hold the Wi-Fi card down with your finger. Slide the flat edge of your Framework Screwdriver under the white antenna cable, as close to the metal head as possible. If you have angled tweezers, [link|https://guide-images.cdn.ifixit.com/igi/kNVJNZYykHiWXphT.full|slide one arm of a pair of tweezers under the antenna connector|new_window=true], as close to the metal head as possible. Gently lift the connector straight up to disconnect the white antenna cable. Repeat the procedure with the black antenna cable.
+
+Step 10: Grab the Wi-Fi card by the edges and pull it out of its socket. Remove the Wi-Fi card.
+
+Step 11: Congratulations on completing disassembly! ***The remaining steps will show how to reassemble your Framework Laptop.***
+
+Step 12: Hold the Wi-Fi card by its edges. Don't touch the gold contacts with your fingers. If you do, wipe the contacts with a clean, lint-free cloth to remove any finger oils. Align the Wi-Fi card's gold contacts and notch with the socket on the Mainboard. Insert the Wi-Fi card into the socket at a shallow angle. The gold contacts should mostly be covered by the socket. The Wi-Fi card fits into the socket in one orientation. If it doesn't fit, try flipping the module.
+
+Step 13: Hold the Wi-Fi card down with your finger. Position the black antenna cable connector over the left Wi-Fi card's coaxial socket. Tweezers can help position the connector. Use your finger to press the connector into place. You should feel a faint click, and the cable will stay attached to the socket by itself. These connectors are very delicate! If the connector doesn't feel like it's clicking in place, reposition the connector and try again. Repeat the procedure with the white antenna cable.
+
+Step 14: Slide the Wi-Fi bracket over the top edge of the Wi-Fi card.
+
+Step 15: Use your Framework Screwdriver to tighten the captive T5 Torx screw to secure the Wi-Fi card.
+
+Step 16: Angle the bottom edge of the Input Cover towards the base of the laptop. Align and insert the bottom edge of the Input Cover into the base of the laptop. Make sure the [link|https://guide-images.cdn.ifixit.com/igi/m4lQ4MZpOeDrBsfP.full|slots along the bottom edge of the Input Cover|new_window=true] slide into the tabs in the base. Lower the Input Cover's top edge onto the laptop until the magnets snap it in place. Make sure the Input Cover sits neatly within the laptop frame and no corners are popping up.
+
+Step 17: Close the laptop lid. Flip your laptop face-down on a clean work surface.
+
+Step 18: Use your Framework Screwdriver to tighten the eight captive T5 Torx screws on the bottom of your laptop. Tighten the screws until they're snug. Don't over-tighten them, or you may strip the screws.

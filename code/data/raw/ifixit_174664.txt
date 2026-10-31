@@ -1,0 +1,55 @@
+Microsoft Surface Laptop 7 (13.8-inch) Fan Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+7+(13.8-inch)+Fan+Replacement/174664
+
+Device category: Microsoft Surface Laptop 7
+
+Difficulty: Moderate
+
+Tools needed: Angled Tweezers, Spudger, iFixit Opening Picks (Set of 6), iOpener, iFixit Precision Bit Driver, 3IP Torx Plus Bit, 5IP Torx Plus Bit, T3 Torx Screwdriver, T5 Torx Screwdriver, Hair Dryer, Heat Gun
+
+
+
+Step 1: ***Before starting this repair, allow your laptop's battery to drain below 25%.*** A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close your laptop and lay it down so the rubber feet are facing up.
+
+Step 3: Gently slide one arm of your angled tweezers into the [link|https://guide-images.cdn.ifixit.com/igi/T3vTSAgRAmEmaD6W.full|recess near the upper right edge|new_window=true] of one of the feet. You can also use the point of a spudger. However, you're more likely to damage the foot, if you're reusing it. Use your tweezers to pry up and remove the foot. The feet may eject very quickly—be careful not to lose them. Repeat the process to remove the remaining feet. To install a foot, align the [link|https://guide-images.cdn.ifixit.com/igi/CRYoq24tvHxFtc6S.full|pegs on the bottom with their cutouts in the frame|new_window=true] and press the foot into place.
+
+Step 4: Throughout this repair, [product|IF145-491|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from. While the Surface Laptop 7 uses [link|https://en.m.wikipedia.org/wiki/Torx#Torx_Plus|Torx Plus|new_window=true] screws, standard Torx bits work. Make sure to apply constant, downward force to prevent stripping. Use a Torx Plus 5IP screwdriver to remove the four 4.5 mm‑long screws (with washers) securing the lower case.
+
+Step 5: Insert the tip of an opening pick under the top edge of the lower case, about an inch (2.5 cm) to the left or right of the Microsoft logo. Don't insert the pick near the [link|https://guide-images.cdn.ifixit.com/igi/3ytR1eoUYGPGesIb.full|outer edges|new_window=true] or you'll damage the antenna bar.
+
+Step 6: Twist the pick to lift the lower case enough that you can grip it with your hand.
+
+Step 7: Lift the lower case and remove it.
+
+Step 8: Use a Torx Plus 3IP screwdriver to remove the two 2.3 mm‑long screws securing the battery connector cover.
+
+Step 9: Use tweezers or your fingers to remove the battery connector cover.
+
+Step 10: Insert the flat end of a spudger under the top edge of the battery [guide|25629|press connector|stepid=70308|new_window=true] and pry up to disconnect it. To reconnect a press connector, align it over the socket and gently press down on one side until it clicks into place, then press down on the other side. It may take a few tries to align the connector—don't try to force it into place.
+
+Step 11: Use the flat end of a spudger to flip up the metal buckle on the Surface Connect port connector.
+
+Step 12: Use tweezers or your fingers to grip the Surface Connect port cable and pull it straight out of its socket. During reassembly: Reconnect the Surface Connect port cable. Remove any adhesive liners and press the cable into place to secure it with the adhesive.
+
+Step 13: Use a Torx Plus 3IP screwdriver to remove the two 3 mm‑long screws securing the Surface Connect port to the top left corner of the frame.
+
+Step 14: A strong [link|https://guide-images.cdn.ifixit.com/igi/hc6UssGW4dcThMbN.full|strip of adhesive|new_window=true] secures the Surface Connect port cable to the top of the fan. Heating the cable softens the adhesive, making it easier to separate. [guide|25705|Heat an iOpener|new_window=true] and lay it on the Surface Connect port cable for two minutes to soften the adhesive. Alternatively, you can use a [guide|157348|hair dryer|new_window=true] or [guide|151116|heat gun|new_window=true]. But be careful, as extreme heat can damage the battery.
+
+Step 15: Grip the Surface Connect cable close to the motherboard connector and peel the cable from the fan. During reassembly: Don't secure the trackpad cable with adhesive yet—''wait until you've reconnected it''. Otherwise, the cable may not reach its socket if positioned incorrectly. If the tape is still sticky, you don't need to replace it. If the adhesive is no longer sticky, or if you're replacing the fan and it doesn't have adhesive, apply a new strip of [product|IF317-072-6|thin, double-sided tape|new_window=true] to the top edge of the fan.
+
+Step 16: Lift and remove the Surface Connect port. During reassembly: Put the Surface Connect port into place so its cutouts go over their posts on the motherboard. Make sure the port is fully in its cutout—the outer edge should be flush with the frame. Install the two screws that secure the port.
+
+Step 17: Use the point of a spudger to lift the hinged locking flap on the fan cable [guide|25629|ZIF connector|stepid=64969|new_window=true], located on the [link|https://guide-images.cdn.ifixit.com/igi/oplaRD1n4ncvOpLC.full|left edge of the motherboard|new_window=true]. Use tweezers to grip the fan cable's pull tab and slide the cable out of its socket.
+
+Step 18: Slide the point of a spudger under the speaker connector (just below the fan cable) and ''gently'' lift it straight up and out of the socket. Don't lift on the cables themselves, or you may damage them. During reassembly, hold the connector over its socket and press down gently with the flat end of a spudger until it clicks into place. If you're having trouble, don't try to force the connector into its socket—reposition it and try again.
+
+Step 19: Use the point of a spudger to separate the tape from the bottom of the fan and move it out of the way of the speaker cable.
+
+Step 20: Use your fingers to grip the speaker cable and gently guide it out of the clips along the edge of the fan.
+
+Step 21: Use a Torx Plus 3IP screwdriver to remove the three 4.1 mm‑long screws securing the fan.
+
+Step 22: Lift the fan straight up and remove it. During reassembly, put the fan's three screw holes over their posts on the frame to orient the fan.

@@ -1,0 +1,55 @@
+Microsoft Surface Laptop 7 (13.8-inch) Trackpad Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+7+(13.8-inch)+Trackpad+Replacement/174598
+
+Device category: Microsoft Surface Laptop 7
+
+Difficulty: Moderate
+
+Tools needed: Angled Tweezers, Spudger, iFixit Opening Picks (Set of 6), iOpener, iFixit Precision Bit Driver, 3IP Torx Plus Bit, 5IP Torx Plus Bit, T3 Torx Screwdriver, T5 Torx Screwdriver, Hair Dryer, Heat Gun
+
+
+
+Step 1: ***Before starting this repair, allow your laptop's battery to drain below 25%.*** A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close your laptop and lay it down so the rubber feet are facing up.
+
+Step 3: Gently slide one arm of your angled tweezers into the [link|https://guide-images.cdn.ifixit.com/igi/T3vTSAgRAmEmaD6W.full|recess near the upper right edge|new_window=true] of one of the feet. You can also use the point of a spudger. However, you're more likely to damage the foot, if you're reusing it. Use your tweezers to pry up and remove the foot. The feet may eject very quickly—be careful not to lose them. Repeat the process to remove the remaining feet. To install a foot, align the [link|https://guide-images.cdn.ifixit.com/igi/CRYoq24tvHxFtc6S.full|pegs on the bottom with their cutouts in the frame|new_window=true] and press the foot into place.
+
+Step 4: Throughout this repair, [product|IF145-491|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from. While the Surface Laptop 7 uses [link|https://en.m.wikipedia.org/wiki/Torx#Torx_Plus|Torx Plus|new_window=true] screws, standard Torx bits work. Make sure to apply constant, downward force to prevent stripping. Use a Torx Plus 5IP screwdriver to remove the four 4.5 mm‑long screws (with washers) securing the lower case.
+
+Step 5: Insert the tip of an opening pick under the top edge of the lower case, about an inch (2.5 cm) to the left or right of the Microsoft logo. Don't insert the pick near the [link|https://guide-images.cdn.ifixit.com/igi/3ytR1eoUYGPGesIb.full|outer edges|new_window=true] or you'll damage the antenna bar.
+
+Step 6: Twist the pick to lift the lower case enough that you can grip it with your hand.
+
+Step 7: Lift the lower case and remove it.
+
+Step 8: Use a Torx Plus 3IP screwdriver to remove the two 2.3 mm‑long screws securing the battery connector cover.
+
+Step 9: Use tweezers or your fingers to remove the battery connector cover.
+
+Step 10: Insert the flat end of a spudger under the top edge of the battery [guide|25629|press connector|stepid=70308|new_window=true] and pry up to disconnect it. To reconnect a press connector, align it over the socket and gently press down on one side until it clicks into place, then press down on the other side. It may take a few tries to align the connector—don't try to force it into place.
+
+Step 11: Use a Torx Plus 5IP screwdriver to remove the eight 5.4 mm‑long screws securing the battery. Be very careful not to puncture the battery with your screwdriver.
+
+Step 12: Lift the battery and remove it. If your battery is swollen, [[What to do with a swollen battery|take appropriate precautions|new_window=true]]. Never reuse a deformed or damaged battery—it's a fire hazard. Replace it with a new battery.
+
+Step 13: Gently slide the point of a spudger under the piece of tape on the [link|https://guide-images.cdn.ifixit.com/igi/u5ujlxqllEYNjuKN.full|trackpad cable ZIF connector|new_window=true], near the bottom left corner of the motherboard. Use the spudger to lift the tape from the connector. You don't need to fully remove the tape, it just needs to be off the connector.
+
+Step 14: Use the flat end of a spudger to lift the hinged locking flap on the trackpad cable [guide|25629|ZIF connector|stepid=64969|new_window=true]. Use tweezers to grip the trackpad cable's plastic pull tab and slide the cable out of its socket. During reassembly, reconnect the trackpad cable to its ZIF connector on the motherboard. Then, press the right side of the cable firmly into place to secure it with the adhesive.
+
+Step 15: The right side of the trackpad cable is secured with strong adhesive. Heating the cable softens the adhesive, making it easier to separate. [guide|25705|Heat an iOpener|new_window=true] and lay it on the trackpad cable for one minute to soften the adhesive. Alternatively, you can use a [guide|157348|hair dryer|new_window=true] or [guide|151116|heat gun|new_window=true] to heat the cable.
+
+Step 16: Be very careful not to crease or damage the trackpad cable during the next few steps. Carefully slide an opening pick under the right side of the trackpad cable to separate the adhesive securing it to the frame. If you're having trouble, reheat the cable and try again.
+
+Step 17: Use your fingers to flip the trackpad cable towards the bottom of your laptop, so you can access the ZIF connector on the trackpad. During reassembly: Don't secure the trackpad cable with adhesive yet—''wait until you've reconnected the other end''. Otherwise, the cable may not reach its socket if positioned incorrectly. If you're using the original trackpad cable, the adhesive should be sticky enough to reuse. If you have a replacement trackpad cable with adhesive pre-installed, remove the liner. If your replacement cable doesn't have adhesive pre-installed, or if the adhesive isn't sticky enough, apply a strip of [product|IF317-072-6|thin, double-sided tape|new_window=true] to the bend on the right side of the cable.
+
+Step 18: Use the flat end of a spudger to lift the hinged locking flap on the trackpad cable [guide|25629|ZIF connector|stepid=64969|new_window=true], located on the trackpad itself. Use your fingers to carefully grip the trackpad cable and slide it out of its socket. During reassembly, reconnect the end of the cable marked "TRACKPAD" to the ZIF connector on the trackpad, so the end of the cable with a white strip is facing up.
+
+Step 19: Remove the trackpad cable.
+
+Step 20: These screws strip easily. Apply constant, downward force to prevent stripping. Use a Torx Plus 5IP screwdriver to remove the six 2.1 mm‑long screws securing the trackpad. During reassembly: ''Partially'' tighten the six trackpad screws. Open your laptop and check the edges of the trackpad for any large gaps, repositioning it as necessary. Continue tightening the screws and checking the trackpad alignment until the screws are fully tightened.
+
+Step 21: During the next two steps be very careful not to lose the six washers resting on the trackpad's screw posts. Without them, your trackpad won't fit properly. Slowly lift the main body of your laptop until it stays up on its own—the trackpad will stay on the screen. During reassembly, carefully close your laptop with one hand while using your other hand to guide the trackpad into place. Use a finger to help position the trackpad through one of the [link|https://guide-images.cdn.ifixit.com/igi/UpbjVRlnn1wLdNnE.full|cutouts in the frame|new_window=true]. If your replacement trackpad comes with a new cable pre-installed, you'll need to ''carefully'' guide the cable through its [link|https://guide-images.cdn.ifixit.com/igi/ysspUtVxDCaSVx2g.full|cutout in the frame|new_window=true].
+
+Step 22: Remove the trackpad, being very careful not to scratch the screen. During reassembly: Make sure all six washers are in place on the trackpad's screw posts. If any washers are missing, check the magnet in the trackpad well—they may have gotten stuck to it when removing the trackpad. Gently place the trackpad onto the screen so the screw posts line up with their cutouts and the edge with a [link|https://guide-images.cdn.ifixit.com/igi/D1YmBSANyYiQGBxF.full|ZIF connector|new_window=true] is closest to the hinges Be very careful not to scratch the screen.

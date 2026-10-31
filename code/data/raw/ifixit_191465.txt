@@ -1,0 +1,23 @@
+Upgrading the RAM on an HP Laptop 15-bs0xx
+
+Source URL: https://www.ifixit.com/Guide/Upgrading+the+RAM+on+an+HP+Laptop+15-bs0xx/191465
+
+Device category: HP Laptop 15-bs0xx
+
+Difficulty: Easy
+
+Tools needed: iFixit Opening Tool, Cacciavite con testa a croce
+
+
+
+Step 1: The first thing to do is remove the battery. Move the safety catch on the left from left to right so that you can see the open padlock icon. Afterwards, you can move the right safety catch, also from left to right, so that the battery pops out of its slot and can be removed.
+
+Step 2: Remove all 8 mounting screws on the bottom of the PC. Be careful, as 4 of these are hidden under the rubber feet of the PC.
+
+Step 3: Before you can remove the rear cover of the PC, we still need to pull out the CD drive. Simply pull the entire tray outward, even just with your fingers. If you are having trouble, you can use a plastic opening tool.
+
+Step 4: Now we can remove the cover by using a plastic opening tool to unclip all around its edges so as not to damage the surfaces.
+
+Step 5: With the cover removed, locate the slot where the second RAM module will be inserted. Insert the RAM module at a slight angle, making sure it is fully seated in the slot. Then, press down on the RAM module with your finger until the side clips lock it into place.
+
+Step 6: Once the RAM is inserted, it looks like this. Tip! Once the PC is open, take the opportunity to clean the cooling fan. Simply unscrew the screw indicated by the red arrow. Release the three clips indicated by the green arrows. Clean it by blowing the dust away or using a brush. Once done, repeat the Teardown steps in reverse to reassemble and close everything; from now on, you will have a higher-performing PC!

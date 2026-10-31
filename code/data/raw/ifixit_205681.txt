@@ -1,0 +1,39 @@
+Framework Laptop 16 Display Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+16+Display+Replacement/205681
+
+Device category: Framework Laptop 16 (AMD Ryzen™ 7040 Series)
+
+Difficulty: Easy
+
+Tools needed: Framework Screwdriver
+
+
+
+Step 1: Unplug all cables and fully shut down your laptop.
+
+Step 2: The bezel is secured with magnets. Slide your fingernail under the inside edge of either bottom corner of the bezel. Pull the bezel away from the screen to release the first few magnets.
+
+Step 3: Lift the bezel around the perimeter of the screen until all of its magnets are released. Remove the bezel.
+
+Step 4: While supporting the display with one hand, use your Framework Screwdriver to remove the four 2.4 mm‑long T5 Torx screws securing the display.
+
+Step 5: Grab the display and pull it straight off the Top Cover to free it from its [link|https://guide-images.cdn.ifixit.com/igi/IeUDlwkLEMvOM1ap.full|alignment pegs|new_window=true]. Don't pull the display too far from the Top Cover, as it's still attached by a cable. Flip the front of the display down and rest it on the keyboard.
+
+Step 6: Use your fingers to flip up the plastic tab and access the connector underneath.
+
+Step 7: Use the flat end of your Framework Screwdriver to lift up the metal locking tab over the eDP cable connector.
+
+Step 8: Grip the eDP cable where it meets the connector head. Slide the connector straight out of its socket to disconnect it.
+
+Step 9: Congratulations on completing disassembly! ***The remaining steps will show how to reassemble your Framework Laptop.***
+
+Step 10: Grip the eDP cable where it meets the connector head. Slide the eDP cable connector straight into its socket.
+
+Step 11: Push the metal locking tab down over the eDP cable connector until it snaps into place.
+
+Step 12: While supporting the display with one hand, use your Framework Screwdriver to install the four 2.4 mm‑long T5 Torx screws securing the display.
+
+Step 13: Align the display with its [link|https://guide-images.cdn.ifixit.com/igi/IeUDlwkLEMvOM1ap.full|alignment pegs|new_window=true] and place it on the Top Cover.
+
+Step 14: Align the bezel over the perimeter of the display and let the magnets pull the bezel into place. The bezel should "snap" into place. If it doesn't, realign it and make sure it sits flush with the display.

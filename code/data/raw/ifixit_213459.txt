@@ -1,0 +1,27 @@
+Gigabyte Sabre 15 Laptop Storage (HDD / SSD) Drive Replacement
+
+Source URL: https://www.ifixit.com/Guide/Gigabyte+Sabre+15+Laptop+Storage+(HDD+-+SSD)+Drive+Replacement/213459
+
+Device category: Gigabyte Sabre 15 Laptop
+
+Difficulty: Moderate
+
+
+
+Step 1: Disconnect the laptop charger. Close the lid and turn the laptop over so that it is resting on its lid on your surface.
+
+Step 2: Using the iFixit screwdriver with a 000 tip, remove the 12 screws from around the base
+
+Step 3: There are two sliding switches on the battery that both been to be in the open position to allow the battery to be removed The left hand switch is spring-loaded and will need to be pushed to the right and held The right hand switch is a simple mechanical switch, slide it to the left to unlock Use a finger nail to get in the recess to lift the front edge of the battery up Rotate the battery as though it is hinged until it points straight up, then lift the battery away
+
+Step 4: The first time it comes to removing the base of the laptop is very intimidating - it's well secured and doesn't seem to give easily I used a Jimmy tool, however any of the prying tools will work well, you just need something with a reasonably fine tip / head on it. Start between two connectors (the two USB-A ports on the right-hand side as shown in the image), gently insert the Jimmy in the seam where the top- and bottom-lids meet between the two connectors and gently twist to help get the Jimmy deeper. You'll only need to be in a few millimetres before the chassis will split apart. Then work your way around the entire perimeter.
+
+Step 5: Job done!
+
+Step 6: Insert wisdom here.
+
+Step 7: Insert wisdom here.
+
+Step 8: Insert wisdom here.
+
+Step 9: Insert wisdom here.

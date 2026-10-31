@@ -1,0 +1,31 @@
+Altyk L16 Laptop Motherboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Altyk+L16+Laptop+Motherboard+Replacement/221632
+
+Device category: Altyk Le PC Portable série L16
+
+Difficulty: Moderate
+
+
+
+Step 1: Remove the 8 screws from the bottom of the PC (all screws are identical). Slide an opening pick between the black plastic grille hidden behind the hinge cover. You can then slide it all the way along the plate to undo all the plastic snap fits.
+
+Step 2: Locate the battery connector. Using plastic or ceramic tweezers, separate the connector from the motherboard using the corners of the connector as indicated in red. Lift the battery wires to finish completely removing the battery from its connector.
+
+Step 3: Locate the three Phillips PH00 screws securing the cooling heatsink. All three screws are identical, but they are not captive screws on the system. Once the three screws are removed, the old thermal paste may act as a suction cup. Do not worry, you can pull firmly. The plastic film on top of the heatsink may stick a little to the cooling fan. Gently lift the heatsink to detach it.
+
+Step 4: Disconnect the cooling fan connector carefully. Remove the three PH00 screws securing the cooling fan. You can now install the new cooling fan and reassemble the device by following the guide in reverse. Since you have removed the heatsink, remember to reapply the thermal paste.
+
+Step 5: Remove the 5 screws securing the battery. You can then grab the battery connector and lift it up to remove it. You can now install the new battery and follow the steps in reverse order to reassemble the machine.
+
+Step 6: Locate the SSD. Remove the screw securing the SSD. Once the SSD is angled as shown in the second photo, grab it by the end and pull it out of its connector. Install the new one by following the guide in reverse order and you are done!
+
+Step 7: Disconnect all cables and connectors from the motherboard
+
+Step 8: Disconnect the BIOS battery and push the cable to the left to clear some room.
+
+Step 9: Remove the clear tape securing the antennas. Disconnect the antennas. They are very fragile—both the connectors on the board and the antennas themselves—so proceed with caution.
+
+Step 10: Remove the protective tape positioned over the cable Disconnect the cable
+
+Step 11: There are two types of screws that secure the motherboard Longer screws, the heads have a smaller diameter Shorter screws, the heads have a larger diameter Once the screws are removed, you can replace the motherboard, and reassemble the machine by following the steps in reverse

@@ -1,0 +1,83 @@
+Framework Laptop 16 Graphics Module Fan Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+16+Graphics+Module+Fan+Replacement/205686
+
+Device category: Framework Laptop 16 (AMD Ryzen™ 7040 Series)
+
+Difficulty: Easy
+
+Tools needed: Framework Screwdriver
+
+
+
+Step 1: Unplug all cables and fully shut down your laptop.
+
+Step 2: Use your fingernail to pull out the two Input Module latches and unlock them. The latch will show red if it's unlocked.
+
+Step 3: Use your fingers to slide the Touchpad Spacer toward the bottom edge of the laptop and unclip it. If you're having trouble, check if the corresponding Input Module latch is properly unlocked. Lift the Touchpad Spacer off the laptop and remove it.
+
+Step 4: Repeat the same procedure for the other touchpad spacer.
+
+Step 5: Use your fingers to slide the Touchpad Module toward the bottom edge of the laptop and disconnect it. If you're having trouble, check if the Input Module latches are properly unlocked. Lift the Touchpad Module and remove it.
+
+Step 6: The keyboard is held in place with strong magnets. Apply gradually increasing force to avoid having the keyboard violently eject. Grip the two pull tabs along the bottom of the keyboard and lift until its magnets release. Remove the keyboard.
+
+Step 7: Your Input Module(s) might be different, but the procedure to remove them is the same. Grip the pull tab at the bottom of the Input Module and lift until its magnets release. Remove the Input Module. Repeat for any remaining Input Modules.
+
+Step 8: Lift the interposer door by its black pull tab and let it rest upright.
+
+Step 9: Use your Framework Screwdriver to loosen the four captive T5 Torx screws securing the interposer.
+
+Step 10: Lift the interposer by its pull tab and remove it.
+
+Step 11: Use your Framework Screwdriver to loosen the two captive T5 Torx screws securing the Graphics Module. Close the interposer door before continuing.
+
+Step 12: Close your laptop and flip it over. Slide the Graphics Module out of the laptop and remove it. The module should slide out easily. If you feel any resistance, check that the screws holding it in place are fully loosened.
+
+Step 13: Use your Framework Screwdriver to remove the four 3.6 mm‑long T5 Torx screws securing the Graphics Module cover: Two screws on the flat surface of the module, next to the fans. Two screws on the thin edge of the module, near the ends. You'll need to flip the module on its back edge to access them.
+
+Step 14: Use your fingers to lift the cover off the Graphics Module and remove it.
+
+Step 15: Use the flat end of a spudger, or a clean fingernail, to lift up and release the locking tab on the fan [guide|25629|ZIF connector|stepid=64969|new_window=true]. Use your fingers to grip the brown pull tab and slide the fan cable straight out of its socket.
+
+Step 16: Use [product|IF145-020|tweezers], or your fingers, to grip the brown pull tab and slide the fan cable straight out of its socket.
+
+Step 17: Use a T5 Torx screwdriver to loosen the four captive screws securing the fan.
+
+Step 18: Use one hand to press the fan cable flat to the module. Use your other hand to pull the fan out of its housing, making sure to thread the cable though its slot. Remove the fan.
+
+Step 19: Congratulations on completing disassembly! ***The remaining steps will show how to reassemble your Framework Laptop.***
+
+Step 20: Use your Framework Screwdriver to install the four 3.6 mm‑long T5 Torx screws securing the Graphics Module cover: Two screws on the flat surface of the module, next to the fans. Two screws on the thin edge of the module, near the ends. You'll need to flip the module on its back edge to access them.
+
+Step 21: Place the cover over its slot on the Graphics Module.
+
+Step 22: Use the flat end of a spudger, or a clean fingernail, to lift up and release the locking tab on the fan [guide|25629|ZIF connector|stepid=64969|new_window=true].
+
+Step 23: Use your fingers to grip the brown pull tab and slide the fan cable straight into its socket. Use the flat end of your Framework Screwdriver, or a clean fingernail, to press down the locking tab on the fan ZIF connector.
+
+Step 24: Use a T5 Torx screwdriver to tighten the four captive screws securing the fan.
+
+Step 25: Place the fan onto the Expansion Bay Shell, making sure to thread the cable through [link|https://guide-images.cdn.ifixit.com/igi/oG2duNNwPqPwJfDR.full|its slot|new_window=true].
+
+Step 26: Align the Graphics Module with its slot in the laptop. Check that the module sits evenly with [link|https://guide-images.cdn.ifixit.com/igi/TtJ2jPTpm1IDcuRZ.full|the rail on the outside edges of the slot|new_window=true]. Check that [link|https://guide-images.cdn.ifixit.com/igi/YHrUCHcjQxmSDDdx.full|the two center rails|new_window=true] are threaded between the fans.
+
+Step 27: When installing the module, keep it level to the laptop so it doesn't buckle on the rails. There should be no gaps between the laptop and the module when it's installed correctly.
+
+Step 28: While keeping the module level with the laptop, slide it into its slot. The module should slide in easily. If you feel any resistance, pull the module out and realign it. You should hear an audible "click" when the module's clips snap into place.
+
+Step 29: Flip over the laptop and open it. Lift the interposer door by its black pull tab and let it rest upright.
+
+Step 30: Use your Framework Screwdriver to tighten the two captive T5 Torx screws securing the Graphics Module.
+
+Step 31: Place the interposer over its spot between the Mainboard and the Graphics Module.
+
+Step 32: Use your Framework Screwdriver to tighten the four captive T5 Torx screws securing the interposer. Close the interposer door.
+
+Step 33: The numpad is held in place with strong magnets. Apply gradually increasing force to avoid having the numpad violently eject. Grip the pull tab at the bottom of the numpad. Lift the pull tab until the numpad magnets release. Remove the numpad. During reassembly, make sure the numpad is seated properly on its [link|https://guide-images.cdn.ifixit.com/igi/plbvTvmwdh2xGjYJ.full|alignment pegs|new_window=true] and sits flush with the edges of the laptop.
+
+Step 34: Align the top edge of the keyboard with the top edge of the laptop. Lay the keyboard on the laptop and let the magnets pull the keyboard into place Make sure the keyboard is seated properly on its [link|https://guide-images.cdn.ifixit.com/igi/yG5pofFao6OSTNba.full|alignment pegs|new_window=true] and sits flush with the edges of the laptop.
+
+Step 35: Place the Touchpad Module flat on its cutout so [link|https://guide-images.cdn.ifixit.com/igi/3IG23UyJJiG66yWx.full|its clips|new_window=true] are properly aligned. Press the Touchpad Module down and slide it into place so it lines up evenly with the bottom edge of the laptop.
+
+Step 36: Place the Touchpad Spacer over its spot on the laptop with the bottom edge overhanging slightly. Slide the Touchpad Spacer towards the top of the laptop to secure it. Repeat the same procedure for the other Touchpad Spacer.

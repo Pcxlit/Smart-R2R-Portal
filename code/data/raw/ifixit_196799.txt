@@ -1,0 +1,75 @@
+Framework Laptop 16 Speakers Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+16+Speakers+Replacement/196799
+
+Device category: Framework Laptop 16 (AMD Ryzen™ AI 300 Series)
+
+Difficulty: Easy
+
+Tools needed: Framework Screwdriver
+
+
+
+Step 1: Unplug all cables and fully shut down your laptop.
+
+Step 2: Use your fingernail to pull out the two Input Module latches and unlock them. The latch will show red if it's unlocked.
+
+Step 3: Use your fingers to slide the Touchpad Spacer toward the bottom edge of the laptop and unclip it. If you're having trouble, check if the corresponding Input Module latch is properly unlocked. Lift the Touchpad Spacer off the laptop and remove it.
+
+Step 4: Repeat the same procedure for the other touchpad spacer.
+
+Step 5: Use your fingers to slide the Touchpad Module toward the bottom edge of the laptop and disconnect it. If you're having trouble, check if the Input Module latches are properly unlocked. Lift the Touchpad Module and remove it.
+
+Step 6: The keyboard is held in place with strong magnets. Apply gradually increasing force to avoid having the keyboard violently eject. Grip the two pull tabs along the bottom of the keyboard and lift until its magnets release. Remove the keyboard.
+
+Step 7: Your Input Module(s) might be different, but the procedure to remove them is the same. Grip the pull tab at the bottom of the Input Module and lift until its magnets release. Remove the Input Module. Repeat for any remaining Input Modules.
+
+Step 8: Grip the black pull tab on the Mid Plate cable press connector. Lift up to disconnect the Mid Plate cable.
+
+Step 9: The Mid Plate screws are ordered from 2–17 (number 1 is the press connector). You don't have to follow the order, but you can use it to help keep track of the screws you've loosened. Use your Framework Screwdriver to loosen the 16 captive T5 Torx screws securing the Mid Plate.
+
+Step 10: Use your fingers to lift the Mid Plate off the laptop and remove it.
+
+Step 11: Use your Framework Screwdriver to loosen the three captive T5 Torx screws securing the battery.
+
+Step 12: Grip the black pull tab at the top of the battery and lift to disconnect the battery connector. Remove the battery.
+
+Step 13: Lift the speaker cable connector by its black pull tab and disconnect it.
+
+Step 14: The speaker cable is routed along the bottom edge of the laptop. The next three steps will demonstrate how to unclip it. Starting at one speaker, use the flat end of a spudger, or your fingers, to lift the speaker cable out of its rubber clips.
+
+Step 15: Slide the speaker cable out from under its screw hole peg in the frame.
+
+Step 16: Repeat the last two steps across the length of the speaker cable until it's completely unclipped.
+
+Step 17: Use your Framework Screwdriver to remove the two 2.0 mm‑long T5 Torx screws securing each speaker (four in total).
+
+Step 18: Lift the speakers off their [link|https://guide-images.cdn.ifixit.com/igi/ywvyo2dLGqaKtWap.full|alignment pegs|new_window=true] and remove them.
+
+Step 19: Congratulations on completing disassembly! ***The remaining steps will show how to reassemble your Framework Laptop.***
+
+Step 20: Align the speakers over their alignment pegs and press them down into place.
+
+Step 21: Be very careful replacing these screws, as it's easy to damage their posts and prevent the screws from fully tightening. Don't overtighten the screws—just tighten them until they're snug. Use your Framework Screwdriver to install the two 2.0 mm‑long T5 Torx screws securing each speaker (four in total).
+
+Step 22: Use the flat end of your Framework Screwdriver to push the speaker cable back into its clips along the bottom edge of the laptop.
+
+Step 23: Press the speaker cable connector onto its socket to connect it.
+
+Step 24: Align the battery connector over its socket and lay the battery into its well. Lightly press the battery down to connect it.
+
+Step 25: Use your Framework Screwdriver to tighten the three captive T5 Torx screws securing the battery.
+
+Step 26: Place the Mid Plate on the laptop, making sure it sits evenly on its [link|https://guide-images.cdn.ifixit.com/igi/oFS3OwOJCnf6XkQW.full|alignment pegs|new_window=true].
+
+Step 27: Use your Framework Screwdriver to tighten the 16 captive T5 Torx screws ***in order*** (starting with 2) to secure the Mid Plate evenly.
+
+Step 28: Align the Mid Plate cable press connector over its socket and press down to connect it.
+
+Step 29: The numpad is held in place with strong magnets. Apply gradually increasing force to avoid having the numpad violently eject. Grip the pull tab at the bottom of the numpad. Lift the pull tab until the numpad magnets release. Remove the numpad. During reassembly, make sure the numpad is seated properly on its [link|https://guide-images.cdn.ifixit.com/igi/plbvTvmwdh2xGjYJ.full|alignment pegs|new_window=true] and sits flush with the edges of the laptop.
+
+Step 30: Align the top edge of the keyboard with the top edge of the laptop. Lay the keyboard on the laptop and let the magnets pull the keyboard into place Make sure the keyboard is seated properly on its [link|https://guide-images.cdn.ifixit.com/igi/yG5pofFao6OSTNba.full|alignment pegs|new_window=true] and sits flush with the edges of the laptop.
+
+Step 31: Place the Touchpad Module flat on its cutout so [link|https://guide-images.cdn.ifixit.com/igi/3IG23UyJJiG66yWx.full|its clips|new_window=true] are properly aligned. Press the Touchpad Module down and slide it into place so it lines up evenly with the bottom edge of the laptop.
+
+Step 32: Place the Touchpad Spacer over its spot on the laptop with the bottom edge overhanging slightly. Slide the Touchpad Spacer towards the top of the laptop to secure it. Repeat the same procedure for the other Touchpad Spacer.

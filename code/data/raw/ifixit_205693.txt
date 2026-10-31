@@ -1,0 +1,55 @@
+Framework Laptop 16 Primary SSD Replacement
+
+Source URL: https://www.ifixit.com/Guide/Framework+Laptop+16+Primary+SSD+Replacement/205693
+
+Device category: Framework Laptop 16 (AMD Ryzen™ 7040 Series)
+
+Difficulty: Easy
+
+Tools needed: Framework Screwdriver
+
+
+
+Step 1: Unplug all cables and fully shut down your laptop.
+
+Step 2: Use your fingers to slide the Touchpad Spacer toward the bottom edge of the laptop and unclip it. If you're having trouble, check if the corresponding Input Module latch is properly unlocked. Lift the Touchpad Spacer off the laptop and remove it.
+
+Step 3: Repeat the same procedure for the other touchpad spacer.
+
+Step 4: Use your fingers to slide the Touchpad Module toward the bottom edge of the laptop and disconnect it. If you're having trouble, check if the Input Module latches are properly unlocked. Lift the Touchpad Module and remove it.
+
+Step 5: The keyboard is held in place with strong magnets. Apply gradually increasing force to avoid having the keyboard violently eject. Grip the two pull tabs along the bottom of the keyboard and lift until its magnets release. Remove the keyboard.
+
+Step 6: Your Input Module(s) might be different, but the procedure to remove them is the same. Grip the pull tab at the bottom of the Input Module and lift until its magnets release. Remove the Input Module. Repeat for any remaining Input Modules.
+
+Step 7: Grip the black pull tab on the Mid Plate cable press connector. Lift up to disconnect the Mid Plate cable.
+
+Step 8: The Mid Plate screws are ordered from 2–17 (number 1 is the press connector). You don't have to follow the order, but you can use it to help keep track of the screws you've loosened. Use your Framework Screwdriver to loosen the 16 captive T5 Torx screws securing the Mid Plate.
+
+Step 9: Use your fingers to lift the Mid Plate off the laptop and remove it.
+
+Step 10: Use your Framework Screwdriver to remove the 2 mm‑long T5 Torx screw securing the SSD. The SSD might pop up at a shallow angle when you remove the screw.
+
+Step 11: Grip the end of the SSD with the screw hole and slide it out of its socket. Remove the SSD.
+
+Step 12: Congratulations on completing disassembly! ***The remaining steps will show how to reassemble your Framework Laptop.***
+
+Step 13: Hold the SSD by its edges. Don't touch the gold contacts with your fingers. If you do, wipe the contacts with a clean, lint-free cloth to remove any finger oils. Insert the SSD into the socket at a shallow angle. The gold contacts should mostly be covered by the socket. The SSD fits into the socket in one orientation. If it doesn't feel like it fits, try flipping the module.
+
+Step 14: While holding the SSD flat to the Mainboard, use your Framework Screwdriver to install the 2 mm‑long T5 Torx screw securing the SSD.
+
+Step 15: Place the Mid Plate on the laptop, making sure it sits evenly on its [link|https://guide-images.cdn.ifixit.com/igi/oFS3OwOJCnf6XkQW.full|alignment pegs|new_window=true].
+
+Step 16: Use your Framework Screwdriver to tighten the 16 captive T5 Torx screws ***in order*** (starting with 2) to secure the Mid Plate evenly.
+
+Step 17: Align the Mid Plate cable press connector over its socket and press down to connect it.
+
+Step 18: Your Input Module(s) might be different, but the procedure to remove them is the same. Align the top edge of the Input Module with the top edge of the laptop. Lay the Input Module on the laptop and let the magnets pull the keyboard into place Make sure the Input Module is seated properly on its [link|https://guide-images.cdn.ifixit.com/igi/plbvTvmwdh2xGjYJ.full|alignment pegs|new_window=true] and sits flush with the edges of the laptop. Repeat for any remaining Input Modules.
+
+Step 19: Align the top edge of the keyboard with the top edge of the laptop. Lay the keyboard on the laptop and let the magnets pull the keyboard into place Make sure the keyboard is seated properly on its [link|https://guide-images.cdn.ifixit.com/igi/yG5pofFao6OSTNba.full|alignment pegs|new_window=true] and sits flush with the edges of the laptop.
+
+Step 20: Place the Touchpad Module flat on its cutout so [link|https://guide-images.cdn.ifixit.com/igi/3IG23UyJJiG66yWx.full|its clips|new_window=true] are properly aligned. Press the Touchpad Module down and slide it into place so it lines up evenly with the bottom edge of the laptop.
+
+Step 21: Place the Touchpad Spacer over its spot on the laptop with the bottom edge overhanging slightly. Slide the Touchpad Spacer towards the top of the laptop to secure it. Repeat the same procedure for the other Touchpad Spacer.
+
+Step 22: Push the Input Module latches back into place to lock them.

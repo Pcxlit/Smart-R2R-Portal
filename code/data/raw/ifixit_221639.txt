@@ -1,0 +1,61 @@
+Altyk L16 Laptop Palmrest and Keyboard Replacement
+
+Source URL: https://www.ifixit.com/Guide/Altyk+L16+Laptop+Palmrest+and+Keyboard+Replacement/221639
+
+Device category: Altyk Le PC Portable série L16
+
+Difficulty: Moderate
+
+
+
+Step 1: Remove the 8 screws from the bottom of the PC (all screws are identical). Slide an opening pick between the black plastic grille hidden behind the hinge cover. You can then slide it all the way along the plate to undo all the plastic snap fits.
+
+Step 2: Locate the battery connector. Using plastic or ceramic tweezers, separate the connector from the motherboard using the corners of the connector as indicated in red. Lift the battery wires to finish completely removing the battery from its connector.
+
+Step 3: Remove the 5 screws securing the battery. You can then grab the battery connector and lift it up to remove it. You can now install the new battery and follow the steps in reverse order to reassemble the machine.
+
+Step 4: Locate the SSD. Remove the screw securing the SSD. Once the SSD is angled as shown in the second photo, grab it by the end and pull it out of its connector. Install the new one by following the guide in reverse order and you are done!
+
+Step 5: Disconnect the cable from the motherboard
+
+Step 6: Peel off the tape securing the cable that connects the daughterboard to the motherboard. Remove the two screws that secure the M2 daughterboard; you can now remove it.
+
+Step 7: Remove the three screws securing the clutch hinge. Using a screwdriver in the slot intended for securing the PC, lift the clutch hinge. This step is crucial to be able to remove the daughterboard once it is released.
+
+Step 8: To remove the ribbon cable: Lift the latches on both sides of the cable, which will release it, then pull it out.
+
+Step 9: Remove the 5 screws that are still securing the board to release it. You can now remove the board and replace it. You can follow this guide in reverse to reassemble your computer.
+
+Step 10: Disconnect the speaker connector from the motherboard Peel back the tape securing the cable to the frame
+
+Step 11: To free the cable, you must disconnect all ribbon cables connected to the motherboard that pass over it. The final result is shown in the second photo.
+
+Step 12: The speakers on this model are simply slid into their slots. To remove them, use pliers or a screwdriver to gently slide underneath each speaker to lift it; it will come out easily. Once both have been removed, you can install the new pair and reassemble the machine by following the guide in reverse order.
+
+Step 13: Remove the tapes on the touchpad and fold them onto themselves
+
+Step 14: Disconnect the Touchpad cables
+
+Step 15: To detach the touchpad from the palm rest, you must dissolve the adhesive. Do not hesitate to use a solvent (I personally use Essence F).
+
+Step 16: Slide an opening pick between the frame and the touchpad to unstick it. Once the touchpad begins to lift, you can assist by sliding a second opening pick along the palm rest/keyboard area while sliding it all the way across. Remove the adhesive residue and double-sided tape to make the surface perfect for the new touchpad. You can follow the guide in reverse order to reassemble the machine.
+
+Step 17: Locate the three Phillips PH00 screws securing the cooling heatsink. All three screws are identical, but they are not captive screws on the system. Once the three screws are removed, the old thermal paste may act as a suction cup. Do not worry, you can pull firmly. The plastic film on top of the heatsink may stick a little to the cooling fan. Gently lift the heatsink to detach it.
+
+Step 18: Disconnect the cooling fan connector carefully. Remove the three PH00 screws securing the cooling fan. You can now install the new cooling fan and reassemble the device by following the guide in reverse. Since you have removed the heatsink, remember to reapply the thermal paste.
+
+Step 19: Disconnect all cables and connectors from the motherboard
+
+Step 20: Disconnect the BIOS battery and push the cable to the left to clear some room.
+
+Step 21: Remove the clear tape securing the antennas. Disconnect the antennas. They are very fragile—both the connectors on the board and the antennas themselves—so proceed with caution.
+
+Step 22: Remove the protective tape positioned over the cable Disconnect the cable
+
+Step 23: There are two types of screws that secure the motherboard Longer screws, the heads have a smaller diameter Shorter screws, the heads have a larger diameter Once the screws are removed, you can replace the motherboard, and reassemble the machine by following the steps in reverse
+
+Step 24: Open the left clutch hinge completely (the screws were already removed during the daughterboard disassembly step)
+
+Step 25: Remove the three screws that secure the right clutch hinge Use pliers to lift the clutch hinge and move it into the open position
+
+Step 26: After opening the clutch hinges to 90°, lift the palm rest to set it against the clutch hinges. Slide it in the direction of the arrows to release it. You can now install the new palm rest and follow the guide steps in reverse to reassemble it.

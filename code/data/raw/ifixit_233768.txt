@@ -1,0 +1,31 @@
+HP Laptop Model 15s-eq2047ns dead battery replacement
+
+Source URL: https://www.ifixit.com/Guide/HP+Laptop+Model+15s-eq2047ns+dead+battery+replacement/233768
+
+Device category: Ordenador portatil HP 15s-eq2047ns
+
+Difficulty: Very easy
+
+
+
+Step 1: I'm repeating this repair guide, as you always learn something new when performing a new repair. Replacing the dead battery in the HP Laptop Model 15s-eq2047ns is a fairly simple task; the only complication is locating the screws hidden under the rubber support strips. I've marked them for you in the photo. As you can see, this is a repair that can be done at the kitchen table :) We must remove the rubber support strips carefully so as not to break them or damage the adhesive strips, as we will reuse them. This is the second time I've replaced the dead battery, so this time I've marked where the hidden screws are located under the rubber strips.
+
+Step 2: Once the base screws are removed, apply slight pressure from the sides; you can use a plastic opening tool to begin unhooking the plastic casing from the base. The dead battery is now visible. It has happened to me on both occasions: out of the 3 internal modules that make up the battery pack, the one on the left always gets damaged, expanding or swelling in size and becoming deformed, which affects the touch pad.
+
+Step 3: We are taking a trip back to the past with the explanation of this step 3: If, in addition to the dead battery not lasting, while using the computer we notice that it is difficult to press the left side of the trackpad and it no longer clicks smoothly, the dead battery is clearly deformed and swollen; you will see that upon replacing it, this returns to complete normalcy and functions correctly.
+
+Step 4: Comparison of the new spare part with the module currently installed, which is deformed and damaged on its left side. Before disassembling, mark the locations of the 5 screws with an indelible marker.
+
+Step 5: Once the 5 screws are removed, lift the dead battery module out with ease, insert the new module, and snap it into the power connector. I recommend noting the date of the new dead battery on the casing to know how long it lasted in operation for next time.
+
+Step 6: Observe the deformed state of the removed module. Insert the 5 screws into the new module. Insert the back cover and snap it into place by applying light pressure; replace the cover screws.
+
+Step 7: IMPORTANT: The device will not turn on with the dead battery alone, even if you press the power button. "What a scare." In order for it to turn on, you must plug in the external power adapter; it will recognize that it is charging (orange LED). The first thing that appears on the screen is a blue warning box; press Enter and it will continue with the power-on process.
+
+Step 8: Once the Windows screen is on, we can disconnect the external power supply connector to check if the device is actually running on its internal dead battery. In my case, it worked correctly.
+
+Step 9: Views of the dead battery, replaced.
+
+Step 10: Views of the dead battery; in my case, this battery lasted 1 year. Honestly, that is very short, though I also use the device quite intensively.
+
+Step 11: We will check what I mentioned in guide step 3: the trackpad should now have recovered its normal operation upon replacing the swollen battery, which was forcing it so that it could not be clicked comfortably from inside the device. End of the repair guide, a simple repair, performed at home on your personal device. Other repair guides: [[Topic:Ordenador portatil HP 15s-eq2047ns]]

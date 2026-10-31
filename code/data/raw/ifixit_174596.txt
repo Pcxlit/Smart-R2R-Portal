@@ -1,0 +1,35 @@
+Microsoft Surface Laptop 7 (13.8-inch) Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+7+(13.8-inch)+Battery+Replacement/174596
+
+Device category: Microsoft Surface Laptop 7
+
+Difficulty: Moderate
+
+Tools needed: Angled Tweezers, iFixit Opening Picks (Set of 6), Spudger, iFixit Precision Bit Driver, 3IP Torx Plus Bit, 5IP Torx Plus Bit, T3 Torx Screwdriver, T5 Torx Screwdriver
+
+
+
+Step 1: ***Before starting this repair, allow your laptop's battery to drain below 25%.*** A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close your laptop and lay it down so the rubber feet are facing up.
+
+Step 3: Gently slide one arm of your angled tweezers into the [link|https://guide-images.cdn.ifixit.com/igi/T3vTSAgRAmEmaD6W.full|recess near the upper right edge|new_window=true] of one of the feet. You can also use the point of a spudger. However, you're more likely to damage the foot, if you're reusing it. Use your tweezers to pry up and remove the foot. The feet may eject very quickly—be careful not to lose them. Repeat the process to remove the remaining feet. To install a foot, align the [link|https://guide-images.cdn.ifixit.com/igi/CRYoq24tvHxFtc6S.full|pegs on the bottom with their cutouts in the frame|new_window=true] and press the foot into place.
+
+Step 4: Throughout this repair, [product|IF145-491|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from. While the Surface Laptop 7 uses [link|https://en.m.wikipedia.org/wiki/Torx#Torx_Plus|Torx Plus|new_window=true] screws, standard Torx bits work. Make sure to apply constant, downward force to prevent stripping. Use a Torx Plus 5IP screwdriver to remove the four 4.5 mm‑long screws (with washers) securing the lower case.
+
+Step 5: Insert the tip of an opening pick under the top edge of the lower case, about an inch (2.5 cm) to the left or right of the Microsoft logo. Don't insert the pick near the [link|https://guide-images.cdn.ifixit.com/igi/3ytR1eoUYGPGesIb.full|outer edges|new_window=true] or you'll damage the antenna bar.
+
+Step 6: Twist the pick to lift the lower case enough that you can grip it with your hand.
+
+Step 7: Lift the lower case and remove it.
+
+Step 8: Use a Torx Plus 3IP screwdriver to remove the two 2.3 mm‑long screws securing the battery connector cover.
+
+Step 9: Use tweezers or your fingers to remove the battery connector cover.
+
+Step 10: Insert the flat end of a spudger under the top edge of the battery [guide|25629|press connector|stepid=70308|new_window=true] and pry up to disconnect it. To reconnect a press connector, align it over the socket and gently press down on one side until it clicks into place, then press down on the other side. It may take a few tries to align the connector—don't try to force it into place.
+
+Step 11: Use a Torx Plus 5IP screwdriver to remove the eight 5.4 mm‑long screws securing the battery. Be very careful not to puncture the battery with your screwdriver.
+
+Step 12: Lift the battery and remove it. If your battery is swollen, [[What to do with a swollen battery|take appropriate precautions|new_window=true]]. Never reuse a deformed or damaged battery—it's a fire hazard. Replace it with a new battery.

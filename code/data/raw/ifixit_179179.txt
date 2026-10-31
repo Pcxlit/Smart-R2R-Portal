@@ -1,0 +1,19 @@
+Asus Vivobook X532FL_S532FL Laptop Battery Replacement
+
+Source URL: https://www.ifixit.com/Guide/Asus+Vivobook+X532FL_S532FL+Laptop+Battery+Replacement/179179
+
+Device category: Asus VivoBook Laptop X532FL S532FL
+
+Difficulty: Easy
+
+
+
+Step 1: Remove the 10 screws on the bottom of the laptop, keep them in order as there is a difference in size.
+
+Step 2: After removing the 10 screws, run a plastic opening tool along the edge; you do not need to pry, just go all the way around. remove the plate
+
+Step 3: Remove the 3 screws holding the battery in place. Disconnect the battery, NOTE: the battery is secured with a click/slide system, slide the silver connector backward to disconnect it. Lift the battery upward and backward to remove it.
+
+Step 4: Place the new battery in its position, connect the connector, don't forget to slide the silver locking slider back into place, and screw everything back in.
+
+Step 5: Before replacing the lower case, check that the laptop starts up with the new battery. If the laptop starts up, connect the power supply, go to the settings, and check that the laptop is now charging. Secure the lower case by snapping everything back into place, and then reinstall the 10 screws.

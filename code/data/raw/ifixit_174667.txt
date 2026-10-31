@@ -1,0 +1,69 @@
+Microsoft Surface Laptop 7 (13.8-inch) Screen Replacement
+
+Source URL: https://www.ifixit.com/Guide/Microsoft+Surface+Laptop+7+(13.8-inch)+Screen+Replacement/174667
+
+Device category: Microsoft Surface Laptop 7
+
+Difficulty: Moderate
+
+Tools needed: Angled Tweezers, Spudger, iFixit Opening Picks (Set of 6), iFixit Precision Bit Driver, 3IP Torx Plus Bit, 5IP Torx Plus Bit, 6IP Torx Plus Bit, T3 Torx Screwdriver, T5 Torx Screwdriver, T6 Torx Screwdriver
+
+
+
+Step 1: ***Before starting this repair, allow your laptop's battery to drain below 25%.*** A charged battery may catch fire if damaged. Unplug all cables and fully shut down your laptop.
+
+Step 2: Close your laptop and lay it down so the rubber feet are facing up.
+
+Step 3: Gently slide one arm of your angled tweezers into the [link|https://guide-images.cdn.ifixit.com/igi/T3vTSAgRAmEmaD6W.full|recess near the upper right edge|new_window=true] of one of the feet. You can also use the point of a spudger. However, you're more likely to damage the foot, if you're reusing it. Use your tweezers to pry up and remove the foot. The feet may eject very quickly—be careful not to lose them. Repeat the process to remove the remaining feet. To install a foot, align the [link|https://guide-images.cdn.ifixit.com/igi/CRYoq24tvHxFtc6S.full|pegs on the bottom with their cutouts in the frame|new_window=true] and press the foot into place.
+
+Step 4: Throughout this repair, [product|IF145-491|keep track of each screw|new_window=true] and make sure it goes back exactly where it came from. While the Surface Laptop 7 uses [link|https://en.m.wikipedia.org/wiki/Torx#Torx_Plus|Torx Plus|new_window=true] screws, standard Torx bits work. Make sure to apply constant, downward force to prevent stripping. Use a Torx Plus 5IP screwdriver to remove the four 4.5 mm‑long screws (with washers) securing the lower case.
+
+Step 5: Insert the tip of an opening pick under the top edge of the lower case, about an inch (2.5 cm) to the left or right of the Microsoft logo. Don't insert the pick near the [link|https://guide-images.cdn.ifixit.com/igi/3ytR1eoUYGPGesIb.full|outer edges|new_window=true] or you'll damage the antenna bar.
+
+Step 6: Twist the pick to lift the lower case enough that you can grip it with your hand.
+
+Step 7: Lift the lower case and remove it.
+
+Step 8: Use a Torx Plus 3IP screwdriver to remove the two 2.3 mm‑long screws securing the battery connector cover.
+
+Step 9: Use tweezers or your fingers to remove the battery connector cover.
+
+Step 10: Insert the flat end of a spudger under the top edge of the battery [guide|25629|press connector|stepid=70308|new_window=true] and pry up to disconnect it. To reconnect a press connector, align it over the socket and gently press down on one side until it clicks into place, then press down on the other side. It may take a few tries to align the connector—don't try to force it into place.
+
+Step 11: Use a Torx Plus 3IP screwdriver to remove the two screws from the right edge of the audio jack cover: One 3 mm‑long screw in the top right corner One 4.7 mm‑long screw in the bottom right corner Use a Torx Plus 6IP screwdriver to remove the remaining 6.3 mm‑long screw in the top left corner.
+
+Step 12: Remove the audio jack cover.
+
+Step 13: Use a spudger to lift the hinged locking flap on the audio jack [guide|25629|ZIF connector|stepid=64969|new_window=true]. Use tweezers to grip the audio jack cable's pull tab and slide the cable out of its socket.
+
+Step 14: Slide the audio jack out of its recess and remove it. During reassembly, insert the audio jack into its recess and push the jack into its cutout on the frame. Make sure the port is fully in its cutout—the outer edge should be flush with the frame.
+
+Step 15: Use the point of a spudger to pry up and remove the [link|https://guide-images.cdn.ifixit.com/igi/6VG3QXOObLvtrVAO.full|two antenna cable covers|new_window=true] from the top right corner of the motherboard. The covers can eject unexpectedly—be careful not to lose them.
+
+Step 16: Slide one arm of a pair of angled tweezers under the metal neck of one of the antenna cable [guide|25629|coaxial connectors|stepid=64972|new_window=true] and lift straight up to disconnect it. Lift only under the metal section of the connector, and not under the cable itself. Repeat the process to disconnect the other antenna cable. To reconnect the cables, use tweezers to hold the connector in place over its socket and gently press down with your finger or a spudger—the connector should "snap" into place. If you're having trouble, reposition the head and try again. Don't try to force the connector into place.
+
+Step 17: Use a Torx Plus 3IP screwdriver to remove the twelve 2.4 mm‑long screws securing the antenna bar.
+
+Step 18: Use your fingers to lift and remove the antenna bar.
+
+Step 19: When removing the display cable shield in the next few steps, try to deform the shield as little as possible. You'll reuse it during reassembly. Don't insert your tool anywhere along the top edge of the shield, or you may damage the display cables. Slide an arm of a pair of angled tweezers into one of the gaps on the right edge of the display cable shield. Gently pry the shield up to begin unclipping it.
+
+Step 20: Slide an arm of your tweezers under the bottom edge of the display cable shield, closest to the right edge. Twist your tweezers and pry up to further unclip the shield.
+
+Step 21: Use the same process to unclip the left side of the shield.
+
+Step 22: Use your fingers to gently lift and unclip the right side of the shield. Grip the left side of the shield with your fingers and fully remove it. If the shield feels stuck, use your tweezers to unclip the area that's stuck.
+
+Step 23: The metal housing around the display cables makes it hard to disconnect them. Insert your tool under the bottom corner on the side that has the most room to work. Insert the point of a spudger under the bottom left corner of the rightmost display cable press‑connector and pry up to disconnect it.
+
+Step 24: Use the point of a spudger to disconnect the three remaining display cable press‑connectors.
+
+Step 25: During reassembly, use the flat end of a spudger to gently push all four display cables under the motherboard.
+
+Step 26: Use a Torx Plus 6IP screwdriver to ''loosen'' (not remove) the seven hinge screws.
+
+Step 27: Open your laptop 90 degrees and gently place it keyboard side down on a table, so the screen hangs over the edge. Optionally, you can place a soft cloth under your keyboard to protect it.
+
+Step 28: Keep a firm grip on your laptop, as it can easily fall off the table. Support the screen with one hand and use your free hand to remove the seven 6.3 mm‑long Torx Plus 6IP screws securing the hinges.
+
+Step 29: Hold the screen with both hands and lift the hinges out of their recesses to remove the screen. During reassembly: Make sure the screen hinges are open 90 degrees and guide them into their recesses in the frame. Install and ''partially'' tighten the seven hinge screws. Close your laptop and make sure the screen is properly aligned. If it clicks or snaps, readjust the alignment. Fully tighten the hinge screws.
