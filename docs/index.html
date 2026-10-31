@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
       <h1>Right to repair,<br>made searchable.</h1>
       <p class="hero-sub">
         Smart R2R Portal helps device owners and repair shops navigate laptop repairs —
-        combining a fully functional retrieval-augmented repair assistant with a verified shop directory
+        combining a retrieval-augmented repair assistant with a verified shop directory
         and end-to-end repair tracking.
       </p>
       <div class="hero-actions">
@@ -53,8 +53,8 @@
     <div class="hero-panel">
       <div class="hero-panel-inner">
         <div class="status-strip">
-          <span class="status-strip-row"><i class="pulse pulse-live"></i>Retrieval — live</span>
-          <span class="status-strip-row"><i class="pulse pulse-live"></i>Generation — live</span>
+          <span class="status-strip-row"><i class="pulse pulse-live"></i>Retrieval — done</span>
+          <span class="status-strip-row"><i class="pulse pulse-live"></i>Generation — done</span>
           <span class="status-strip-row"><i class="pulse pulse-live"></i>CI — passing</span>
         </div>
         <svg class="device-diagram" id="deviceDiagram" viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg">
@@ -139,7 +139,7 @@
       </div>
       <div class="log-line fade-in">
         <span class="log-code log-code-done">[done]</span>
-        <span class="log-msg"><strong>Answer generation</strong> — LLM synthesis fully wired on top of retrieved chunks, providing direct, grounded answers.</span>
+        <span class="log-msg"><strong>Answer generation</strong> — an LLM writes the answer from the retrieved chunks, and the answer lists the guides it came from. The RAG module is complete.</span>
       </div>
       <div class="log-line fade-in">
         <span class="log-code log-code-done">[done]</span>
@@ -147,7 +147,7 @@
       </div>
       <div class="log-line fade-in">
         <span class="log-code log-code-done">[done]</span>
-        <span class="log-msg"><strong>Sample repair guides &amp; architecture docs</strong> — documentation, repair guides, and all system design diagrams ingested and indexed.</span>
+        <span class="log-msg"><strong>Sample repair guides</strong> — two placeholder documents ingested end to end: a hinge repair guide and a battery replacement guide.</span>
       </div>
       <div class="log-line fade-in">
         <span class="log-code log-code-planned">[queued]</span>
@@ -163,9 +163,10 @@
   <!-- ============ DEMO ============ -->
   <section class="section" id="demo">
     <div class="section-head">
-      <h2>Assistant demo</h2>
+      <h2>Assistant demo <span class="soon-pill">Sample output</span></h2>
       <p>
-        End-to-end RAG retrieval and answer generation are now live! Type a laptop issue below or click a sample query to see the retrieved sources and synthesized LLM answer.
+        Type a laptop issue below to see the answer the assistant writes
+        and the sources it pulls back.
       </p>
     </div>
 
@@ -178,11 +179,9 @@
       <div class="demo-chip-row">
         <button type="button" class="demo-chip" data-demo="hinge is loose and creaking">Loose, creaking hinge</button>
         <button type="button" class="demo-chip" data-demo="battery drains fast and feels swollen">Battery drains fast / swollen</button>
-        <button type="button" class="demo-chip" data-demo="class diagram / object model">Class diagram</button>
-        <button type="button" class="demo-chip" data-demo="deployment architecture">Deployment diagram</button>
       </div>
       <div id="demoOutput" class="demo-output"></div>
-      <p class="demo-note">Sources and latency reflect real retrieval behavior from the ChromaDB index combined with live LLM response synthesis.</p>
+      <p class="demo-note">Answers, sources and latency shown are saved example outputs from the RAG pipeline. This page is static, so it cannot run new queries live.</p>
     </div>
   </section>
 
@@ -190,7 +189,7 @@
   <section class="section section-dark" id="pipeline">
     <div class="section-head">
       <h2>How the RAG pipeline works</h2>
-      <p>The complete retrieval and generation module, end to end.</p>
+      <p>The RAG module Punya built, end to end.</p>
     </div>
 
     <div class="stepper">
@@ -198,7 +197,7 @@
       <div class="stepper-item fade-in">
         <span class="stepper-dot"></span>
         <h3>Ingest repair guides</h3>
-        <p>Load source documents — repair guides, documentation, and system design diagrams.</p>
+        <p>Load source documents — currently the hinge repair and battery replacement placeholders.</p>
       </div>
       <div class="stepper-item fade-in">
         <span class="stepper-dot"></span>
@@ -218,7 +217,7 @@
       <div class="stepper-item fade-in">
         <span class="stepper-dot"></span>
         <h3>Generate</h3>
-        <p>An LLM synthesizes a final, grounded answer from the retrieved chunks, backed by validation.</p>
+        <p>An LLM writes the answer from the retrieved chunks, and the answer lists which guides it came from.</p>
       </div>
       <div class="stepper-item fade-in">
         <span class="stepper-dot"></span>
@@ -302,10 +301,26 @@
       <h2>Team</h2>
     </div>
     <div class="team-line">
-      <span class="team-entry fade-in"><strong>Punya Chhabra</strong> · 1024030684 · RAG module</span>
+      <span class="team-entry fade-in"><strong>Punya Chhabra</strong> 1024030684 (RAG module)</span>
       <span class="team-sep">/</span>
-      <span class="team-entry fade-in"><strong>Arnav Gupta</strong> · 1024030780</span>
+      <span class="team-entry fade-in"><strong>Arnav Gupta</strong> 1024030573</span>
       <span class="team-sep">/</span>
-      <span class="team-entry fade-in"><strong>Kaushik Jindal</strong> · 1024030431</span>
+      <span class="team-entry fade-in"><strong>Kaushik Jindal</strong> 1024030442</span>
     </div>
   </section>
+
+</main>
+
+<footer class="footer">
+  <span class="footer-logo">Smart R2R Portal</span>
+  <p class="footer-text">A RAG-based right-to-repair assistant for laptops.</p>
+  <div class="footer-links">
+    <a href="https://github.com/Pcxlit/Smart-R2R-Portal" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://github.com/Pcxlit/Smart-R2R-Portal/tree/main/docs" target="_blank" rel="noopener">Docs</a>
+    <a href="https://github.com/Pcxlit/Smart-R2R-Portal/tree/main/.github/workflows" target="_blank" rel="noopener">CI Workflow</a>
+  </div>
+</footer>
+
+<script src="script.js?v=4"></script>
+</body>
+</html>
