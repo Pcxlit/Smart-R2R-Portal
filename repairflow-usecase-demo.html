@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RepairFlow – Use Case Demo</title>
+<style>
+:root{color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f5f7f4;--card:#fff;--ink:#1c2420;--mut:#5d6963;--line:#dde3de;--acc:#1b7556;--accbg:#e4f2ec;--warn:#9a5b06;--warnbg:#fdf0db;--bad:#a8231b;--badbg:#fbe4e2;--inp:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1b2420;--ink:#e6ece8;--mut:#9aa8a1;--line:#2c3832;--acc:#4cc59b;--accbg:#183328;--warn:#f0b255;--warnbg:#3a2c12;--bad:#ff8a80;--badbg:#3d1c19;--inp:#121815}}
+:root[data-theme="dark"]{--bg:#121815;--card:#1b2420;--ink:#e6ece8;--mut:#9aa8a1;--line:#2c3832;--acc:#4cc59b;--accbg:#183328;--warn:#f0b255;--warnbg:#3a2c12;--bad:#ff8a80;--badbg:#3d1c19;--inp:#121815}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:940px;margin:0 auto;padding:18px 16px 40px}
+h1{font-size:22px;margin:0 0 2px}h2{font-size:16px;margin:0 0 10px;display:flex;gap:8px;align-items:center}
+.sub{color:var(--mut);margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.uc{background:var(--acc);color:var(--bg);font-size:12px;font-weight:700;padding:2px 8px;border-radius:99px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tab{flex:1;min-width:140px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px;border-radius:10px;cursor:pointer;font:inherit;text-align:left}
+.tab.on{border-color:var(--acc);background:var(--accbg);font-weight:600}.tab small{display:block;color:var(--mut);font-weight:400}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--inp);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+input[type=text],input:not([type]){flex:1;min-width:180px}textarea{width:100%;box-sizing:border-box}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 12px}
+button.pri{background:var(--acc);color:var(--bg);border-color:var(--acc);font-weight:600}button.bad{color:var(--bad)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.chip{font-size:13px;padding:4px 10px;border-radius:99px}
+.ans{background:var(--accbg);border-radius:10px;padding:10px 12px;margin:10px 0}.ans p{margin:6px 0}.ans ol{margin:6px 0 6px 18px;padding:0}.ans small{color:var(--mut)}
+.note{padding:10px 12px;border-radius:10px;margin:10px 0}.warn{background:var(--warnbg);color:var(--warn)}.err{color:var(--bad);min-height:1em;font-size:13px}
+.shop{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding:9px 0}
+.shop:first-of-type{border-top:0}.mut{color:var(--mut);font-size:13px}
+.badge{font-size:12px;padding:2px 9px;border-radius:99px;background:var(--accbg);color:var(--acc);font-weight:600;white-space:nowrap}
+.badge.p{background:var(--warnbg);color:var(--warn)}.badge.r{background:var(--badbg);color:var(--bad)}
+.log{font-size:13px;max-height:230px;overflow:auto}.log div{padding:4px 0;border-top:1px solid var(--line)}.log div:first-child{border-top:0}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}@media(min-width:820px){.grid{grid-template-columns:1.5fr 1fr}}
+ol.walk{margin:6px 0 0 18px;padding:0;color:var(--mut);font-size:13.5px}
+</style></head><body><div class="wrap">
+<h1>RepairFlow – Use Case Demo</h1>
+<p class="sub">Right-to-Repair Assistant &amp; Reparability Portal · UCS503P · Switch roles to play each use case end to end.</p>
+<div class="card"><b>Suggested lab walkthrough</b>
+<ol class="walk"><li><b>Admin</b> – approve “Quick Fix Electronics” (UC4)</li><li><b>Device Owner</b> – search “laptop hinge is loose” (UC1), request a repair (UC2)</li><li><b>Shop Staff</b> – confirm, update status, complete (UC3)</li><li><b>Device Owner</b> – watch the status change in My repairs</li></ol></div>
+<div class="tabs" id="tabs"></div>
+<div class="grid"><div id="app"></div>
+<div><div class="card"><h2>Interaction log</h2><div class="log" id="log"></div></div>
+<div class="card"><button onclick="reset()">Reset demo</button></div></div></div>
+</div>
+<script>
+const FLOW=['Submitted','Confirmed','In progress','Ready for pickup','Completed'];
+const GUIDES=[
+{k:['hinge','lid','wobble'],t:'Loose or cracked hinge',s:6,src:'hinge_repair_guide.txt',a:'A loose hinge usually means worn hinge screws or a cracked hinge mount. Fix it early, before the display bezel or cable is damaged.',st:['Power off, unplug and disconnect the battery.','Open the lid fully and remove the hinge cover.','Tighten the hinge screws; replace the hinge if the mount is cracked.','Reassemble and test the lid at several angles.']},
+{k:['battery','swollen','charge','plugged','charging'],t:'Battery replacement',s:7,src:'battery_replacement_guide.txt',a:'A swollen battery is a safety risk. Stop using the laptop and replace the battery as soon as possible.',st:['Discharge below 25% and power off.','Remove the bottom cover.','Disconnect the battery connector, then remove the battery.','Fit a compatible battery and test charging.']},
+{k:['fan','noise','overheat','hot','thermal'],t:'Fan cleaning and thermal paste',s:8,src:'ifixit_fan_guide.txt',a:'Loud fans and overheating are usually caused by dust or dried thermal paste.',st:['Power off and open the back cover.','Clean the fan and vents with compressed air.','Reapply thermal paste on the CPU if it has dried out.','Reassemble and monitor temperatures.']},
+{k:['keyboard','key'],t:'Keyboard replacement',s:5,src:'ifixit_keyboard_guide.txt',a:'Dead keys can be debris or a failing keyboard assembly; many models need the keyboard replaced as a unit.',st:['Power off and disconnect the battery.','Release the keyboard retaining clips or screws.','Lift the keyboard and unplug its ribbon cable.','Connect the new keyboard and test every key.']},
+{k:['screen','display','crack','flicker'],t:'Screen replacement',s:6,src:'ifixit_screen_guide.txt',a:'A cracked or flickering screen needs a compatible panel. Check the exact model number before ordering.',st:['Power off and disconnect the battery.','Remove the bezel and the panel screws.','Unplug the display cable and swap the panel.','Reassemble and check for dead pixels.']}];
+const INIT=()=>({role:'owner',shops:[{id:1,n:'FixIt Hub',r:4.6,d:1.2,p:499,st:'Verified'},{id:2,n:'Sharma Laptop Care',r:4.3,d:2.8,p:399,st:'Verified'},{id:3,n:'Quick Fix Electronics',r:4.0,d:0.8,p:349,st:'Pending'}],reqs:[],log:[],n:0,query:'',res:null,pick:null,last:null,seq:1000,ss:1});
+let S=INIT();
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const now=()=>new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+const shopName=id=>S.shops.find(s=>s.id===id).n;
+function lg(uc,m){S.log.unshift({i:++S.n,uc,m,t:now()})}
+function reset(){S=INIT();render()}
+function setRole(r){S.role=r;render()}
+function search(){const q=S.query.trim();if(!q)return;const l=q.toLowerCase();let best=null,bs=0;
+GUIDES.forEach(g=>{const c=g.k.filter(k=>l.includes(k)).length;if(c>bs){bs=c;best=g}});
+S.res=best?{g:best}:{none:true};S.pick=null;S.last=null;
+lg('UC1',`Query “${esc(q)}” → ${best?'retrieved guide: '+best.t:'no relevant guide (distance above threshold)'}; verified shops ranked`);render()}
+function pick(id){S.pick=id;S.last=null;render()}
+function submit(){const dev=document.getElementById('dev').value.trim(),f=document.getElementById('flt').value.trim();
+if(!dev||!f){document.getElementById('err').textContent='Please fill in both the device and the fault.';return}
+const r={id:'RF-'+(++S.seq),shop:S.pick,dev,f,st:'Submitted',cost:null,t:now()};S.reqs.push(r);S.last=r;S.pick=null;
+lg('UC2',`Request ${r.id} saved (Submitted) for ${shopName(r.shop)}; tracking ID returned; shop notified`);render()}
+function confirmReq(id){const r=S.reqs.find(x=>x.id===id);r.cost=Math.max(0,+document.getElementById('c'+id).value||0);r.st='Confirmed';r.t=now();
+lg('UC3',`${id} confirmed by ${shopName(r.shop)}, estimated cost ₹${r.cost}`);render()}
+function advance(id){const r=S.reqs.find(x=>x.id===id);const n=FLOW[FLOW.indexOf(r.st)+1];if(!n)return;r.st=n;r.t=now();
+lg('UC3',n==='Completed'?`${id} completed and closed; e-waste diverted logged`:`${id} status → ${n} (last updated ${r.t})`);render()}
+function decline(id){const r=S.reqs.find(x=>x.id===id);r.st='Rejected';r.t=now();lg('UC3',`${id} declined by ${shopName(r.shop)}; owner advised to choose another shop`);render()}
+function verify(id,ok){const s=S.shops.find(x=>x.id===id);s.st=ok?'Verified':'Rejected';
+lg('UC4',ok?`${s.n} approved → added to searchable directory; staff notified`:`${s.n} rejected (${document.getElementById('rs'+id).value}); staff notified to resubmit`);render()}
+const badge=st=>`<span class="badge ${st==='Rejected'?'r':st==='Submitted'||st==='Pending'?'p':''}">${st}</span>`;
+function owner(){
+let h=`<section class="card"><h2><span class="uc">UC1</span>Search repair guides and shops</h2>
+<div class="row"><input id="q" value="${esc(S.query)}" placeholder="Describe the fault, e.g. laptop hinge is loose" oninput="S.query=this.value" onkeydown="if(event.key==='Enter')search()"><button class="pri" onclick="search()">Search</button></div>
+<div class="chips">${['laptop hinge is loose','battery is swollen','fan making loud noise','how to bake a cake'].map(x=>`<button class="chip" onclick="S.query='${x}';search()">${x}</button>`).join('')}</div>`;
+if(S.res){const g=S.res.g;
+h+=S.res.none?`<div class="note warn">No repair guide found for that problem yet. Try describing the symptom differently – verified shops are still listed below.</div>`
+:`<div class="ans"><b>${g.t}</b> · reparability ${g.s}/10<p>${g.a}</p><ol>${g.st.map(x=>`<li>${x}</li>`).join('')}</ol><small>Source: ${g.src}</small></div>`;
+const ds=S.shops.filter(s=>s.st==='Verified').sort((a,b)=>b.r-a.r||a.d-b.d);
+h+=`<b>Verified shops nearby</b>`+ds.map(s=>`<div class="shop"><div><b>${s.n}</b><div class="mut">★ ${s.r} · ${s.d} km · from ₹${s.p}</div></div><button class="pri" onclick="pick(${s.id})">Request repair</button></div>`).join('');}
+h+=`</section>`;
+if(S.pick)h+=`<section class="card"><h2><span class="uc">UC2</span>Submit repair request to ${shopName(S.pick)}</h2>
+<div class="row" style="margin-bottom:8px"><input id="dev" placeholder="Device, e.g. Dell Inspiron 15"></div>
+<textarea id="flt" rows="3" placeholder="Describe the fault">${esc(S.query)}</textarea><div class="err" id="err"></div>
+<button class="pri" onclick="submit()">Submit request</button></section>`;
+if(S.last)h+=`<div class="note" style="background:var(--accbg);color:var(--acc)">Request submitted. Your tracking ID is <b>${S.last.id}</b> (status: Submitted).</div>`;
+h+=`<section class="card"><h2>My repairs (track status)</h2>${S.reqs.length?S.reqs.map(r=>`<div class="shop"><div><b>${r.id}</b> · ${esc(r.dev)}<div class="mut">${shopName(r.shop)} · ${r.cost!=null?'est. ₹'+r.cost:'cost pending'} · updated ${r.t}</div></div>${badge(r.st)}</div>`).join(''):'<div class="mut">No repairs yet. Submit a request above.</div>'}</section>`;
+return h}
+function staff(){const vs=S.shops.filter(s=>s.st==='Verified');
+if(!vs.find(s=>s.id===S.ss))S.ss=vs[0].id;
+const rs=S.reqs.filter(r=>r.shop===S.ss),done=S.reqs.filter(r=>r.st==='Completed').length;
+return `<section class="card"><h2><span class="uc">UC3</span>Shop console</h2>
+<div class="row"><select onchange="S.ss=+this.value;render()">${vs.map(s=>`<option value="${s.id}" ${s.id===S.ss?'selected':''}>${s.n}</option>`).join('')}</select></div>
+${rs.length?rs.map(r=>{const sh=S.shops.find(s=>s.id===r.shop);return `<div class="shop"><div><b>${r.id}</b> · ${esc(r.dev)}<div class="mut">${esc(r.f)}</div><div class="mut">${r.cost!=null?'est. ₹'+r.cost+' · ':''}updated ${r.t}</div></div>
+<div class="row" style="align-items:center">${badge(r.st)}${r.st==='Submitted'?`<input id="c${r.id}" type="number" value="${sh.p}" style="width:90px;min-width:0;flex:none"><button class="pri" onclick="confirmReq('${r.id}')">Confirm</button><button class="bad" onclick="decline('${r.id}')">Decline</button>`
+:(r.st==='Completed'||r.st==='Rejected')?'':`<button class="pri" onclick="advance('${r.id}')">Mark: ${FLOW[FLOW.indexOf(r.st)+1]}</button>`}</div></div>`}).join(''):'<div class="mut" style="margin-top:10px">No requests for this shop yet. Submit one as the device owner.</div>'}</section>
+<section class="card"><h2>Impact dashboard</h2><b>${done}</b> repair${done===1?'':'s'} completed · e-waste diverted (demo estimate, 2 kg per repair): <b>${done*2} kg</b></section>`}
+function admin(){const p=S.shops.filter(s=>s.st==='Pending'),o=S.shops.filter(s=>s.st!=='Pending');
+return `<section class="card"><h2><span class="uc">UC4</span>Shop verification queue</h2>
+${p.length?p.map(s=>`<div class="shop"><div><b>${s.n}</b><div class="mut">★ ${s.r} · ${s.d} km · from ₹${s.p}</div></div><div class="row" style="align-items:center"><select id="rs${s.id}"><option>Documents incomplete</option><option>Could not verify business</option></select><button class="pri" onclick="verify(${s.id},true)">Approve</button><button class="bad" onclick="verify(${s.id},false)">Reject</button></div></div>`).join(''):'<div class="mut">No pending shops.</div>'}</section>
+<section class="card"><h2>Directory status</h2>${o.map(s=>`<div class="shop"><b>${s.n}</b>${badge(s.st)}</div>`).join('')}</section>`}
+function render(){
+const R=[['owner','Device Owner','UC1 · UC2'],['staff','Shop Staff','UC3'],['admin','Platform Admin','UC4']];
+document.getElementById('tabs').innerHTML=R.map(r=>`<button class="tab ${S.role===r[0]?'on':''}" onclick="setRole('${r[0]}')">${r[1]}<small>${r[2]}</small></button>`).join('');
+document.getElementById('app').innerHTML=S.role==='owner'?owner():S.role==='staff'?staff():admin();
+document.getElementById('log').innerHTML=S.log.length?S.log.map(l=>`<div><b>${l.i}.</b> <span class="uc">${l.uc}</span> ${l.m} <span class="mut">${l.t}</span></div>`).join(''):'<div class="mut">Actions will appear here, step by step.</div>'}
+render();
+</script></body></html>
