@@ -17,4 +17,4 @@ TOP_K = 4
 
 # Chunks with cosine distance above this are treated as irrelevant.
 # Tune it by running `python -m rag.calibrate` once you have real guides.
-MAX_DISTANCE = 0.6
+MAX_DISTANCE = 0.68
