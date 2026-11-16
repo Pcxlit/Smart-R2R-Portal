@@ -62,3 +62,8 @@ def repair_query(body: QueryIn):
         "mode": "llm" if has_api_key() else "retrieval_only",
         "latency_seconds": round(time.perf_counter() - start, 3),
     }
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("rag.api:app", host="127.0.0.1", port=8000, reload=True)
