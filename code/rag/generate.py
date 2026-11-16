@@ -51,3 +51,18 @@ def generate_answer(query, chunks, sources) -> str:
         # Rate limit, bad model name, network problem, etc.
         print(f"[generate] Gemini call failed, using retrieval-only: {e}")
         return extractive_answer(chunks, sources)
+
+if __name__ == "__main__":
+    from rag.retrieve import retrieve
+
+    query = "my laptop hinge is loose"
+    result = retrieve(query)
+
+    chunks, sources, distances = result.chunks, result.sources, result.distances
+    chunks, sources = filter_relevant(chunks, sources, distances)
+
+    if not chunks:
+        print("Out of scope: nothing close enough to answer.")
+    else:
+        print("Using Gemini:", has_api_key(), "\n")
+        print(generate_answer(query, chunks, sources))
